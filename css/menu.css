@@ -1,0 +1,15 @@
+.container{
+  width:75%;
+  max-width: 75%;
+}
+.form-row{
+  background: linear-gradient(to right, var(--main-bg-color), white);
+}
+.box{
+  background-color: rgb(21,67,123);
+  padding-top:5px;
+  color:white;
+  font-weight:bold;
+  text-indent:2rem;
+  height:2.1rem;
+  }

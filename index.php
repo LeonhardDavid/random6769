@@ -3,7 +3,7 @@
 <!-- Begin code -->
 
 	<!-- First photo slider -->
-	<div id="carouselExampleIndicators-main1" class="carousel slide" data-ride="carousel" data-interval="false" data-keyboard="true">
+	<div id="carouselExampleIndicators-main1" class="carousel slide" data-ride="carousel" data-interval="false" data-keyboard="true" style="transform:translateY(-130px);z-index:0">
 	  <ol class="carousel-indicators">
 	    <li data-target="#carouselExampleIndicators-main1" data-slide-to="0" class="active"></li>
 	    <li data-target="#carouselExampleIndicators-main1" data-slide-to="1"></li>
@@ -79,7 +79,7 @@
 			  <div class="col-sm-8">
 			    <div class="tab-content" id="nav-tabContent">
 			      <div class="tab-pane fade" id="list-item1" role="tabpanel" aria-labelledby="list-item1-list">
-			      	
+
 			      	<div class="row">
 			      		<div class="col-sm-6">
 
@@ -89,28 +89,28 @@
 								    	<li data-target="#carouselExampleIndicators-item1" data-slide-to="0" class="active"></li>
 								    	<li data-target="#carouselExampleIndicators-item1" data-slide-to="1"></li>
 								    	<li data-target="#carouselExampleIndicators-item1" data-slide-to="2"></li>
-								  	</ol>						
+								  	</ol>
 								  <div class="carousel-inner">
 								    <div class="carousel-item active">
-								      
+
 								      <img class="d-block w-100 mini-slider" src="images/image1.jpg" alt="First slide" >
-								      	
+
 								    </div>
 								    <div class="carousel-item">
-								      
+
 								      <img class="d-block w-100 mini-slider" src="images/image2.jpg" alt="Second slide" >
-									    
+
 								    </div>
 								    <div class="carousel-item">
-								      
+
 								      <img class="d-block w-100 mini-slider" src="images/image3.jpg" alt="Third slide" >
-								      	
+
 								    </div>
 								  </div>
 								</div>
 			      			</div>
 
-				      	<div class="col-sm-6">			      			
+				      	<div class="col-sm-6">
 				      		<!-- Extra Images 1 -->
 				      		<div class="row" >
 				      			<img class="d-block w-100 h-50 extra" src="images/image1.jpg" alt="extra-image1" >
@@ -128,7 +128,7 @@
 				      					<img class="d-block w-100 h-100 extra-2" src="images/image-vertical-1.jpg" alt="extra-image3" >
 				      				</div>
 				      			</div>
-				      			
+
 				      		</div>
 				      	</div>
 			      	</div>
@@ -173,7 +173,7 @@
 		</div>
 	</div>
 
-	
+
 
 	<!-- Second photo slider-->
 
