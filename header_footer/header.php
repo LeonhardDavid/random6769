@@ -110,7 +110,7 @@
           </div>
         </div>
       </div>
-  <div class="col-sm-9" style="background-color:blue">col-sm-4</div>
+  <div class="col-sm-9" style="background-color:blue">col-sm-9</div>
   </div>
   </div>
 
