@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/menu.css" type="text/css"/>
     <link rel="stylesheet" href="css/styles.css" type="text/css"/>
     <link rel="stylesheet" href="css/colors.css" type="text/css"/>
-    <link rel="stylesheet" href="css/menu.css" type="text/css"/>
+
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -46,7 +47,7 @@
     </ul>
     <ul class="navbar-nav">
       <li>
-        <a class="nav-link" href="#"> Bine ai venit, Nume cont!</a>
+        <a class="nav-link" href="#"> <i class="em em-b"></i>ine ai venit, Nume cont!</a>
       </li>
       <li>
         <a class="nav-link" href="#"> <i class="fas fa-user"></i> Logout</a>
@@ -66,19 +67,19 @@
   </div>
 </nav>
 
-<div style="z-index:9999; position:relative" class="container d-none d-lg-block">
+<div class="container d-none d-lg-block" style="z-index:9999;position:relative;">
 
   <div class="form-row">
 
     <div class="col-md-4 d-flex justify-content-center align-self-center">
-      <img class="" src="images/logo.png" alt ="Logo123" style="height:50px">
+      <img class="h" src="images/logo.png" alt ="Logo123" >
     </div>
 
     <div class="col-md-4 my-3">
         <form class="form-inline">
           <div class="form-group">
             <div class="input-group">
-                <input type="text" class="form-control" placeholder="Cauta produsul dorit...">
+                <input type="text" class="w form-control" placeholder="Cauta produsul dorit..." >
                   <span class="input-group-btn">
                       <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
                   </span>
@@ -89,37 +90,59 @@
 
 
       <div class="col-md-4 d-flex align-self-center">
-        <div class="d-flex align-self-center" style="padding-top:10px; padding-right:1rem">
-           <p style="font-size:1.2rem"><i class="far fa-user-circle" style="font-size:1.7rem; vertical-align:bottom"></i>Contul meu</p>
+        <div class="d-flex align-self-center padds">
+           <p class="pstyle"><i class="far fa-user-circle colorcusti"></i>Contul meu</p>
         </div>
 
-        <div class="d-flex align-self-center" style="padding-top:10px">
-           <p style="font-size:1.2rem"><i class="fas fa-shopping-cart" style="font-size:1.7rem; vertical-align:bottom"></i>Cosul meu</p>
+        <div class="d-flex align-self-center padds" >
+           <p class="pstyle"><i class="fas fa-shopping-cart colorcusti"></i>Cosul meu</p>
         </div>
       </div>
     </div>
     <div class="form-row rounded-bottom" style="padding-top:3px">
       <div class="col-sm-3 rounded-bottom">
         <div class="dropdown">
-          <div class="dropdown-toggle rounded-bottom" data-toggle="dropdown" style="">
+          <div class="dropdown-toggle rounded-bottom custtxt" data-toggle="dropdown">
                 Categorii produse
           </div>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#"> ADIDAS ORIGINALS</a>
-            <a class="dropdown-item" href="#"> NIKELAB</a>
-            <a class="dropdown-item" href="#"> SPORTS</a>
-            <a class="dropdown-item" href="#"> ATHLETES</a>
-            <a class="dropdown-item" href="#"> MEN'S SHOES</a>
-            <a class="dropdown-item" href="#"> MEN'S CLOTHING</a>
-            <a class="dropdown-item" href="#"> WOMEN'S SHOES</a>
-            <a class="dropdown-item" href="#"> WOMEN'S CLOTHING</a>
-            <a class="dropdown-item" href="#"> KID'S SHOES</a>
-            <a class="dropdown-item" href="#"> KID'S CLOTHING</a>
+          <div class="dropdown-menu" style="width:410%">
+            <div class="row">
+                <div class="col-4">
+                  <div class="list-group" id="list-tab" role="tablist" style="width:60%">
+                    <a class="list-group-item list-group-item-action active dropdown-item" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">ADIDAS ORIGINALS</a>
+                    <a class="list-group-item list-group-item-action dropdown-item" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">NIKELAB</a>
+                    <a class="list-group-item list-group-item-action dropdown-item" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">SPORTS</a>
+                    <a class="list-group-item list-group-item-action dropdown-item" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">ATHLETES</a>
+                    <a class="list-group-item list-group-item-action dropdown-item" id="list-home1-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">MEN'S SHOES</a>
+                    <a class="list-group-item list-group-item-action dropdown-item" id="list-profile1-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">MEN'S CLOTHING</a>
+                    <a class="list-group-item list-group-item-action dropdown-item" id="list-messages1-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">WOMEN'S SHOES</a>
+                    <a class="list-group-item list-group-item-action dropdown-item" id="list-settings2-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">WOMEN'S CLOTHING</a>
+                    <a class="list-group-item list-group-item-action dropdown-item" id="list-settings3-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">KID'S SHOES</a>
+                    <a class="list-group-item list-group-item-action dropdown-item" id="list-settings4-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">KID'S CLOTHING</a>
+                  </div>
+                </div>
+                <div class="col-8">
+                  <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active " id="list-home" role="tabpanel" aria-labelledby="list-home-list"> Lorem Ipsum</div>
+                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list"> Lorem Ipsum</div>
+                    <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list"> Lorem Ipsum</div>
+                    <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list"> Lorem Ipsum</div>
+                    <div class="tab-pane fade" id="list-home" role="tabpanel" aria-labelledby="list-home1-list"> Lorem Ipsum</div>
+                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile1-list"> Lorem Ipsum</div>
+                    <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages1-list"> Lorem Ipsum</div>
+                    <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings2-list"> Lorem Ipsum</div>
+                    <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings3-list"> Lorem Ipsum</div>
+                    <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings4-list"> Lorem Ipsum</div>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
       </div>
-  <div class="col-sm-9" style="background-color: var(--main-bg-color-accent);"> col-sm-9</div>
+  <div class="col-sm-9" style="background-color: white;">
+    PROMOTII / PRETURI SPECIALE / NOUTATI / BRANDURI
   </div>
   </div>
-
-	</div>
+  </div>
+  <script type="text/javascript" src="../js/header.js">
+  </script>

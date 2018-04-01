@@ -47,9 +47,8 @@
 
 	<!-- Middle Bar -->
 
-	<div class="container translate-y-up" >
+	<div class="container translate-y-up colorcust pad">
 		<div class="d-flex justify-content-center align-content-center">
-
 			<div class="row w-100">
 		  		<div class="col-md-3"><i class="far fa-credit-card"></i> Raport pret calitate impecabil</div>
 		  		<div class="col-md-3"> <i class="fas fa-fighter-jet"></i> Produse originale New York, SUA </div>
@@ -60,7 +59,7 @@
 
 		<!-- Product slider with category and images -->
 
-		<div class="container d-none d-sm-block">
+		<div class="container d-none d-sm-block colorcust pad2">
 			<div class="row">
 			  <div class="col-sm-4 ">
 			    <div class="list-group" id="list-tab" role="tablist">

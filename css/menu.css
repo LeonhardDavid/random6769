@@ -5,11 +5,32 @@
 .form-row{
   background: linear-gradient(to right, var(--main-bg-color), white);
 }
-.box{
-  background-color: rgb(21,67,123);
-  padding-top:5px;
+.h{
+  height:50px;
+}
+.w{
+  width:17rem;
+}
+.padds{
+  padding-top:10px;
+  padding-right:1rem;
+}
+.colorcusti
+{
+  color:rgb(21,67,123);
+  font-size:1.8rem;
+  vertical-align:bottom;
+  padding-right:5px;
+}
+.pstyle
+{
+  text-shadow: -1px -1px 0 #000;
+  color:var(--main-bg-color);
+  font-size:1.2rem;
+}
+.custtxt{
   color:white;
-  font-weight:bold;
-  text-indent:2rem;
-  height:2.1rem;
-  }
+  font-weight: bold;
+  font-size:1.2rem; 
+  text-align: center;
+}
