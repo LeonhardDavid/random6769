@@ -1,0 +1,99 @@
+body{
+	overflow-x: hidden;
+	background-color: black;
+}
+
+/*
+Top bar
+*/
+.top_line{
+	background-color: var(--main-bg-color-accent);
+	height: 0.2rem;
+}
+
+.navbar-custom{
+	background-color: var(--main-bg-color);
+
+}
+
+.navbar-custom .nav-link{
+	color: var(--main-text-color);
+}
+
+.navbar-custom .navbar-toggler-icon{
+	background-image: url("../icons/ic_reorder_white_24dp_2x.png");
+}
+
+.navbar-custom .navbar-toggler{
+	border-color: white;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown .dropdown-menu{
+	width: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+
+/*
+Slider
+*/
+
+.carousel-item .carousel-caption{
+	background-color: var(--main-bg-color-opaque)
+}
+
+/*
+Slider images
+*/
+
+.carousel-item .main-slider{
+	object-fit: cover;
+	height: 30rem;
+}
+
+.carousel-item .mini-slider{
+	object-fit: cover;
+	height: 30rem;	
+}
+
+/*
+Row after gallery
+*/
+
+.container{
+	background-color: var(--main-bg-color);
+	color: var(--main-text-color);
+}
+
+.col-md-3{
+	text-align: center;
+}
+
+/*
+Product slider with category and images
+*/
+
+.list-group .blue-bg{
+	background-color: var(--main-bg-color-accent);
+	color: var(--main-text-color);
+}
+
+.list-group .blue-bg:hover{
+	background-color: var(--main-bg-color-accent);
+	color: var(--main-text-color);
+}
+
+.row .extra{
+	padding: 0px 7.5px 15px 7.5px;
+	object-fit: cover;
+}
+
+.row .extra-2{
+	padding: 0px 7.5px 25px 7.5px;
+	object-fit: cover;
+}
