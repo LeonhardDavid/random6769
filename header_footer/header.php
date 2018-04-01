@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/colors.css" type="text/css"/>
     <link rel="stylesheet" href="css/styles.css" type="text/css"/>
+    <link rel="stylesheet" href="css/colors.css" type="text/css"/>
     <link rel="stylesheet" href="css/menu.css" type="text/css"/>
 
     <!-- Bootstrap CSS -->
@@ -65,6 +65,7 @@
     </ul>
   </div>
 </nav>
+
 <div style="z-index:9999; position:relative" class="container d-none d-lg-block">
 
   <div class="form-row">
@@ -75,14 +76,14 @@
 
     <div class="col-md-4 my-3">
         <form class="form-inline">
-        <div class="form-group">
-          <div class="input-group">
-              <input type="text" class="form-control" placeholder="Cauta produsul dorit...">
-                <span class="input-group-btn">
-                    <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
-                </span>
+          <div class="form-group">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Cauta produsul dorit...">
+                  <span class="input-group-btn">
+                      <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
+                  </span>
+            </div>
           </div>
-        </div>
         </form>
       </div>
 
@@ -104,13 +105,20 @@
                 Categorii produse
           </div>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="#"><i class="em em-gb"></i> EN</a>
-            <a class="dropdown-item" href="#"><i class="em em-de"></i> DE</a>
-            <a class="dropdown-item" href="#"><i class="em em-fr"></i> FR</a>
+            <a class="dropdown-item" href="#"> ADIDAS ORIGINALS</a>
+            <a class="dropdown-item" href="#"> NIKELAB</a>
+            <a class="dropdown-item" href="#"> SPORTS</a>
+            <a class="dropdown-item" href="#"> ATHLETES</a>
+            <a class="dropdown-item" href="#"> MEN'S SHOES</a>
+            <a class="dropdown-item" href="#"> MEN'S CLOTHING</a>
+            <a class="dropdown-item" href="#"> WOMEN'S SHOES</a>
+            <a class="dropdown-item" href="#"> WOMEN'S CLOTHING</a>
+            <a class="dropdown-item" href="#"> KID'S SHOES</a>
+            <a class="dropdown-item" href="#"> KID'S CLOTHING</a>
           </div>
         </div>
       </div>
-  <div class="col-sm-9" style="background-color:blue">col-sm-9</div>
+  <div class="col-sm-9" style="background-color: var(--main-bg-color-accent);"> col-sm-9</div>
   </div>
   </div>
 

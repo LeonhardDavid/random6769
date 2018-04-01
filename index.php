@@ -3,7 +3,7 @@
 <!-- Begin code -->
 
 	<!-- First photo slider -->
-	<div id="carouselExampleIndicators-main1" class="carousel slide" data-ride="carousel" data-interval="false" data-keyboard="true" style="transform:translateY(-130px);z-index:0">
+	<div id="carouselExampleIndicators-main1" class="carousel slide translate-y-up" data-ride="carousel" data-interval="false" data-keyboard="true" >
 	  <ol class="carousel-indicators">
 	    <li data-target="#carouselExampleIndicators-main1" data-slide-to="0" class="active"></li>
 	    <li data-target="#carouselExampleIndicators-main1" data-slide-to="1"></li>
@@ -47,7 +47,7 @@
 
 	<!-- Middle Bar -->
 
-	<div class="container">
+	<div class="container translate-y-up" >
 		<div class="d-flex justify-content-center align-content-center">
 
 			<div class="row w-100">
@@ -177,7 +177,7 @@
 
 	<!-- Second photo slider-->
 
-	<div id="carouselExampleIndicators-main2" class="carousel slide" data-ride="carousel" data-interval="false" data-keyboard="true">
+	<div id="carouselExampleIndicators-main2" class="carousel slide translate-y-up" data-ride="carousel" data-interval="false" data-keyboard="true" >
 	  <ol class="carousel-indicators">
 	    <li data-target="#carouselExampleIndicators-main2" data-slide-to="0" class="active"></li>
 	    <li data-target="#carouselExampleIndicators-main2" data-slide-to="1"></li>

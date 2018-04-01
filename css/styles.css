@@ -1,8 +1,11 @@
 body{
 	overflow-x: hidden;
-	background-color: black;
 }
 
+.translate-y-up{
+	transform: translateY(-130px);
+	z-index: 0;
+}
 /*
 Top bar
 */
