@@ -12,24 +12,12 @@
 	  <div class="carousel-inner">
 	    <div class="carousel-item active">
 	      <img class="d-block w-100 main-slider" src="images/main-slider-image-1.jpg" alt="First slide" >
-	      	<div class="carousel-caption d-none d-md-block">
-			    <h5>First slide label</h5>
-			    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-			</div>
 	    </div>
 	    <div class="carousel-item">
 	      <img class="d-block w-100 main-slider" src="images/main-slider-image-2.jpg" alt="Second slide" >
-		    <div class="carousel-caption d-none d-md-block">
-				    <h5>Second slide label</h5>
-				    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-			</div>
 	    </div>
 	    <div class="carousel-item">
 	      <img class="d-block w-100 main-slider" src="images/main-slider-image-3.jpg" alt="Third slide" >
-	      	<div class="carousel-caption d-none d-md-block">
-			    <h5>Third slide label</h5>
-			    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-			</div>
 	    </div>
 	  </div>
 	  <a class="carousel-control-prev" href="#carouselExampleIndicators-main1" role="button" data-slide="prev">

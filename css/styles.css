@@ -1,26 +1,45 @@
 body{
 	overflow-x: hidden;
+	background-color: #cccccc;
+	font-size: .875rem;
 }
 
 .translate-y-up{
 	transform: translateY(-130px);
 	z-index: 0;
 }
+
 /*
 Top bar
 */
-.top_line{
-	background-color: var(--main-bg-color-accent);
-	height: 0.2rem;
+
+@media (min-width: 992px){
+	.navbar-custom{
+		background-color: var(--main-bg-color);
+		border-top: 3px solid var(--main-bg-color-hover);
+		max-height: 2rem;
+		font-size: .875rem;
+	}
+	
 }
 
 .navbar-custom{
 	background-color: var(--main-bg-color);
-
+	border-top: 3px solid var(--main-bg-color-hover);
+	font-size: .875rem;
+	padding: 0;
 }
 
-.navbar-custom .nav-link{
+.nav-item .nav-link{
 	color: var(--text-color-white);
+}
+
+.navbar-nav .point-chr{
+	color: var(--text-color-white);
+}
+
+.nav-item .custom-nav-hover:hover{
+	text-decoration: underline;
 }
 
 .navbar-custom .navbar-toggler-icon{
@@ -31,7 +50,7 @@ Top bar
 	border-color: white;
 }
 
-.dropdown:hover>.dropdown-menu {
+.dropdown:hover > .dropdown-menu {
   display: block;
 }
 
@@ -39,6 +58,10 @@ Top bar
 	width: 15px;
 	padding: 0;
 	margin: 0;
+}
+
+.dropdown-item:hover{
+	background-color: blue;
 }
 
 
@@ -55,8 +78,8 @@ Slider images
 */
 
 .carousel-item .main-slider{
-	object-fit: cover;
-	height: 50rem;
+	object-fit: scale-down;
+	max-height: 50rem;
 }
 
 .carousel-item .mini-slider{
@@ -83,12 +106,12 @@ Product slider with category and images
 */
 
 .list-group .blue-bg{
-	background-color: var(--main-bg-color-accent);
+	background-color: var(--main-bg-color-hover);
 	color: var(--text-color);
 }
 
 .list-group .blue-bg:hover{
-	background-color: var(--main-bg-color-accent);
+	background-color: var(--main-bg-color-hover);
 	color: var(--text-color-white);
 }
 

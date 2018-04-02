@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/colors.css" type="text/css"/>
     <link rel="stylesheet" href="css/menu.css" type="text/css"/>
     <link rel="stylesheet" href="css/styles.css" type="text/css"/>
+    <link rel="stylesheet" href="css/colors.css" type="text/css"/>
 
 
     <!-- Bootstrap CSS -->
@@ -21,51 +21,57 @@
 
   </head>
 
-  <body style="background-color: #cccccc;">
+  <body>
 
-  <nav class="navbar navbar-expand-lg navbar-custom" style="z-index:9999">
+    <nav class="navbar navbar-expand-lg navbar-custom" style="z-index: 9999;">
 
-    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href="#"> </a>
+      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#"> </a>
 
-  <div class="collapse navbar-collapse justify-content-between" id="collapsibleNavbar">
-    <ul class="navbar-nav mr-aut">
-      <li class="nav-item">
-        <a class="nav-link" href="#"><b> Informatii e-commerce: 0740 104 194 </b></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Categorii</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Produse</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Parteneri</a>
-      </li>
-    </ul>
-    <ul class="navbar-nav">
-      <li>
-        <a class="nav-link" href="#"> Bine ai venit, Nume cont!</a>
-      </li>
-      <li>
-        <a class="nav-link" href="#"> <i class="fas fa-user"></i> Logout</a>
-      </li>
-      <li>
-        <div class="dropdown">
-           <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> <i class="em em-flag-ro"></i> RO</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#"><i class="em em-gb"></i> EN</a>
-            <a class="dropdown-item" href="#"><i class="em em-de"></i> DE</a>
-            <a class="dropdown-item" href="#"><i class="em em-fr"></i> FR</a>
+    <div class="collapse navbar-collapse justify-content-between" id="collapsibleNavbar">
+      <ul class="navbar-nav mr-aut">
+        <li class="nav-item">
+          <a class="nav-link custom-nav-hover" href="#"><b> Informatii e-commerce: 0740 104 194 </b> </a> 
+        </li>
+        <li class="nav-item d-none d-lg-block point-chr"> <a class="nav-link"> ● </a> </li>
+        <li class="nav-item">
+          <a class="nav-link custom-nav-hover" href="#"> Categorii </a>
+        </li>
+        <li class="nav-item d-none d-lg-block point-chr"> <a class="nav-link"> ● </a></li>
+        <li class="nav-item">
+          <a class="nav-link custom-nav-hover" href="#"> Produse </a>
+        </li>
+        <li class="nav-item d-none d-lg-block point-chr"> <a class="nav-link"> ● </a></li>
+        <li class="nav-item">
+          <a class="nav-link custom-nav-hover" href="#"> Parteneri</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#"> Bine ai venit, Nume cont! </a>
+        </li>
+        <li class="nav-item d-none d-lg-block point-chr"> <a class="nav-link"> ● </a> </li>
+        <li class="nav-item">
+          <a class="nav-link custom-nav-hover" href="#"> <i class="fas fa-user"></i> Logout </a>
+        </li>
+        <li class="nav-item d-none d-lg-block point-chr"> <a class="nav-link"> ● </a> </li>
+        <li class="nav-item">
+          <div class="dropdown">
+             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> <i class="em em-flag-ro"></i> RO</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#"><i class="em em-flag-ro"></i> RO</a>
+              <a class="dropdown-item" href="#"><i class="em em-gb"></i> EN</a>
+              <a class="dropdown-item" href="#"><i class="em em-de"></i> DE</a>
+              <a class="dropdown-item" href="#"><i class="em em-fr"></i> FR</a>
+            </div>
           </div>
-        </div>
 
-      </li>
-    </ul>
-  </div>
-</nav>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
 <div class="container d-none d-lg-block" style="z-index:9999;position:relative;">
 
@@ -81,29 +87,29 @@
             <div class="input-group">
                 <input type="text" class="form-control" placeholder="Cauta produsul dorit...">
                   <span class="input-group-btn">
-                      <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
+                      <button class="btn btn-primary custom-btn-color" type="button" name="search"><i class="fas fa-search"></i></button>
                   </span>
             </div>
           </div>
         </form>
       </div>
 
-      <div class="col-md-2 d-flex justify-content-center align-self-center" style="background-color:pink">
+      <div class="col-md-2 d-flex justify-content-center align-self-center">
         <div class="d-flex align-self-center padds">
-          <i class="fas fa-users colorcusti"></i>
-          <span style="pstyle">
-           Contul
-           <br>
-           meu
-         </span>
+          <a class="nav-top-right" href="#">
+            <img class="mx-auto my-auto nav-svg" src="images/my-account.svg" alt="my-account" style="height:2rem">
+            <span class="pstyle">
+              Contul meu
+            </span>
+        </a>
         </div>
         <div class="d-flex align-self-center padds">
-          <i class="fas fa-cart-arrow-down colorcusti"></i>
-          <span style="pstyle">
-           Cosul
-           <br>
-           meu
-         </span>
+          <a class="nav-top-right" href="#">
+            <img class="mx-auto my-auto nav-svg" src="images/shopping-cart.svg" alt="shopping-cart" style="height:2rem"> 
+            <span class="pstyle">        
+              Cosul meu
+           </span>
+          </a>
         </div>
       </div>
     </div>
