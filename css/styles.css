@@ -56,23 +56,24 @@ Slider images
 
 .carousel-item .main-slider{
 	object-fit: cover;
-	height: 30rem;
+	height: 50rem;
 }
 
 .carousel-item .mini-slider{
 	object-fit: cover;
-	height: 30rem;	
+	height: 50rem;
 }
 
 /*
 Row after gallery
 */
-
-.container{
+ .colorcust{
 	background-color: var(--main-bg-color);
 	color: var(--main-text-color);
 }
-
+.pad{
+	padding-top: 30px;
+}
 .col-md-3{
 	text-align: center;
 }
@@ -99,4 +100,9 @@ Product slider with category and images
 .row .extra-2{
 	padding: 0px 7.5px 25px 7.5px;
 	object-fit: cover;
+}
+.pad2
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
