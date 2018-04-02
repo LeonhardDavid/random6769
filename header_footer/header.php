@@ -73,13 +73,16 @@
 
     <div class="col-md-2 d-flex">
       <img class="mx-auto my-auto" src="images/logo.svg" alt ="Logo123" style="height:4.5rem">
+    <div class="col-md-4 d-flex justify-content-center align-self-center">
+      <img class="h" src="images/logo.png" alt ="Logo123" >
+>>>>>>> d70d2dc7912101d331e2d976206a63bec5b899ad
     </div>
 
     <div class="col-md-8 my-1">
         <form>
           <div class="form-group my-3 mx-4" >
             <div class="input-group">
-                <input type="text" class="form-control" placeholder="Cauta produsul dorit...">
+                <input type="text" class="w form-control" placeholder="Cauta produsul dorit..." >
                   <span class="input-group-btn">
                       <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
                   </span>
@@ -96,6 +99,7 @@
            <br>
            meu
          </span>
+<<<<<<< HEAD
         </div>
         <div class="d-flex align-self-center padds">
           <i class="fas fa-cart-arrow-down colorcusti"></i>
@@ -104,6 +108,24 @@
            <br>
            meu
          </span>
+=======
+        </div>
+        <div class="d-flex align-self-center padds">
+          <i class="fas fa-cart-arrow-down colorcusti"></i>
+          <span style="pstyle">
+           Cosul
+           <br>
+           meu
+         </span>
+
+      <div class="col-md-4 d-flex align-self-center">
+        <div class="d-flex align-self-center padds">
+           <p class="pstyle"><i class="far fa-user-circle colorcusti"></i>Contul meu</p>
+        </div>
+
+        <div class="d-flex align-self-center padds" >
+           <p class="pstyle"><i class="fas fa-shopping-cart colorcusti"></i>Cosul meu</p>
+>>>>>>> d70d2dc7912101d331e2d976206a63bec5b899ad
         </div>
       </div>
     </div>

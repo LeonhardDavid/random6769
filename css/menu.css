@@ -8,18 +8,40 @@
 .h{
   height:100px;
 }
+<<<<<<< HEAD
 .w{
   width:17rem;
 }
+=======
+
+.h{
+  height:50px;
+}
+
+.w{
+  width:17rem;
+}
+
+>>>>>>> d70d2dc7912101d331e2d976206a63bec5b899ad
 .padds{
   padding-top:10px;
   padding-right:1rem;
 }
+<<<<<<< HEAD
 .colorcusti
 {
   color:rgb(21,67,123);
   font-size:1rem;
 
+=======
+
+.colorcusti
+{
+  color:rgb(21,67,123);
+  font-size:1.8rem;
+  vertical-align:bottom;
+  padding-right:5px;
+>>>>>>> d70d2dc7912101d331e2d976206a63bec5b899ad
 }
 .pstyle
 {
@@ -30,6 +52,10 @@
 .custtxt{
   color:white;
   font-weight: bold;
+<<<<<<< HEAD
   font-size:1.2rem;
+=======
+  font-size:1.2rem; 
+>>>>>>> d70d2dc7912101d331e2d976206a63bec5b899ad
   text-align: center;
 }
