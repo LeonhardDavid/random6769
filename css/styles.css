@@ -20,11 +20,11 @@ Top bar
 }
 
 .navbar-custom .nav-link{
-	color: var(--main-text-color);
+	color: var(--text-color-white);
 }
 
 .navbar-custom .navbar-toggler-icon{
-	background-image: url("../icons/ic_reorder_white_24dp_2x.png");
+	background-image: url("../images/ic_reorder_white_24dp_2x.png");
 }
 
 .navbar-custom .navbar-toggler{
@@ -69,7 +69,7 @@ Row after gallery
 */
  .colorcust{
 	background-color: var(--main-bg-color);
-	color: var(--main-text-color);
+	color: var(--text-color-white);
 }
 .pad{
 	padding-top: 30px;
@@ -84,12 +84,12 @@ Product slider with category and images
 
 .list-group .blue-bg{
 	background-color: var(--main-bg-color-accent);
-	color: var(--main-text-color);
+	color: var(--text-color);
 }
 
 .list-group .blue-bg:hover{
 	background-color: var(--main-bg-color-accent);
-	color: var(--main-text-color);
+	color: var(--text-color-white);
 }
 
 .row .extra{

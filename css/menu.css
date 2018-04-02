@@ -4,29 +4,35 @@
   background-position: center;
   background-size: cover;
   background-attachment: scroll;
+  border-radius: 0px 0px 10px 10px;
 }
+
 .h{
   height:100px;
 }
+
 .w{
   width:17rem;
 }
+
 .padds{
   padding-top:10px;
   padding-right:1rem;
 }
+
 .colorcusti
 {
   color:rgb(21,67,123);
   font-size:1rem;
-
 }
+
 .pstyle
 {
   text-shadow: -1px -1px 0 #000;
   color:var(--main-bg-color);
   font-size:1.2rem;
 }
+
 .custtxt{
   color:white;
   font-weight: bold;
