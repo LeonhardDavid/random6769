@@ -71,13 +71,10 @@
 
   <div class="row bg form-group">
 
-<<<<<<< HEAD
     <div class="col-md-2 d-flex">
       <img class="mx-auto my-auto" src="images/logo.svg" alt ="Logo123" style="height:4.5rem">
-=======
     <div class="col-md-4 d-flex justify-content-center align-self-center">
       <img class="h" src="images/logo.png" alt ="Logo123" >
->>>>>>> d1bc7ee83da827fd3da8a3986283091fd2367a85
     </div>
 
     <div class="col-md-8 my-1">
@@ -93,7 +90,6 @@
         </form>
       </div>
 
-<<<<<<< HEAD
       <div class="col-md-2 d-flex justify-content-center align-self-center" style="background-color:pink">
         <div class="d-flex align-self-center padds">
           <i class="fas fa-users colorcusti"></i>
@@ -110,7 +106,6 @@
            <br>
            meu
          </span>
-=======
 
       <div class="col-md-4 d-flex align-self-center">
         <div class="d-flex align-self-center padds">
@@ -119,7 +114,6 @@
 
         <div class="d-flex align-self-center padds" >
            <p class="pstyle"><i class="fas fa-shopping-cart colorcusti"></i>Cosul meu</p>
->>>>>>> d1bc7ee83da827fd3da8a3986283091fd2367a85
         </div>
       </div>
     </div>
