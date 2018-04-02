@@ -1,0 +1,9 @@
+:root {
+  --main-bg-color: rgba(20,83,186,1);
+  --main-bg-color-accent: rgba(0,123,255,1);
+  --main-bg-color-opaque: rgba(20,83,186,0.7);
+
+  --main-text-color: rgba(299,299,299,1);;
+  --main-text-color-hover: rgba(188,188,188,1);
+  --main-text-color-accent: rgba(0,15,40,1);
+}
