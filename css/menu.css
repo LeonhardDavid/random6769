@@ -13,18 +13,38 @@
 .w{
   width:17rem;
 }
+<<<<<<< HEAD
 .pstyle
 {
   text-shadow: -1px -1px 0 #000;
   color:var(--main-bg-color);
   font-size:1.2rem;
 }
+=======
+
+/*.padds{
+  padding-top:10px;
+  padding-right:1rem;
+}*/
+
+.colorcusti
+{
+  color: var(--navbar-categories-bg-color);
+  font-size: 1rem;
+}
+
+.pstyle
+{
+  color:  var(--main-text-color);}
+
+>>>>>>> 6507777459d110ec932e78bcc0fb20f6bf8a2439
 .custtxt{
   color:white;
   font-weight: bold;
   font-size:1.2rem;
   text-align: center;
 }
+<<<<<<< HEAD
 .n1{
   padding-top: 6px;
   padding-bottom: 6px;
@@ -61,4 +81,16 @@
 .hvr:hover{
   height:500px;
   position: absolute;
+=======
+
+.input-group-btn .custom-btn-color{
+  background-color: var(--navbar-categories-bg-color);
+  border-color: var(--navbar-categories-bg-color);
+  border-radius: 0px 5px 5px 0px;
+}
+
+.input-group-btn .custom-btn-color:hover{
+  background-color: var(--main-bg-color-hover);
+  border-color: var(--main-bg-color-hover);
+>>>>>>> 6507777459d110ec932e78bcc0fb20f6bf8a2439
 }

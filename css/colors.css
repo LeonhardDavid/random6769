@@ -1,6 +1,6 @@
 :root {
   --main-bg-color: rgba(20,41,68,1);
-  --main-bg-color-accent: rgba(17,120,208,1);
+  --main-bg-color-hover: rgba(17,120,208,1);
   --main-bg-color-opaque: rgba(20,41,68,0.7);
   --main-bg-color-red: rgba(244,58,38,1);
   --navbar-categories-bg-color: rgba(21,67,123,1);
