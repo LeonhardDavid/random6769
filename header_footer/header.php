@@ -7,16 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Custom CSS -->
-<<<<<<< HEAD
-    <link rel="stylesheet" href="css/styles.css" type="text/css"/>
     <link rel="stylesheet" href="css/menu.css" type="text/css"/>
     <link rel="stylesheet" href="css/colors.css" type="text/css"/>
-=======
-    <link rel="stylesheet" href="css/menu.css" type="text/css"/>
     <link rel="stylesheet" href="css/styles.css" type="text/css"/>
-    <link rel="stylesheet" href="css/colors.css" type="text/css"/>
 
->>>>>>> 6507777459d110ec932e78bcc0fb20f6bf8a2439
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -27,46 +21,6 @@
 
   </head>
 
-<<<<<<< HEAD
-  <body style="background-color: #cccccc;">
-
-  <nav class="navbar navbar-expand-lg navbar-custom" style="z-index:9999">
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href="#"> </a>
-
-  <div class="collapse navbar-collapse justify-content-between" id="collapsibleNavbar">
-    <ul class="navbar-nav mr-aut">
-      <li class="nav-item">
-        <a class="nav-link" href="#"><b> Informatii e-commerce: 0740 104 194 </b></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Categorii</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Produse</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Parteneri</a>
-      </li>
-    </ul>
-    <ul class="navbar-nav">
-      <li>
-        <a class="nav-link" href="#"> Bine ai venit, Nume cont!</a>
-      </li>
-      <li>
-        <a class="nav-link" href="#"> <i class="fas fa-user"></i> Logout</a>
-      </li>
-      <li>
-        <div class="dropdown">
-           <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> <i class="em em-flag-ro"></i> RO</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#"><i class="em em-gb"></i> EN</a>
-            <a class="dropdown-item" href="#"><i class="em em-de"></i> DE</a>
-            <a class="dropdown-item" href="#"><i class="em em-fr"></i> FR</a>
-=======
   <body>
 
     <nav class="navbar navbar-expand-lg navbar-custom" style="z-index: 9999;">
@@ -112,7 +66,6 @@
               <a class="dropdown-item" href="#"><i class="em em-de"></i> DE</a>
               <a class="dropdown-item" href="#"><i class="em em-fr"></i> FR</a>
             </div>
->>>>>>> 6507777459d110ec932e78bcc0fb20f6bf8a2439
           </div>
 
         </li>
@@ -121,7 +74,7 @@
   </nav>
 
 
-<div class="container d-none d-lg-block" style="z-index:9999;position:relative;">
+<div class="container d-none d-lg-block px-0" style="z-index:9999;position:relative;">
 
   <div class="row bg">
 
@@ -131,7 +84,7 @@
 
     <div class="col-md-8 my-1">
         <form>
-          <div class="form-group my-3 mx-4">
+          <div class="form-group my-3 mx-2">
             <div class="input-group">
                 <input type="text" class="form-control" placeholder="Cauta produsul dorit...">
                   <span class="input-group-btn">
@@ -142,33 +95,57 @@
         </form>
       </div>
 
-<<<<<<< HEAD
-      <div class="col-md-1 d-flex align-self-center justify-content-center" style="background-color:pink">
-        <a href="#"><i class="fas fa-shopping-cart"></i>Contul meu</a>
-
-      </div>
-
-      <div class="col-md-1 d-flex justify-content-center align-self-center" style="background-color:lightgrey">
-        <i class="fas fa-shopping-cart"></i> Cosul meu
-=======
-      <div class="col-md-2 d-flex justify-content-center align-self-center">
+      <div class="col-md-2 d-flex justify-content-center align-self-center px-1">
         <div class="d-flex align-self-center padds">
+
+          <div class="dropdown show">
           <a class="nav-top-right" href="#">
-            <img class="mx-auto my-auto nav-svg" src="images/my-account.svg" alt="my-account" style="height:2rem">
+            <img class="mx-auto my-auto nav-svg" src="images/my-account.svg" alt="my-account" >
             <span class="pstyle">
-              Contul meu
+              Contul <br> meu
             </span>
-        </a>
+          </a>
+
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item header-item" href="#">Nume cont</a>
+            <div class="dropdown-divider my-0"></div>
+            <a class="dropdown-item my-account-item" href="#">Detalii Cont</a>
+            <div class="dropdown-divider my-0"></div>
+            <a class="dropdown-item my-account-item" href="#">Companii</a>
+            <div class="dropdown-divider my-0"></div>
+            <a class="dropdown-item my-account-item" href="#">Adrese de livrare</a>
+            <div class="dropdown-divider my-0"></div>
+            <a class="dropdown-item my-account-item" href="#">Comenzi</a>
+            <div class="dropdown-divider my-0"></div>
+            <a class="dropdown-item my-account-item" href="#">Facturi</a>
+            <div class="dropdown-divider my-0"></div>
+            <a class="dropdown-item my-account-item" href="#">Plati</a>
+            <div class="dropdown-divider my-0"></div>
+            <a class="dropdown-item my-account-item" href="#">Mesaje</a>
+            <div class="dropdown-divider my-0"></div>
+            <a class="dropdown-item log-out-item" href="#">Log out</a>
+          </div>
         </div>
+
+        </div>
+
         <div class="d-flex align-self-center padds">
-          <a class="nav-top-right" href="#">
-            <img class="mx-auto my-auto nav-svg" src="images/shopping-cart.svg" alt="shopping-cart" style="height:2rem"> 
+
+          <div class="dropdown show">
+          <a class="nav-top-right" href="#" data-toggle="tooltip" data-placement="right" title="Total: 6769 lei">
+            <span class="badge badge-pill badge-danger badge-translate py-1 px-1">17</span>
+            <img class="mx-auto my-auto nav-svg" src="images/shopping-cart.svg" alt="shopping-cart"> 
             <span class="pstyle">        
-              Cosul meu
+              Cosul <br> meu
            </span>
           </a>
+
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item header-item" href="#">Nume cont</a>
+          </div>
         </div>
->>>>>>> 6507777459d110ec932e78bcc0fb20f6bf8a2439
+
+        </div>
       </div>
     </div>
 

@@ -2,7 +2,7 @@
 
 <!-- Begin code -->
 
-	<!-- Mainsecond-slider-image-photo slider -->
+	<!-- Main photo slider -->
 	<div id="carouselExampleIndicators-main1" class="carousel slide translate-y-up" data-ride="carousel" data-interval="false" data-keyboard="true" >
 	  <ol class="carousel-indicators">
 	    <li data-target="#carouselExampleIndicators-main1" data-slide-to="0" class="active"></li>
