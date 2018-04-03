@@ -4,7 +4,6 @@
   background-position: center;
   background-size: cover;
   background-attachment: scroll;
-  border-radius: 0px 0px 10px 10px;
 }
 
 .h{
@@ -14,28 +13,52 @@
 .w{
   width:17rem;
 }
-
-.padds{
-  padding-top:10px;
-  padding-right:1rem;
-}
-
-.colorcusti
-{
-  color:rgb(21,67,123);
-  font-size:1rem;
-}
-
 .pstyle
 {
   text-shadow: -1px -1px 0 #000;
   color:var(--main-bg-color);
   font-size:1.2rem;
 }
-
 .custtxt{
   color:white;
   font-weight: bold;
   font-size:1.2rem;
   text-align: center;
+}
+.n1{
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: var(--text-color-blue);
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+  color:white;
+  font-weight:500;
+  font-size:1.1rem;
+}
+.n2{
+  padding-top:5px;
+  background-color: white;
+  border-bottom-right-radius:10px;
+  margin-bottom:5px;
+}
+.slash
+{
+  color:grey;
+  font-size:1rem;
+  font-weight:bold;
+  padding-left:5px;
+  padding-right:5px;
+}
+.n2 a{
+  color:black;
+  font-weight: 600;
+}
+.n2 a:hover{
+  text-decoration: none;
+  color:var(--text-color-blue-hover);
+  border-bottom: 2px solid var(--text-color-blue-hover);
+}
+.hvr:hover{
+  height:500px;
+  position: absolute;
 }
