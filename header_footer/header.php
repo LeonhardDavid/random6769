@@ -23,7 +23,7 @@
 
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-custom" style="z-index: 9999;">
+    <nav class="navbar navbar-expand-lg navbar-custom">
 
       <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -61,10 +61,10 @@
           <div class="dropdown">
              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> <i class="em em-flag-ro"></i> RO</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="#"><i class="em em-flag-ro"></i> RO</a>
-              <a class="dropdown-item" href="#"><i class="em em-gb"></i> EN</a>
-              <a class="dropdown-item" href="#"><i class="em em-de"></i> DE</a>
-              <a class="dropdown-item" href="#"><i class="em em-fr"></i> FR</a>
+              <a class="dropdown-item language-item" href="#"><i class="em em-flag-ro"></i> RO</a>
+              <a class="dropdown-item language-item" href="#"><i class="em em-gb"></i> EN</a>
+              <a class="dropdown-item language-item" href="#"><i class="em em-de"></i> DE</a>
+              <a class="dropdown-item language-item" href="#"><i class="em em-fr"></i> FR</a>
             </div>
           </div>
 
@@ -73,15 +73,17 @@
     </div>
   </nav>
 
+<!-- Header -->
+<div class="container d-none d-lg-block px-0 header-style">
 
-<div class="container d-none d-lg-block px-0" style="z-index:9999;position:relative;">
+  <!-- Logo -->
+  <div class="row header-background">
 
-  <div class="row bg">
-
-    <div class="col-md-2 d-flex">
-      <img class="mx-auto my-auto" src="images/logo.svg" alt ="Logo123" style="height:4.5rem">
+    <div class="col-md-2 d-flex logo-header">
+      <img class="mx-auto my-auto logo" src="images/logo.svg" alt ="Logo-header">
     </div>
 
+    <!-- Search form -->
     <div class="col-md-8 my-1">
         <form>
           <div class="form-group my-3 mx-2">
@@ -95,6 +97,7 @@
         </form>
       </div>
 
+      <!-- My account & my cart dropdowns -->
       <div class="col-md-2 d-flex justify-content-center align-self-center px-1">
         <div class="d-flex align-self-center padds">
 
@@ -140,25 +143,560 @@
            </span>
           </a>
 
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
-            <a class="dropdown-item header-item" href="#">Nume cont</a>
-          </div>
-        </div>
+          <div class="dropdown-menu dropdown-menu-right dropdown-cart" aria-labelledby="dropdownMenuLink">
+            <div class="container product-scroll">
 
+              <div class="row product-in-cart my-2">
+
+                <div class="col-8 product-in-cart-details">
+                  <img class="product-image" name="product-image-1" src="images/product-image-1.jpg" >
+                  <span class="product-name" name="product-name-1"> Produs 1 Cu Nume Lung </span>
+                </div>
+
+                <div class="col product-order-details">
+                  <div class="text-right" > 
+                    <span name="product-amount"> x3 </span>
+                  </div>
+                  <div class="text-right"> 
+                    <span name="product-total-price"> 134,45Lei </span>
+                  </div>
+                  <div class="text-right">
+                    <a class="delete-product" name="delete-product-1" href="#"> sterge </a>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="dropdown-divider my-1"></div>
+
+              <div class="row product-in-cart my-2">
+              
+                <div class="col-8 product-in-cart-details">
+                  <img class="product-image" name="product-image-1" src="images/product-image-1.jpg" >
+                  <span class="product-name" name="product-name-1"> Produs 2 Cu Nume Foarte Lung </span>
+                </div>
+
+                <div class="col product-order-details">
+                  <div class="text-right" > 
+                    <span name="product-amount"> x30 </span>
+                  </div>
+                  <div class="text-right"> 
+                    <span name="product-total-price"> 2454,95Lei </span>
+                  </div>
+                  <div class="text-right">
+                    <a class="delete-product" name="delete-product-1" href="#"> sterge </a>
+                  </div>
+                </div>
+              
+              </div>
+
+              <div class="dropdown-divider my-1"></div>
+
+              <div class="row product-in-cart my-2">
+              
+                <div class="col-8 product-in-cart-details">
+                  <img class="product-image" name="product-image-1" src="images/product-image-1.jpg" >
+                  <span class="product-name" name="product-name-1"> Produs 3 </span>
+                </div>
+
+                <div class="col product-order-details">
+                  <div class="text-right" > 
+                    <span name="product-amount"> x13 </span>
+                  </div>
+                  <div class="text-right"> 
+                    <span name="product-total-price"> 1304,45Lei </span>
+                  </div>
+                  <div class="text-right">
+                    <a class="delete-product" name="delete-product-1" href="#"> sterge </a>
+                  </div>
+                </div>
+              
+              </div>
+
+              <div class="dropdown-divider my-1"></div>
+
+              <div class="row product-in-cart my-2">
+              
+                <div class="col-8 product-in-cart-details">
+                  <img class="product-image" name="product-image-1" src="images/product-image-1.jpg" >
+                  <span class="product-name" name="product-name-1"> Produs 4 Cu Nume Lung Extrem De Lung Foarte Lung </span>
+                </div>
+
+                <div class="col product-order-details">
+                  <div class="text-right" > 
+                    <span name="product-amount"> x103 </span>
+                  </div>
+                  <div class="text-right"> 
+                    <span name="product-total-price"> 94134,45Lei </span>
+                  </div>
+                  <div class="text-right">
+                    <a class="delete-product" name="delete-product-1" href="#"> sterge </a>
+                  </div>
+                </div>
+              
+              </div>
+
+              <div class="dropdown-divider my-1"></div>
+
+              <div class="row product-in-cart my-2">
+              
+                <div class="col-8 product-in-cart-details">
+                  <img class="product-image" name="product-image-1" src="images/product-image-1.jpg" >
+                  <span class="product-name" name="product-name-1"> Produs 5 Cu Nume Lung </span>
+                </div>
+
+                <div class="col product-order-details">
+                  <div class="text-right" > 
+                    <span name="product-amount"> x23 </span>
+                  </div>
+                  <div class="text-right"> 
+                    <span name="product-total-price"> 1534,76Lei </span>
+                  </div>
+                  <div class="text-right">
+                    <a class="delete-product" name="delete-product-1" href="#"> sterge </a>
+                  </div>
+                </div>
+              
+              </div>
+
+              <div class="dropdown-divider my-1"></div>
+
+              <div class="row product-in-cart my-2">
+              
+                <div class="col-8 product-in-cart-details">
+                  <img class="product-image" name="product-image-1" src="images/product-image-1.jpg" >
+                  <span class="product-name" name="product-name-1"> Produs 6 </span>
+                </div>
+
+                <div class="col product-order-details">
+                  <div class="text-right" > 
+                    <span name="product-amount"> x8 </span>
+                  </div>
+                  <div class="text-right"> 
+                    <span name="product-total-price"> 523,99Lei </span>
+                  </div>
+                  <div class="text-right">
+                    <a class="delete-product" name="delete-product-1" href="#"> sterge </a>
+                  </div>
+                </div>
+              
+              </div>
+
+              <div class="dropdown-divider my-1"></div>
+
+              <div class="row product-in-cart my-2">
+              
+                <div class="col-8 product-in-cart-details">
+                  <img class="product-image" name="product-image-1" src="images/product-image-1.jpg" >
+                  <span class="product-name" name="product-name-1"> Produs 7 </span>
+                </div>
+
+                <div class="col product-order-details">
+                  <div class="text-right" > 
+                    <span name="product-amount"> x20 </span>
+                  </div>
+                  <div class="text-right"> 
+                    <span name="product-total-price"> 4524,45Lei </span>
+                  </div>
+                  <div class="text-right">
+                    <a class="delete-product" name="delete-product-1" href="#"> sterge </a>
+                  </div>
+                </div>
+              
+              </div>
+
+              <div class="dropdown-divider my-1"></div>
+              
+              <div class="row product-in-cart my-2">
+              
+                <div class="col-8 product-in-cart-details">
+                  <img class="product-image" name="product-image-1" src="images/product-image-1.jpg" >
+                  <span class="product-name" name="product-name-1"> Produs 8 Cu Nume Foarte Lung Lung </span>
+                </div>
+
+                <div class="col product-order-details">
+                  <div class="text-right" > 
+                    <span name="product-amount"> x1 </span>
+                  </div>
+                  <div class="text-right"> 
+                    <span name="product-total-price"> 99,95Lei </span>
+                  </div>
+                  <div class="text-right">
+                    <a class="delete-product" name="delete-product-1" href="#"> sterge </a>
+                  </div>
+                </div>
+              
+              </div>
+
+              <div class="dropdown-divider my-1"></div>
+              
+              <div class="row product-in-cart my-2">
+              
+                <div class="col-8 product-in-cart-details">
+                  <img class="product-image" name="product-image-1" src="images/product-image-1.jpg" >
+                  <span class="product-name" name="product-name-1"> Produs 9 Cu Nume Lung </span>
+                </div>
+
+                <div class="col product-order-details">
+                  <div class="text-right" > 
+                    <span name="product-amount"> x10 </span>
+                  </div>
+                  <div class="text-right"> 
+                    <span name="product-total-price"> 25,00Lei </span>
+                  </div>
+                  <div class="text-right">
+                    <a class="delete-product" name="delete-product-1" href="#"> sterge </a>
+                  </div>
+                </div>
+              
+              </div>
+
+              <div class="dropdown-divider my-1"></div>
+              
+              <div class="row product-in-cart my-2">
+              
+                <div class="col-8 product-in-cart-details">
+                  <img class="product-image" name="product-image-1" src="images/product-image-1.jpg" >
+                  <span class="product-name" name="product-name-1"> Produs 10 Cu Nume Lung Lung </span>
+                </div>
+
+                <div class="col product-order-details">
+                  <div class="text-right" > 
+                    <span name="product-amount"> x2 </span>
+                  </div>
+                  <div class="text-right"> 
+                    <span name="product-total-price"> 456,79Lei </span>
+                  </div>
+                  <div class="text-right">
+                    <a class="delete-product" name="delete-product-1" href="#"> sterge </a>
+                  </div>
+                </div>
+              
+              </div>
+
+              <div class="dropdown-divider my-1"></div>
+          </div>
+
+            <div class="row product-totals my-auto mx-auto">
+              <div class="col">
+                <span> 10005 produse</span>
+              </div>
+
+              <div class="col text-right">
+                <span> 1234,56 lei</span>
+              </div>
+            
+            </div>
+
+            <div class="row justify-content-center my-2 mx-2">
+              <button class="btn btn-primary w-100 button-cart"> vezi cos </button>
+            </div>
+
+          </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="row">
-      <div class="col-md-3 n1 d-flex justify-content-between hvr">
-            CATALOG PRODUSE
-            <span>
-              <i class="fas fa-align-justify"></i>
-            </span>
+  <!-- Product catalog dropdown-->
+
+    <div class="row" style="font-size: .9rem;">
+      <div class="col-md-2 n1 d-flex justify-content-between">
+          <div class="dropdown show">
+            <a class="product-catalog-a" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              CATALOG PRODUSE &nbsp;
+              <span>
+                <i class="fas fa-align-justify"></i>
+              </span>
+            </a>
+
+            <div class="dropdown-menu product-catalog-menu" aria-labelledby="dropdownMenuLink">
+
+              <div class="container px-0 product-catalog-dropdown">
+                <div class="row">
+                  <div class="col-md-2 px-0 product-tab">
+                    <div class="list-group product-list" id="list-tab" role="tablist">
+                      <a class="list-group-item list-group-item-action product-item" id="list-category0-list" data-toggle="list" href="#list-category0" role="tab" aria-controls="category0"> ADIDAS ORIGINALS</a>
+                      <a class="list-group-item list-group-item-action product-item" id="list-category1-list" data-toggle="list" href="#list-category1" role="tab" aria-controls="category1"> NIKELAB</a>
+                      <a class="list-group-item list-group-item-action product-item" id="list-category2-list" data-toggle="list" href="#list-category2" role="tab" aria-controls="category2"> SPORTS</a>
+                      <a class="list-group-item list-group-item-action product-item" id="list-category3-list" data-toggle="list" href="#list-category3" role="tab" aria-controls="category3"> ATHLETES</a>
+                      <a class="list-group-item list-group-item-action product-item" id="list-category4-list" data-toggle="list" href="#list-category4" role="tab" aria-controls="category4"> MEN'S SHOES</a>
+                      <a class="list-group-item list-group-item-action product-item" id="list-category5-list" data-toggle="list" href="#list-category5" role="tab" aria-controls="category5"> MEN'S CLOTHING</a>
+                      <a class="list-group-item list-group-item-action product-item" id="list-category6-list" data-toggle="list" href="#list-category6" role="tab" aria-controls="category6"> WOMEN'S SHOES</a>
+                      <a class="list-group-item list-group-item-action product-item" id="list-category7-list" data-toggle="list" href="#list-category7" role="tab" aria-controls="category7"> WOMEN'S CLOTHING</a>
+                      <a class="list-group-item list-group-item-action product-item" id="list-category8-list" data-toggle="list" href="#list-category8" role="tab" aria-controls="category8"> KID'S SHOES</a>
+                      <a class="list-group-item list-group-item-action product-item" id="list-category9-list" data-toggle="list" href="#list-category9" role="tab" aria-controls="category9"> KID'S CLOTHING</a>
+                    </div>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="tab-content" id="nav-tabContent">
+                      <div class="tab-pane fade show active" id="list-category0" role="tabpanel" aria-labelledby="list-category0-list">
+                        
+                        <div class="row">
+                          <div class="col-md-7">
+                            
+                            <div class="row">
+                              <div class="col">
+
+                                <!-- First column of links -->
+                                <div class="row">
+                                  <ul class="links">
+                                    <li>
+                                    <a href="#" class="top-link"> montes </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> eros </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> faucibus proin venenatis dolor </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> arcu justo habitant</a>
+                                    </li>
+                                  </ul>                               
+                                </div>
+
+                                <div class="row">
+                                  
+                                  <ul class="links">
+                                    <li>
+                                      <a href="#" class="top-link"> eleifend phasellus tristique </a>
+                                    </li>
+                                  
+                                    <li>
+                                      <a href="#" class="secondary-link"> mauris suspendisee </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> dapibus amet </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> cubilia bibendum ultrices </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> quam cras litora consectetur </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link">  dui lacus aliquam quis velit</a>
+                                    </li>
+                                  </ul>
+                                
+                                </div>
+                              </div>
+                              
+                              <div class="col">
+
+                                <!-- Second column of links -->
+                                <div class="row">
+                                  
+                                  <ul class="links">
+                                    <li>
+                                      <a href="#" class="top-link"> feugiat eleifend</a>
+                                    </li>
+                                  
+                                    <li>
+                                      <a href="#" class="secondary-link"> eget id </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> penetiubus tempor tristique</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> congaue</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> henderit</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> fames dictustm sensectus</a>
+                                    </li>
+                                  </ul> 
+                                </div>
+
+                                <div class="row">
+                                  
+                                  <ul class="links">
+                                    <li>
+                                      <a href="#" class="top-link"> lorem ipsum dolor </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> auctor magna </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> massa senescut arcu </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> curabitur ultrices </a>
+                                    </li>                                   
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-5 image-right">
+                            <img src="images/tab-category0-bg.jpg" class="tab-category-img">
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="tab-pane fade" id="list-category1" role="tabpanel" aria-labelledby="list-category1-list">
+                        <div class="row">
+                          <div class="col-md-7">
+                            
+                            <div class="row">
+                              <div class="col">
+
+                                <!-- First column of links -->
+                                <div class="row">
+                                  <ul class="links">
+                                    <li>
+                                    <a href="#" class="top-link"> montes </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> eros </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> faucibus proin venenatis dolor </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> arcu justo habitant</a>
+                                    </li>
+                                  </ul>                               
+                                </div>
+
+                                <div class="row">
+                                  
+                                  <ul class="links">
+                                    <li>
+                                      <a href="#" class="top-link"> eleifend phasellus tristique </a>
+                                    </li>
+                                  
+                                    <li>
+                                      <a href="#" class="secondary-link"> mauris suspendisee </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> dapibus amet </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> cubilia bibendum ultrices </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> quam cras litora consectetur </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link">  dui lacus aliquam quis velit</a>
+                                    </li>
+                                  </ul>
+                                
+                                </div>
+                              </div>
+                              
+                              <div class="col">
+
+                                <!-- Second column of links -->
+                                <div class="row">
+                                  
+                                  <ul class="links">
+                                    <li>
+                                      <a href="#" class="top-link"> feugiat eleifend</a>
+                                    </li>
+                                  
+                                    <li>
+                                      <a href="#" class="secondary-link"> eget id </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> penetiubus tempor tristique</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> congaue</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> henderit</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> fames dictustm sensectus</a>
+                                    </li>
+                                  </ul> 
+                                </div>
+
+                                <div class="row">
+                                  
+                                  <ul class="links">
+                                    <li>
+                                      <a href="#" class="top-link"> lorem ipsum dolor </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> auctor magna </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> massa senescut arcu </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> curabitur ultrices </a>
+                                    </li>                                   
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-5 image-right">
+                            <img src="images/tab-category1-bg.jpg" class="tab-category-img">
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="tab-pane fade" id="list-category2" role="tabpanel" aria-labelledby="list-category2-list">
+                        category2
+                      </div>
+
+                      <div class="tab-pane fade" id="list-category3" role="tabpanel" aria-labelledby="list-category3-list">
+                        category3
+                      </div>
+
+                      <div class="tab-pane fade" id="list-category4" role="tabpanel" aria-labelledby="list-category4-list">
+                        category4
+                      </div>
+
+                      <div class="tab-pane fade" id="list-category5" role="tabpanel" aria-labelledby="list-category5-list">
+                        category5
+                      </div>
+
+                      <div class="tab-pane fade" id="list-category6" role="tabpanel" aria-labelledby="list-category6-list">
+                        category6
+                      </div>
+
+                      <div class="tab-pane fade" id="list-category7" role="tabpanel" aria-labelledby="list-category7-list">
+                        category7
+                      </div>
+
+                      <div class="tab-pane fade" id="list-category8" role="tabpanel" aria-labelledby="list-category8-list">
+                        category8
+                      </div>
+
+                      <div class="tab-pane fade" id="list-category9" role="tabpanel" aria-labelledby="list-category9-list">
+                        category9
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+
+
+          
+
+          
+
+
 
       </div>
 
-      <div class="col-md-9 n2">
+      <div class="col-md-10 n2">
            <a href="#">PROMOTII</a>
            <span class="slash">/</span>
            <a href="#">PRETURI SPECIALE</a>

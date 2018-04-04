@@ -65,7 +65,7 @@
 			  </div>
 			  <div class="col-sm-8">
 			    <div class="tab-content" id="nav-tabContent">
-			      <div class="tab-pane fade" id="list-item1" role="tabpanel" aria-labelledby="list-item1-list">
+			      <div class="tab-pane fade show active" id="list-item1" role="tabpanel" aria-labelledby="list-item1-list">
 
 			      	<div class="row">
 			      		<div class="col-sm-6">

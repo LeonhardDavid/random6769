@@ -2,10 +2,15 @@
 *{
 	font-family: 'Lato', sans-serif;
 }
+
 body{
 	overflow-x: hidden;
-	background-color: #cccccc;
 	font-size: .875rem;
+	background: url("../images/background.jpg") no-repeat center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
 .translate-y-up{
@@ -28,6 +33,7 @@ Top bar
 }
 
 .navbar-custom{
+	z-index: 9999;
 	background-color: var(--main-bg-color);
 	border-top: 3px solid var(--main-bg-color-hover);
 	font-size: .875rem;
@@ -65,11 +71,11 @@ Top bar
 	border-radius: 0px 0px 5px 5px;
 }
 
-.dropdown-menu .dropdown-item:hover{
+.dropdown-menu .language-item:hover{
 	background-color: var(--bg-color-grey-hover);
 }
 
-.dropdown-menu .dropdown-item:active{
+.dropdown-menu .language-item:active{
 	color: var(--text-color-black);
 }
 
