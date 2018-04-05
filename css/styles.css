@@ -176,3 +176,29 @@ Product slider with category and images
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
+
+/*
+Banner
+*/
+
+@media (min-width: 768px){
+	.banner-background{
+		background: url("../images/banner-desktop-1.jpg") no-repeat center center;
+		min-height: 336px;
+	}
+}
+
+@media (max-width: 767.98px){
+	.banner-background{
+		background: url("../images/banner-mobile-1.jpg") no-repeat center center;
+		min-height: 600px;
+	}
+}
+
+.banner-background{
+	background-size: contain;
+	background-color: #fff;
+}
+
+/*
+*/

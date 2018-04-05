@@ -174,21 +174,21 @@
 	  </ol>
 	  <div class="carousel-inner">
 	    <div class="carousel-item active">
-	      <img class="d-block w-100 main-slider" src="images/second-slider-image-1.jpg" alt="First slide" >
+	      <img class="d-block w-100 main-slider" src="images/second-slider-image-desktop-1.jpg" alt="First slide" >
 	      	<div class="carousel-caption d-none d-md-block">
 			    <h5>First slide label</h5>
 			    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
 			</div>
 	    </div>
 	    <div class="carousel-item">
-	      <img class="d-block w-100 main-slider" src="images/second-slider-image-2.jpg" alt="Second slide" >
+	      <img class="d-block w-100 main-slider" src="images/second-slider-image-desktop-2.jpg" alt="Second slide" >
 		    <div class="carousel-caption d-none d-md-block">
 				    <h5>Second slide label</h5>
 				    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
 			</div>
 	    </div>
 	    <div class="carousel-item">
-	      <img class="d-block w-100 main-slider" src="images/second-slider-image-3.jpg" alt="Third slide" >
+	      <img class="d-block w-100 main-slider" src="images/second-slider-image-desktop-3.jpg" alt="Third slide" >
 	      	<div class="carousel-caption d-none d-md-block">
 			    <h5>Third slide label</h5>
 			    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
@@ -200,6 +200,43 @@
 	    <span class="sr-only">Previous</span>
 	  </a>
 	  <a class="carousel-control-next" href="#carouselExampleIndicators-main2" role="button" data-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+
+	<!-- Banner -->
+
+	<a href="#" class="translate-y-up">
+		<div class="container banner-background translate-y-up"> </div>
+	</a>
+
+	<!-- Third photo slider -->
+
+	<div id="carouselExampleIndicators-main3" class="carousel slide translate-y-up" data-ride="carousel" data-interval="false" data-keyboard="true" >
+	  <ol class="carousel-indicators">
+	    <li data-target="#carouselExampleIndicators-main3" data-slide-to="0" class="active"></li>
+	    <li data-target="#carouselExampleIndicators-main3" data-slide-to="1"></li>
+	    <li data-target="#carouselExampleIndicators-main3" data-slide-to="2"></li>
+	  </ol>
+
+	  <div class="carousel-inner">
+	    <div class="carousel-item active">
+	      <img class="d-block w-100 main-slider" src="images/third-slider-image-desktop-1.jpg" alt="First slide" >
+	    </div>
+	    <div class="carousel-item">
+	      <img class="d-block w-100 main-slider" src="images/third-slider-image-desktop-2.jpg" alt="Second slide" >
+	    </div>
+	    <div class="carousel-item">
+	      <img class="d-block w-100 main-slider" src="images/third-slider-image-desktop-3.jpg" alt="Third slide" >
+	    </div>	 
+	  </div> 
+
+	  <a class="carousel-control-prev" href="#carouselExampleIndicators-main3" role="button" data-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="carousel-control-next" href="#carouselExampleIndicators-main3" role="button" data-slide="next">
 	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 	    <span class="sr-only">Next</span>
 	  </a>
