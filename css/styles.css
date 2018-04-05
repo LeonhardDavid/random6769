@@ -5,7 +5,6 @@
 
 body{
 	overflow-x: hidden;
-	font-size: .875rem;
 	background: url("../images/background.jpg") no-repeat center center;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -21,24 +20,47 @@ body{
 /*
 Top bar
 */
-
-@media (min-width: 992px){
+@media (max-width: 991.98px) {
 	.navbar-custom{
-		background-color: var(--main-bg-color);
-		border-top: 3px solid var(--main-bg-color-hover);
-		max-height: 2rem;
-		font-size: .875rem;
+		background-color: var(--navbar-categories-bg-color);
+		border-top: 0;
+		z-index: 99999;
 	}
-	
 }
 
-.navbar-custom{
-	z-index: 9999;
+@media (min-width: 992px){
+	body{
+		font-size: .875rem;
+	}
+
+	.navbar-custom{
+		z-index: 99999;
+		background-color: var(--main-bg-color);
+		max-height: 2rem;
+		font-size: .875rem;
+		border-top: 3px solid var(--main-bg-color-hover);
+	}
+	.div-flex{
+		display: flex !important;
+		justify-content: space-around !important;
+	}
+}
+
+@media (min-width: 1200px){
+	.navbar-custom{
+	z-index: 99999;
 	background-color: var(--main-bg-color);
 	border-top: 3px solid var(--main-bg-color-hover);
 	font-size: .875rem;
 	padding: 0;
+	}
 }
+
+.product-catalog-row{
+		font-size: .9rem;
+}
+
+
 
 .nav-item .nav-link{
 	color: var(--text-color-white);
@@ -57,18 +79,23 @@ Top bar
 }
 
 .navbar-custom .navbar-toggler{
-	border-color: white;
+	
 }
 
 .dropdown:hover > .dropdown-menu {
   display: block;
 }
 
+.dropdown .dropdown-languages{
+	top: 33px;
+	min-width: 100px;
+}
+
 .dropdown .dropdown-menu{
-	width: 15px;
 	padding: 0;
 	margin: 0;
 	border-radius: 0px 0px 5px 5px;
+	
 }
 
 .dropdown-menu .language-item:hover{

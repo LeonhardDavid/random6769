@@ -7,10 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" type="text/css"/>
     <link rel="stylesheet" href="css/menu.css" type="text/css"/>
     <link rel="stylesheet" href="css/colors.css" type="text/css"/>
-    <link rel="stylesheet" href="css/styles.css" type="text/css"/>
-
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -25,53 +24,110 @@
 
     <nav class="navbar navbar-expand-lg navbar-custom">
 
-      <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="#"> </a>
+      <!-- top elements on mobile only-->
+      <div class="float-left d-lg-none">
+        <button class="navbar-toggler px-0" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <img class="nav-mobile-icon-img" src="images/logo.svg">
+      </div>
 
-    <div class="collapse navbar-collapse justify-content-between" id="collapsibleNavbar">
-      <ul class="navbar-nav mr-aut">
-        <li class="nav-item">
+      <div class="float-right d-lg-none">   
+        <a href="#" class="nav-mobile-icon-a"> <img class="nav-mobile-icon-img" src="images/phone-mobile.svg"></a>
+        <a href="#" class="nav-mobile-icon-a"> <img class="nav-mobile-icon-img" src="images/my-account-mobile.svg"></a>
+        <a href="#" class="nav-mobile-icon-a"> <img class="nav-mobile-icon-img" src="images/shopping-cart-mobile.svg"></a> 
+      </div>
+    
+      <div class="col-12 d-lg-none px-0"> 
+        <form>
+          <div class="form-group my-0">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Cauta produsul dorit...">
+                  <span class="input-group-btn">
+                      <button class="btn btn-primary custom-btn-color-mobile" type="button" name="search"><i class="fas fa-search"></i></button>
+                  </span>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    <div class="collapse navbar-collapse div-flex" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+
+        <!-- elements on desktop only-->
+        <li class="nav-item d-none d-lg-block">
           <a class="nav-link custom-nav-hover" href="#"><b> Informatii e-commerce: 0740 104 194 </b> </a> 
         </li>
         <li class="nav-item d-none d-lg-block point-chr"> <a class="nav-link"> ● </a> </li>
-        <li class="nav-item">
+        <li class="nav-item d-none d-lg-block">
           <a class="nav-link custom-nav-hover" href="#"> Categorii </a>
         </li>
         <li class="nav-item d-none d-lg-block point-chr"> <a class="nav-link"> ● </a></li>
-        <li class="nav-item">
+        <li class="nav-item d-none d-lg-block">
           <a class="nav-link custom-nav-hover" href="#"> Produse </a>
         </li>
         <li class="nav-item d-none d-lg-block point-chr"> <a class="nav-link"> ● </a></li>
-        <li class="nav-item">
+        <li class="nav-item d-none d-lg-block">
           <a class="nav-link custom-nav-hover" href="#"> Parteneri</a>
         </li>
       </ul>
       <ul class="navbar-nav">
-        <li class="nav-item">
+        <li class="nav-item d-none d-lg-block">
           <a class="nav-link" href="#"> Bine ai venit, Nume cont! </a>
         </li>
         <li class="nav-item d-none d-lg-block point-chr"> <a class="nav-link"> ● </a> </li>
-        <li class="nav-item">
+        <li class="nav-item d-none d-lg-block">
           <a class="nav-link custom-nav-hover" href="#"> <i class="fas fa-user"></i> Logout </a>
         </li>
         <li class="nav-item d-none d-lg-block point-chr"> <a class="nav-link"> ● </a> </li>
-        <li class="nav-item">
+        <li class="nav-item d-none d-lg-block">
           <div class="dropdown">
              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"> <i class="em em-flag-ro"></i> RO</a>
-            <div class="dropdown-menu">
+            <div class="dropdown-menu dropdown-languages">
               <a class="dropdown-item language-item" href="#"><i class="em em-flag-ro"></i> RO</a>
               <a class="dropdown-item language-item" href="#"><i class="em em-gb"></i> EN</a>
               <a class="dropdown-item language-item" href="#"><i class="em em-de"></i> DE</a>
               <a class="dropdown-item language-item" href="#"><i class="em em-fr"></i> FR</a>
             </div>
           </div>
-
         </li>
+
+        <!-- elements only on mobile navbar -->
+        <li class="nav-item d-lg-none"> 
+          <a class="nav-link mobile-nav-link" href="#"> ADIDAS ORIGNALS </a>
+        </li>
+        <li class="nav-item d-lg-none"> 
+          <a class="nav-link mobile-nav-link" href="#"> NIKELAB </a>
+        </li>
+        <li class="nav-item d-lg-none"> 
+          <a class="nav-link mobile-nav-link" href="#"> SPORTS </a>
+        </li>
+        <li class="nav-item d-lg-none"> 
+          <a class="nav-link mobile-nav-link" href="#"> ATHLETES </a>
+        </li>
+        <li class="nav-item d-lg-none"> 
+          <a class="nav-link mobile-nav-link" href="#"> MEN'S SHOES </a>
+        </li>
+        <li class="nav-item d-lg-none"> 
+          <a class="nav-link mobile-nav-link" href="#"> MEN'S CLOTHING </a>
+        </li>
+        <li class="nav-item d-lg-none"> 
+          <a class="nav-link mobile-nav-link" href="#"> WOMEN'S SHOES </a>
+        </li>
+        <li class="nav-item d-lg-none"> 
+          <a class="nav-link mobile-nav-link" href="#"> WOMEN'S CLOTHING </a>
+        </li>
+        <li class="nav-item d-lg-none"> 
+          <a class="nav-link mobile-nav-link" href="#"> KID'S SHOES </a>
+        </li>
+        <li class="nav-item d-lg-none"> 
+          <a class="nav-link mobile-nav-link" href="#"> KID'S CLOTHING </a>
+        </li>
+
       </ul>
     </div>
   </nav>
+
 
 <!-- Header -->
 <div class="container d-none d-lg-block px-0 header-style">
@@ -400,7 +456,7 @@
 
   <!-- Product catalog dropdown-->
 
-    <div class="row" style="font-size: .9rem;">
+    <div class="row product-catalog-row">
       <div class="col-md-2 n1 d-flex justify-content-between">
           <div class="dropdown show">
             <a class="product-catalog-a" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -682,18 +738,8 @@
                 </div>
               </div>
 
-
-
             </div>
           </div>
-
-
-          
-
-          
-
-
-
       </div>
 
       <div class="col-md-10 n2">
