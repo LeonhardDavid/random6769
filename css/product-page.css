@@ -1,0 +1,152 @@
+
+.product-container{
+	background-color: #fafafa;
+	border-radius: 5px;
+	margin-top: 3rem;
+	padding: 2rem 3rem 2rem 3rem !important;
+}
+
+.product-container .product-path{
+	font-size: .75rem;
+	color: var(--text-color-grey);	
+}
+
+.product-container .product-path-a{
+	color: var(--text-color-grey);	
+	text-decoration: none;
+}
+
+.product-container .product-path-a:hover{
+	color: var(--text-color-blue-hover);	
+	text-decoration: underline;
+}
+
+.product-container .product-title{
+	font-weight: bold;
+
+}
+
+.product-container .row{
+	font-size: .875rem;
+}
+
+.product-action-a{
+	color: var(--text-color-black);
+	text-decoration: none;
+}
+
+.product-action-a:hover{
+	color: var(--text-color-blue-hover);
+	text-decoration: none;
+}
+
+.product-container .top-line{
+	width: 100%;
+	border-top: 1px solid var(--text-color-blue-hover);
+}
+
+.product-container .product-row{
+
+}
+
+.product-photos .product-photos-img{
+	width: 100%;
+}
+
+.product-description .product-description-p{
+	font-size: 1rem;
+}
+
+.product-description .thumbnail-color-ul{
+	list-style-type: none;
+	display: inline-flex;
+}
+
+.product-description .thumbnail-color-img{
+	height: 50px;
+	border: 1px solid grey;
+	border-radius: 3px;
+}
+
+.product-description .thumbnail-color-img:hover{
+	border: 1px solid black;
+}
+
+.thumbnail-color-a .active, .thumbnail-color-a .active:hover{
+	border: 1px solid var(--text-color-blue-hover);
+}
+
+.ul-col-left, .ul-col-right{
+	list-style-type: none;
+}
+
+.old-price{
+	color: var(--text-color-grey);
+	font-size: 1rem;
+	text-decoration: line-through;
+}
+
+.actual-price{
+	color: var(--text-color-red);
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.star-rating .yellow{
+	color: rgba(255,194,0,1);
+}
+
+.star-rating-a{
+	color: var(--text-color-black);
+	text-decoration: none;
+}
+
+.star-rating-a:hover{
+	color: var(--text-color-blue-hover);
+	text-decoration: none;
+}
+
+.ul-col-left .col-left-a:hover{
+	text-decoration: none;
+}
+
+.normal-text{
+	font-size: 1rem;
+}
+
+.quantity-input{
+	width: 45px;
+	border-radius: 5px;
+}
+
+.add-to-cart{
+	background-color: var(--navbar-categories-bg-color);
+	border-radius: 5px;
+	cursor: pointer;
+	display: inline-flex;
+}
+
+.add-to-cart:hover{
+	background-color: var(--text-color-red);
+}
+
+.add-to-cart .add-to-cart-btn{
+	background-color: transparent;
+	color: white;
+	font-size: 1.5rem;
+	outline: none;
+	cursor: pointer;
+	border: 0;
+	padding: 5px 10px 5px 10px;
+	width: 100%;
+}
+
+.add-to-cart .shopping-cart{
+	width: 40px;
+	background-color: var(--text-color-red);
+	color: white;
+	border-radius: 0px 5px 5px 0px;
+	padding: 5px;
+	text-align: center;
+	font-size: 1.5rem;
+}

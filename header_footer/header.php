@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/colors.css" type="text/css"/>
+    <link rel="stylesheet" href="css/product-page.css" type="text/css"/>
     <link rel="stylesheet" href="css/footer.css" type="text/css"/>
     <link rel="stylesheet" href="css/styles.css" type="text/css"/>
     <link rel="stylesheet" href="css/menu.css" type="text/css"/>
-    <link rel="stylesheet" href="css/colors.css" type="text/css"/>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
