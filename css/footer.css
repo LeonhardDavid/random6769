@@ -15,6 +15,7 @@
 .top-row{
 	height: 25rem;
 	text-align: left;
+	font-size: 0.9rem;
 }
 
 .bottom-row{
@@ -102,4 +103,5 @@
 
 .top-col .footer-logo-mobile{
 	height: 5.5rem;
+	margin-top: 25px;
 }

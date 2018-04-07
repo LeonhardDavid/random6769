@@ -200,6 +200,12 @@ Row after gallery
 		text-align: center;
 		font-weight: 600;
 }
+.custom-height{
+	height: 15rem;
+}
+.custom-height-2{
+	height: 10rem;
+}
 .col-md-3{
 	text-align: center;
 }

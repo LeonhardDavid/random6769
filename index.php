@@ -3,7 +3,7 @@
 <!-- Begin code -->
 
 	<!-- Main photo slider -->
-	<div id="carouselExampleIndicators-main1" class="carousel slide translate-y-up" data-ride="carousel" data-interval="false" data-keyboard="true" style="">
+	<div id="carouselExampleIndicators-main1" class="carousel slide translate-y-up" data-ride="carousel" data-interval="false" data-keyboard="true">
 	  <ol class="carousel-indicators">
 	    <li data-target="#carouselExampleIndicators-main1" data-slide-to="0" class="active"></li>
 	    <li data-target="#carouselExampleIndicators-main1" data-slide-to="1"></li>
@@ -73,8 +73,8 @@
 			</div>
 			<div class="my-5 mx-5">
 				<div class="product-carousel">
-					<div style="text-align: center;font-weight: 600;">
-						<img src="images/pl1.jpg" alt="Product1" class="mx-auto d-block" style="height:15rem">
+					<div>
+						<img src="images/pl1.jpg" alt="Product1" class="mx-auto d-block custom-height">
 						Adidas Women reversible track jacket
 						<br>
 						<span class="red">134 lei</span>
@@ -84,8 +84,19 @@
 							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
 						</div>
 					</div>
-					<div style="text-align: center;font-weight: 600;">
-						<img src="images/pl2.jpg" alt="Product1" class="mx-auto d-block" style="height:15rem">
+					<div>
+						<img src="images/pl2.jpg" alt="Product1" class="mx-auto d-block custom-height">
+						Adidas Women reversible track jacket
+						<br>
+						<span class="red">134 lei</span>
+						<span class="grey">165 lei</span>
+						<div class="btn-group" role="group" aria-label="Basic example custom-height">
+							<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
+							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+						</div>
+					</div>
+					<div>
+						<img src="images/pl3.jpg" alt="Product1" class="mx-auto d-block custom-height">
 						Adidas Women reversible track jacket
 						<br>
 						<span class="red">134 lei</span>
@@ -95,8 +106,8 @@
 							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
 						</div>
 					</div>
-					<div style="text-align: center;font-weight: 600;">
-						<img src="images/pl3.jpg" alt="Product1" class="mx-auto d-block" style="height:15rem">
+					<div>
+						<img src="images/pl4.jpg" alt="Product1" class="mx-auto d-block custom-height">
 						Adidas Women reversible track jacket
 						<br>
 						<span class="red">134 lei</span>
@@ -106,8 +117,8 @@
 							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
 						</div>
 					</div>
-					<div style="text-align: center;font-weight: 600;">
-						<img src="images/pl4.jpg" alt="Product1" class="mx-auto d-block" style="height:15rem">
+					<div>
+						<img src="images/pl5.jpg" alt="Product1" class="mx-auto d-block custom-height">
 						Adidas Women reversible track jacket
 						<br>
 						<span class="red">134 lei</span>
@@ -117,8 +128,8 @@
 							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
 						</div>
 					</div>
-					<div style="text-align: center;font-weight: 600;">
-						<img src="images/pl5.jpg" alt="Product1" class="mx-auto d-block" style="height:15rem">
+					<div>
+						<img src="images/pl1.jpg" alt="Product1" class="mx-auto d-block custom-height">
 						Adidas Women reversible track jacket
 						<br>
 						<span class="red">134 lei</span>
@@ -128,8 +139,8 @@
 							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
 						</div>
 					</div>
-					<div style="text-align: center;font-weight: 600;">
-						<img src="images/pl1.jpg" alt="Product1" class="mx-auto d-block" style="height:15rem">
+					<div>
+						<img src="images/pl2.jpg" alt="Product1" class="mx-auto d-block custom-height">
 						Adidas Women reversible track jacket
 						<br>
 						<span class="red">134 lei</span>
@@ -139,8 +150,8 @@
 							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
 						</div>
 					</div>
-					<div style="text-align: center;font-weight: 600;">
-						<img src="images/pl2.jpg" alt="Product1" class="mx-auto d-block" style="height:15rem">
+					<div>
+						<img src="images/pl3.jpg" alt="Product1" class="mx-auto d-block custom-height">
 						Adidas Women reversible track jacket
 						<br>
 						<span class="red">134 lei</span>
@@ -150,8 +161,8 @@
 							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
 						</div>
 					</div>
-					<div style="text-align: center;font-weight: 600;">
-						<img src="images/pl3.jpg" alt="Product1" class="mx-auto d-block" style="height:15rem">
+					<div>
+						<img src="images/pl4.jpg" alt="Product1" class="mx-auto d-block custom-height">
 						Adidas Women reversible track jacket
 						<br>
 						<span class="red">134 lei</span>
@@ -161,19 +172,8 @@
 							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
 						</div>
 					</div>
-					<div style="text-align: center;font-weight: 600;">
-						<img src="images/pl4.jpg" alt="Product1" class="mx-auto d-block" style="height:15rem">
-						Adidas Women reversible track jacket
-						<br>
-						<span class="red">134 lei</span>
-						<span class="grey">165 lei</span>
-						<div class="btn-group" role="group" aria-label="Basic example">
-							<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-						</div>
-					</div>
-					<div style="text-align: center;font-weight: 600;">
-						<img src="images/pl5.jpg" alt="Product1" class="mx-auto d-block" style="height:15rem">
+					<div>
+						<img src="images/pl5.jpg" alt="Product1" class="mx-auto d-block custom-height">
 						Adidas Women reversible track jacket
 						<br>
 						<span class="red">134 lei</span>
@@ -219,7 +219,7 @@
 								<br><br><br>
 								<div class="row basket-carousel">
 									<div class="styling">
-											<img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block" style="height:10rem">
+											<img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
 											reversible track jacket
@@ -233,7 +233,7 @@
 											</div>
 									</div>
 									<div class="styling">
-											<img src="images/pb2.jpg" alt="Product1" class="mx-auto d-block" style="height:10rem">
+											<img src="images/pb2.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
 											reversible track jacket
@@ -247,7 +247,7 @@
 											</div>
 									</div>
 									<div class="styling">
-											<img src="images/pb3.jpg" alt="Product1" class="mx-auto d-block" style="height:10rem">
+											<img src="images/pb3.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
 											reversible track jacket
@@ -261,7 +261,7 @@
 											</div>
 									</div>
 									<div class="styling">
-											<img src="images/pb4.jpg" alt="Product1" class="mx-auto d-block" style="height:10rem">
+											<img src="images/pb4.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
 											reversible track jacket
@@ -275,7 +275,7 @@
 											</div>
 									</div>
 									<div class="styling">
-											<img src="images/pb5.jpg" alt="Product1" class="mx-auto d-block" style="height:10rem">
+											<img src="images/pb5.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
 											reversible track jacket
@@ -289,7 +289,7 @@
 											</div>
 									</div>
 									<div class="styling">
-											<img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block" style="height:10rem">
+											<img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
 											reversible track jacket
@@ -303,7 +303,7 @@
 											</div>
 									</div>
 									<div class="styling">
-											<img src="images/pb2.jpg" alt="Product1" class="mx-auto d-block" style="height:10rem">
+											<img src="images/pb2.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
 											reversible track jacket
@@ -317,7 +317,7 @@
 											</div>
 									</div>
 									<div class="styling">
-											<img src="images/pb3.jpg" alt="Product1" class="mx-auto d-block" style="height:10rem">
+											<img src="images/pb3.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
 											reversible track jacket
@@ -331,7 +331,7 @@
 											</div>
 									</div>
 									<div class="styling">
-											<img src="images/pb4.jpg" alt="Product1" class="mx-auto d-block" style="height:10rem">
+											<img src="images/pb4.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
 											reversible track jacket
@@ -345,7 +345,7 @@
 											</div>
 									</div>
 									<div class="styling">
-											<img src="images/pb5.jpg" alt="Product1" class="mx-auto d-block" style="height:10rem">
+											<img src="images/pb5.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
 											reversible track jacket

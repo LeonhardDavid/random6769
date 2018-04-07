@@ -1,6 +1,7 @@
 <footer class="footer-background footer-position">
 
-  <div class="container d-none d-lg-block" style="font-size:0.9rem">
+  <!-- footer for desktop -->
+  <div class="container d-none d-lg-block">
     <div class="row top-row">
       <div class="col-md-3 text-left top-col my-5">
         <h4> Experti in e-Commerce </h4>
@@ -68,6 +69,7 @@
 
   </div>
 
+  <!-- footer for mobile -->
   <div class="d-lg-none">
     <div class="row top-row mx-0">
       <div class="top-col text-center">
@@ -107,7 +109,7 @@
 
   </div>
 
-	    <div class="row bottom-row mx-0 pb-3" style="position:relative;bottom:-20px">
+	    <div class="row bottom-row mx-0 py-2">
 	      <div class="col-lg-4 text-center">
 	        © Copyright 2018. All rights reserved.
 	      </div>
