@@ -137,7 +137,7 @@
 }
 
 .dropdown-menu .my-account-item:active{
-  color: var(--text-color-blue-hover) !important; 
+  color: var(--text-color-blue-hover) !important;
 }
 
 .dropdown-menu .my-account-item:hover{
@@ -166,7 +166,7 @@
 }
 
 .dropdown-item .product-in-cart-details{
-  
+
 }
 
 .row .product-order-details{
