@@ -186,35 +186,87 @@
 
 				</div>
 			</div>
-			<div class="row-flex">
-				<div class="col-md-3 mx-3 w">
+			<div class="row">
+				<div class="col-sm-5 col-md-3 d-none d-sm-block">
 					<ul class="list-group list-group-flush">
-					  <li class="list-group-item blue-bg d-flex justify-content-center">CATEGORII</li>
-					  <li class="list-group-item d-flex justify-content-center other-bg"><a href="#">SPORTURI ACVATICE</a></li>
-					  <li class="list-group-item d-flex justify-content-center other-bg"><a href="#">SPORTURI DE IARNA</a></li>
-					  <li class="list-group-item d-flex justify-content-center other-bg"><a href="#">FITNESS & CARDIO</a></li>
-					  <li class="list-group-item d-flex justify-content-center other-bg"><a href="#">FOTBAL & BASKET</a></li>
-						<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">INCALTAMINTE</a></li>
-						<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">GECI SI JACKETE</a></li>
-						<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">SKATES & ROLLERS</a></li>
-						<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">ACCESORII CAMPING</a></li>
-						<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">DRUMETIE & TIMP LIBER</a></li>
+					 	<li class="list-group-item blue-bg d-flex justify-content-center">CATEGORII</li>
+						<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">SPORTURI ACVATICE</a></li>
+						<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">SPORTURI DE IARNA</a></li>
+						<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">FITNESS & CARDIO</a></li>
+						<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">FOTBAL & BASKET</a></li>
+					  	<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">INCALTAMINTE</a></li>
+					  	<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">GECI SI JACKETE</a></li>
+					  	<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">SKATES & ROLLERS</a></li>
+					  	<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">ACCESORII CAMPING</a></li>
+					  	<li class="list-group-item d-flex justify-content-center other-bg"><a href="#">DRUMETIE & TIMP LIBER</a></li>
 					</ul>
 				</div>
-				<div class="col-md-9">
+				<div class="col-sm-7 col-md-9">
 
+			      	<div class="row h-100">
+			      		<div class="col-md-6 h-100">
+
+			      			<!-- Mini-slider 1-->
+								<div id="carouselExampleIndicators-item1" class="carousel slide h-100 align" data-ride="carousel" data-interval="false" data-keyboard="true">
+									<ol class="carousel-indicators">
+								    	<li data-target="#carouselExampleIndicators-item1" data-slide-to="0" class="active"></li>
+								    	<li data-target="#carouselExampleIndicators-item1" data-slide-to="1"></li>
+								    	<li data-target="#carouselExampleIndicators-item1" data-slide-to="2"></li>
+								  	</ol>
+								  <div class="carousel-inner h-100">
+								    <div class="carousel-item h-100 active">
+
+								      <img class="d-block w-100 h-100 mini-slider" src="images/mini-slider-image-1.jpg" alt="First slide" >
+
+								    </div>
+								    <div class="carousel-item h-100">
+
+								      <img class="d-block w-100 h-100 mini-slider" src="images/mini-slider-image-2.jpg" alt="Second slide" >
+
+								    </div>
+								    <div class="carousel-item h-100">
+
+								      <img class="d-block w-100 h-100 mini-slider" src="images/mini-slider-image-3.jpg" alt="Third slide" >
+
+								    </div>
+								  </div>
+								</div>
+			      			</div>
+				      	<div class="col-md-6">
+				      		<!-- Extra Images 1 -->
+				      		<div class="row h-50 d-none d-lg-block" >
+				      			<img class="d-block w-100 h-100 extra" src="images/extra-image-1.png" alt="extra-image1" >
+				      		</div>
+
+				      		<!-- Extra Images 2 -->
+				      		<div class="row h-50">
+				      			<div class="col-lg-6 d-none d-md-block">
+				      				<div class="row">
+				      					<img class="d-block w-100 extra-2" src="images//extra-image-2.png" alt="extra-image2" >
+				      				</div>
+				      			</div>
+				      			<div class="col-lg-6 d-none d-md-block">
+				      				<div class="row">
+				      					<img class="d-block w-100 extra-2" src="images//extra-image-3.png" alt="extra-image3" >
+				      				</div>
+				      			</div>
+
+				      		</div>
+				      	</div>
+			      	</div>
+
+			      </div>
 				</div>
-					</div>
-				</div>
+			</div>
 
 						<div class="container-fluid section-bg" >
 								<div class="row text">
-									<div class="title-text mx-auto my-3">
+									<h1 class="title-text text-center mx-auto my-3">
 											AMERICAN BASKET equipment
-									</div>
-										<div class="subtitle-text mx-auto">
+									</h1>
+										<h2 class="subtitle-text text-center mx-auto">
 											The Nike Shield Women's Running Jacket is water-resistant for<br> lightweight protection from the elements.
-										</div>
+										</h2>
 								</div>
 								<br><br><br>
 								<div class="row basket-carousel">
@@ -362,7 +414,12 @@
 						</div>
 
 				<div class="container white">
-					<img src="images/banner1.jpg" alt="Salomon banner" class="img-responsive my-4">
+					<div class="d-none d-md-block">
+						<img src="images/banner-desktop-1.jpg" alt="salomon banner desktop" class="img-responsive w-100 my-4">
+					</div>
+					<div class="d-md-none">
+						<img src="images/banner-mobile-1.jpg" alt="salomon banner mobile" class="img-responsive w-100 my-4">
+					</div>
 					<div class="row-flex">
 						<div class="col-md-12 mx-3">
 								<span class="product-styling">Istoricul tau de navigare</span>
