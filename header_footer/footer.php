@@ -141,7 +141,38 @@
 			   	slidesToShow: 5,
 					slidesToScroll:1,
 					autoplay:true,
-					autoplaySpeed: 1000
+					autoplaySpeed: 1000,
+          responsive:
+          [
+            {
+              breakpoint:1250,
+              settings: {
+                slidesToShow:4,
+                slidesToScroll:4
+              }
+            },
+            {
+              breakpoint:1000,
+              settings:{
+                slidesToShow:3,
+                slidesToScroll:3
+              }
+            },
+            {
+              breakpoint:740,
+              settings:{
+                slidesToShow:2,
+                slidesToScroll:2
+              }
+            },
+            {
+              breakpoint:480,
+              settings:{
+                slidesToShow:1,
+                slidesToScroll:1
+              }
+            }
+          ]
 		  });
 			$(".basket-carousel").slick({
 				slidesToShow:5,
@@ -151,24 +182,31 @@
         responsive:
         [
           {
-            breakpoint:960,
+            breakpoint:1250,
             settings: {
               slidesToShow:4,
               slidesToScroll:4
             }
           },
           {
-            breakpoint:720,
+            breakpoint:1000,
             settings:{
               slidesToShow:3,
               slidesToScroll:3
             }
           },
           {
-            breakpoint:540,
+            breakpoint:740,
             settings:{
               slidesToShow:2,
               slidesToScroll:2
+            }
+          },
+          {
+            breakpoint:480,
+            settings:{
+              slidesToShow:1,
+              slidesToScroll:1
             }
           }
         ]
