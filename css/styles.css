@@ -211,7 +211,11 @@ Row after gallery
 	height: 15rem;
 }
 .custom-height-2{
-	height: 10rem;
+	display: block;
+	margin: 0 auto;
+	max-width: 180px;
+	width: 100%;
+	height: auto;
 }
 .col-md-3{
 	text-align: center;
@@ -277,7 +281,7 @@ ul.list-group li a:active{
 		object-fit: cover;
 		border-radius: 10px 10px 15px 15px;
 	}
-	
+
 }
 
 .carousel-item .mini-slider{
@@ -318,10 +322,14 @@ ul.list-group li a:active{
 .styling{
 	background-color: var(--text-color-white)!important;
 	margin: 10px;
+	display: flex;
 	text-align:center;
+	width:100%;
+	height:auto!important;
 	padding-bottom:5px;
 	border-radius:5px;
 	font-weight: 600;
+
 }
 .styling_bottom{
 	background-color: var(--text-color-white)!important;

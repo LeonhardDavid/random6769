@@ -148,6 +148,30 @@
 				slidesToScroll:5,
 				autoplay:true,
 				autoplaySpeed:3000,
+        responsive:
+        [
+          {
+            breakpoint:960,
+            settings: {
+              slidesToShow:4,
+              slidesToScroll:4
+            }
+          },
+          {
+            breakpoint:720,
+            settings:{
+              slidesToShow:3,
+              slidesToScroll:3
+            }
+          },
+          {
+            breakpoint:540,
+            settings:{
+              slidesToShow:2,
+              slidesToScroll:2
+            }
+          }
+        ]
 
 			});
 			$("#history2_content").hide();
