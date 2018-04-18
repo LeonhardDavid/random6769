@@ -125,15 +125,40 @@
 	    </div>
 
   </body>
-	<!-- Bootstrap JS -->
+	  
+    <!-- Bootstrap JS -->
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-		<!-- Slick JS -->
-
+		
+    <!-- Slick JS -->
 		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<script type="text/javascript" src="css/slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+    (function ($) {
+    $(document).ready(function(){
+
+      // hide .header-scroll first
+      $(".header-scroll").css("cssText", "display: none !important;");
+
+      // fade in .header-scroll
+      $(function () {
+          $(window).scroll(function () {
+
+                   // set distance user needs to scroll before we start fadeIn
+              if ($(this).scrollTop() > 450) {
+                  $('.header-scroll').show();
+              } else {
+                  $('.header-scroll').css("cssText", "display: none !important;");
+              }
+          });
+      });
+
+  });
+    }(jQuery));
+    </script>
 
 		<script type="text/javascript">
 		$(document).ready(function(){
@@ -212,36 +237,46 @@
         ]
 
 			});
-			$("#history2_content").hide();
-			$("#history3_content").hide();
-			$("#history4_content").hide();
-		if($("#history1").click('clicked')){
-			$("#history1_content").show();
-			$("#history2_content").hide();
-			$("#history3_content").hide();
-			$("#history4_content").hide();
-		}
-		else {
-			if($("#history2").data('clicked')){
-				$("#history2_content").show();
-				$("#history1_content").hide();
-				$("#history3_content").hide();
-				$("#history4_content").hide();
-		}
-		else {
-			if($("#history3").data('clicked')){
-				$("#history3_content").show();
-				$("#history1_content").hide();
-				$("#history2_content").hide();
-				$("#history4_content").hide();
-		}
-		else {
-			if($("#history4").data('clicked')){
-				$("#history4_content").show();
-				$("#history1_content").hide();
-				$("#history2_content").hide();
-				$("#history3_content").hide();
-		}}}}
+      $(".history_carousel").slick({
+          slidesToShow:10
+
+      });
+      $(".product_history_carousel").slick({
+          slidesToShow:5,
+          slidesToScroll:1,
+          dots:true,
+          responsive:
+          [
+          {
+            breakpoint: 1250,
+            settings: {
+              slidesToShow:4,
+              slidesToScroll:4
+            }
+          },
+          {
+            breakpoint:1000,
+            settings:{
+              slidesToShow:3,
+              slidesToScroll:3
+            }
+          },
+          {
+            breakpoint:740,
+            settings:{
+              slidesToShow:2,
+              slidesToScroll:2,
+            }
+          },
+          {
+            breakpoint:480,
+            settings:{
+              slidesToShow:1,
+              slidesToScroll:1
+            }
+          }
+          ]
+      });
 
 });
 		</script>

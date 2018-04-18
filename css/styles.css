@@ -222,6 +222,21 @@ Row after gallery
 	width: 100%;
 	height: auto;
 }
+
+.custom-badge-new{
+	position: absolute;
+	transform: translateX(40px);
+	font-size: 1rem !important;
+	width: 53px;
+}
+
+.custom-badge-additional{
+	position: absolute;
+	transform: translate(40px, 27px);
+	font-size: 1rem !important;	
+	width: 53px;
+}
+
 .col-md-3{
 	text-align: center;
 }

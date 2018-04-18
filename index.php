@@ -105,7 +105,8 @@
 			</div>
 			<div class="my-5 mx-5">
 				<div class="product-carousel">
-					<div>
+					<div class="styling">
+						<span class="badge badge-danger custom-badge-new">NOU!</span>
 						<img src="images/pl1.jpg" alt="Product1" class="mx-auto d-block custom-height">
 						Adidas Women reversible track jacket
 						<br>
@@ -117,7 +118,9 @@
 							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
 						</div>
 					</div>
-					<div>
+					<div class="styling">
+						<span class="badge badge-danger custom-badge-new">NOU!</span>
+						<span class="badge badge-danger custom-badge-additional">-20%</span>
 						<img src="images/pl2.jpg" alt="Product1" class="mx-auto d-block custom-height">
 						Adidas Women reversible track jacket
 						<br>
@@ -129,7 +132,8 @@
 							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
 						</div>
 					</div>
-					<div>
+					<div class="styling">
+
 						<img src="images/pl3.jpg" alt="Product1" class="mx-auto d-block custom-height">
 						Adidas Women reversible track jacket
 						<br>
@@ -141,7 +145,8 @@
 							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
 						</div>
 					</div>
-					<div>
+					<div class="styling"> 
+
 						<img src="images/pl4.jpg" alt="Product1" class="mx-auto d-block custom-height">
 						Adidas Women reversible track jacket
 						<br>
@@ -153,7 +158,8 @@
 							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
 						</div>
 					</div>
-					<div>
+					<div class="styling">
+
 						<img src="images/pl5.jpg" alt="Product1" class="mx-auto d-block custom-height">
 						Adidas Women reversible track jacket
 						<br>
@@ -165,7 +171,8 @@
 							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
 						</div>
 					</div>
-					<div>
+					<div class="styling">
+
 						<img src="images/pl1.jpg" alt="Product1" class="mx-auto d-block custom-height">
 						Adidas Women reversible track jacket
 						<br>
@@ -177,7 +184,8 @@
 							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
 						</div>
 					</div>
-					<div>
+					<div class="styling">						
+						<span class="badge badge-danger custom-badge-new">-20%</span>
 						<img src="images/pl2.jpg" alt="Product1" class="mx-auto d-block custom-height">
 						Adidas Women reversible track jacket
 						<br>
@@ -189,7 +197,8 @@
 							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
 						</div>
 					</div>
-					<div>
+					<div class="styling">
+						<span class="badge badge-danger custom-badge-new">NOU!</span>
 						<img src="images/pl3.jpg" alt="Product1" class="mx-auto d-block custom-height">
 						Adidas Women reversible track jacket
 						<br>
@@ -201,7 +210,9 @@
 							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
 						</div>
 					</div>
-					<div>
+					<div class="styling">
+						<span class="badge badge-danger custom-badge-new">NOU!</span>
+						<span class="badge badge-danger custom-badge-additional">-20%</span>
 						<img src="images/pl4.jpg" alt="Product1" class="mx-auto d-block custom-height">
 						Adidas Women reversible track jacket
 						<br>
@@ -213,7 +224,7 @@
 							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
 						</div>
 					</div>
-					<div>
+					<div class="styling">
 						<img src="images/pl5.jpg" alt="Product1" class="mx-auto d-block custom-height">
 						Adidas Women reversible track jacket
 						<br>
@@ -313,6 +324,8 @@
 								<br><br><br><br>
 								<div class="row basket-carousel">
 									<div class="styling">
+											<span class="badge badge-danger custom-badge-new">NOU!</span>
+											<span class="badge badge-danger custom-badge-additional">-20%</span>
 											<img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
@@ -327,6 +340,7 @@
 											</div>
 									</div>
 									<div class="styling">
+
 											<img src="images/pb2.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
@@ -341,6 +355,7 @@
 											</div>
 									</div>
 									<div class="styling">
+											<span class="badge badge-danger custom-badge-new">NOU!</span>
 											<img src="images/pb3.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
@@ -355,6 +370,7 @@
 											</div>
 									</div>
 									<div class="styling">
+											<span class="badge badge-danger custom-badge-new">NOU!</span>
 											<img src="images/pb4.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
@@ -369,6 +385,7 @@
 											</div>
 									</div>
 									<div class="styling">
+											<span class="badge badge-danger custom-badge-new">-20%</span>
 											<img src="images/pb5.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
@@ -383,6 +400,7 @@
 											</div>
 									</div>
 									<div class="styling">
+											<span class="badge badge-danger custom-badge-new">NOU!</span>
 											<img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
@@ -397,6 +415,7 @@
 											</div>
 									</div>
 									<div class="styling">
+											<span class="badge badge-danger custom-badge-new">-20%</span>
 											<img src="images/pb2.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
@@ -411,6 +430,8 @@
 											</div>
 									</div>
 									<div class="styling">
+											<span class="badge badge-danger custom-badge-new">NOU!</span>
+											<span class="badge badge-danger custom-badge-additional">-20%</span>
 											<img src="images/pb3.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
@@ -425,6 +446,7 @@
 											</div>
 									</div>
 									<div class="styling">
+
 											<img src="images/pb4.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
@@ -439,6 +461,7 @@
 											</div>
 									</div>
 									<div class="styling">
+											<span class="badge badge-danger custom-badge-new">NOU!</span>
 											<img src="images/pb5.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
@@ -508,10 +531,26 @@
 								<span class>Alti clienti au fost interesati si de: </span>
 						</div>
 					</div>
-					<div class="row-flex d-flex justify-content-center">
-							<ul class="list-inline" id="history1_content">
-									<li class="list-inline-item styling_bottom">
-												<img src="images/p1.jpg" alt="Tricou1">
+					
+							<div class="product_history_carousel row">
+									<div class="styling_bottom">
+												<span class="badge badge-danger custom-badge-new">NOU!</span>
+												<span class="badge badge-danger custom-badge-additional">-20%</span>
+											<img src="images/p1.jpg" alt="Tricou1" class="mx-auto d-block">
+											<br>
+											<span>Adidas Women reversible<br> track jacket</span>
+											<br>
+											<span class="red">134 lei</span>
+											<span class="grey">165 lei</span>
+											<br>
+											<div class="btn-group" role="group" aria-label="Basic example">
+												<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
+												<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>					
+											</div>
+									</div>
+									<div class="styling_bottom">
+												<span class="badge badge-danger custom-badge-new">NOU!</span>
+												<img src="images/p2.jpg" alt="Tricou2" class="mx-auto d-block">
 												<br>
 												<span>Adidas Women reversible<br> track jacket</span>
 												<br>
@@ -522,9 +561,9 @@
 													<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
 													<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
 												</div>
-									</li>
-									<li class="list-inline-item styling_bottom">
-												<img src="images/p2.jpg" alt="Tricou2">
+									</div>
+									<div class="styling_bottom">
+												<img src="images/p3.jpg" alt="Tricou3" class="mx-auto d-block">
 												<br>
 												<span>Adidas Women reversible<br> track jacket</span>
 												<br>
@@ -535,9 +574,9 @@
 													<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
 													<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
 												</div>
-									</li>
-									<li class="list-inline-item styling_bottom">
-												<img src="images/p3.jpg" alt="Tricou3">
+									</div>
+									<div class="styling_bottom">
+												<img src="images/p4.jpg" alt="Tricou4" class="mx-auto d-block">
 												<br>
 												<span>Adidas Women reversible<br> track jacket</span>
 												<br>
@@ -548,9 +587,10 @@
 													<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
 													<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
 												</div>
-									</li>
-									<li class="list-inline-item styling_bottom">
-												<img src="images/p4.jpg" alt="Tricou4">
+									</div>
+									<div class="styling_bottom" >
+												<span class="badge badge-danger custom-badge-new">-20%</span>
+												<img src="images/p5.jpg" alt="Tricou5" class="mx-auto d-block">
 												<br>
 												<span>Adidas Women reversible<br> track jacket</span>
 												<br>
@@ -561,224 +601,10 @@
 													<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
 													<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
 												</div>
-									</li>
-									<li class="list-inline-item styling_bottom">
-												<img src="images/p5.jpg" alt="Tricou5">
-												<br>
-												<span>Adidas Women reversible<br> track jacket</span>
-												<br>
-												<span class="red">134 lei</span>
-												<span class="grey">165 lei</span>
-												<br>
-												<div class="btn-group" role="group" aria-label="Basic example">
-													<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-													<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-												</div>
-									</li>
-							</ul>
-							<ul class="list-inline" id="history2_content" >
-									<li class="list-inline-item styling_bottom">
-												<img src="images/p1 (1).jpg" alt="Tricou1">
-												<br>
-												<span>Adidas Women reversible<br> track jacket</span>
-												<br>
-												<span class="red">134 lei</span>
-												<span class="grey">165 lei</span>
-												<br>
-												<div class="btn-group" role="group" aria-label="Basic example">
-													<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-													<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-												</div>
-									</li>
-									<li class="list-inline-item styling_bottom">
-												<img src="images/p2 (1).jpg" alt="Tricou2">
-												<br>
-												<span>Adidas Women reversible<br> track jacket</span>
-												<br>
-												<span class="red">134 lei</span>
-												<span class="grey">165 lei</span>
-												<br>
-												<div class="btn-group" role="group" aria-label="Basic example">
-													<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-													<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-												</div>
-									</li>
-									<li class="list-inline-item styling_bottom">
-												<img src="images/p3 (1).jpg" alt="Tricou3">
-												<br>
-												<span>Adidas Women reversible<br> track jacket</span>
-												<br>
-												<span class="red">134 lei</span>
-												<span class="grey">165 lei</span>
-												<br>
-												<div class="btn-group" role="group" aria-label="Basic example">
-													<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-													<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-												</div>
-									</li>
-									<li class="list-inline-item styling_bottom">
-												<img src="images/p4 (1).jpg" alt="Tricou4">
-												<br>
-												<span>Adidas Women reversible<br> track jacket</span>
-												<br>
-												<span class="red">134 lei</span>
-												<span class="grey">165 lei</span>
-												<br>
-												<div class="btn-group" role="group" aria-label="Basic example">
-													<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-													<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-												</div>
-									</li>
-									<li class="list-inline-item styling_bottom">
-												<img src="images/p5 (1).jpg" alt="Tricou5">
-												<br>
-												<span>Adidas Women reversible<br> track jacket</span>
-												<br>
-												<span class="red">134 lei</span>
-												<span class="grey">165 lei</span>
-												<br>
-												<div class="btn-group" role="group" aria-label="Basic example">
-													<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-													<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-												</div>
-									</li>
-							</ul>
-							<ul class="list-inline" id="history3_content" >
-									<li class="list-inline-item styling_bottom">
-												<img src="images/p1 (2).jpg" alt="Tricou1">
-												<br>
-												<span>Adidas Women reversible<br> track jacket</span>
-												<br>
-												<span class="red">134 lei</span>
-												<span class="grey">165 lei</span>
-												<br>
-												<div class="btn-group" role="group" aria-label="Basic example">
-													<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-													<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-												</div>
-									</li>
-									<li class="list-inline-item styling_bottom">
-												<img src="images/p2 (2).jpg" alt="Tricou2">
-												<br>
-												<span>Adidas Women reversible<br> track jacket</span>
-												<br>
-												<span class="red">134 lei</span>
-												<span class="grey">165 lei</span>
-												<br>
-												<div class="btn-group" role="group" aria-label="Basic example">
-													<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-													<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-												</div>
-									</li>
-									<li class="list-inline-item styling_bottom">
-												<img src="images/p3 (2).jpg" alt="Tricou3">
-												<br>
-												<span>Adidas Women reversible<br> track jacket</span>
-												<br>
-												<span class="red">134 lei</span>
-												<span class="grey">165 lei</span>
-												<br>
-												<div class="btn-group" role="group" aria-label="Basic example">
-													<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-													<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-												</div>
-									</li>
-									<li class="list-inline-item styling_bottom">
-												<img src="images/p4 (2).jpg" alt="Tricou4">
-												<br>
-												<span>Adidas Women reversible<br> track jacket</span>
-												<br>
-												<span class="red">134 lei</span>
-												<span class="grey">165 lei</span>
-												<br>
-												<div class="btn-group" role="group" aria-label="Basic example">
-													<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-													<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-												</div>
-									</li>
-									<li class="list-inline-item styling_bottom">
-												<img src="images/p5 (2).jpg" alt="Tricou5">
-												<br>
-												<span>Adidas Women reversible<br> track jacket</span>
-												<br>
-												<span class="red">134 lei</span>
-												<span class="grey">165 lei</span>
-												<br>
-												<div class="btn-group" role="group" aria-label="Basic example">
-													<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-													<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-												</div>
-									</li>
-							</ul>
-							<ul class="list-inline" id="history4_content" >
-									<li class="list-inline-item styling_bottom">
-												<img src="images/p1 (3).jpg" alt="Tricou1">
-												<br>
-												<span>Adidas Women reversible<br> track jacket</span>
-												<br>
-												<span class="red">134 lei</span>
-												<span class="grey">165 lei</span>
-												<br>
-												<div class="btn-group" role="group" aria-label="Basic example">
-													<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-													<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-												</div>
-									</li>
-									<li class="list-inline-item styling_bottom">
-												<img src="images/p2 (3).jpg" alt="Tricou2">
-												<br>
-												<span>Adidas Women reversible<br> track jacket</span>
-												<br>
-												<span class="red">134 lei</span>
-												<span class="grey">165 lei</span>
-												<br>
-												<div class="btn-group" role="group" aria-label="Basic example">
-													<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-													<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-												</div>
-									</li>
-									<li class="list-inline-item styling_bottom">
-												<img src="images/p3 (3).jpg" alt="Tricou3">
-												<br>
-												<span>Adidas Women reversible<br> track jacket</span>
-												<br>
-												<span class="red">134 lei</span>
-												<span class="grey">165 lei</span>
-												<br>
-												<div class="btn-group" role="group" aria-label="Basic example">
-													<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-													<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-												</div>
-									</li>
-									<li class="list-inline-item styling_bottom">
-												<img src="images/p4 (3).jpg" alt="Tricou4">
-												<br>
-												<span>Adidas Women reversible<br> track jacket</span>
-												<br>
-												<span class="red">134 lei</span>
-												<span class="grey">165 lei</span>
-												<br>
-												<div class="btn-group" role="group" aria-label="Basic example">
-													<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-													<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-												</div>
-									</li>
-									<li class="list-inline-item styling_bottom">
-												<img src="images/p5 (3).jpg" alt="Tricou5">
-												<br>
-												<span>Adidas Women reversible<br> track jacket</span>
-												<br>
-												<span class="red">134 lei</span>
-												<span class="grey">165 lei</span>
-												<br>
-												<div class="btn-group" role="group" aria-label="Basic example">
-													<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-													<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-												</div>
-									</li>
-							</ul>
+									</div>
+							</div>
 					</div>
-				</div>
+				
 <!-- End code -->
 
 <?php require 'header_footer/footer.php';?>
