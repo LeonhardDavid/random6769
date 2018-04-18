@@ -270,6 +270,15 @@
   border-radius: 0;
 }
 
+.row .product-tab{
+  background-color: var(--text-color-blue); 
+  border-bottom-left-radius: 5px;
+}
+
+.product-list .list-group-item:first-child{
+  border-radius: 0 !important;
+}
+
 .product-list .product-item{
   border: 0;
   background-color: var(--navbar-categories-bg-color);
