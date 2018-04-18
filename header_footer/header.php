@@ -787,21 +787,21 @@
                 <div class="row">
                   <div class="col-md-2 px-0 product-tab">
                     <div class="list-group product-list" id="list-tab" role="tablist">
-                      <a class="list-group-item list-group-item-action product-item" id="list-category0-list" data-toggle="list" href="#list-category0" role="tab" aria-controls="category0"> ADIDAS ORIGINALS</a>
-                      <a class="list-group-item list-group-item-action product-item" id="list-category1-list" data-toggle="list" href="#list-category1" role="tab" aria-controls="category1"> NIKELAB</a>
-                      <a class="list-group-item list-group-item-action product-item" id="list-category2-list" data-toggle="list" href="#list-category2" role="tab" aria-controls="category2"> SPORTS</a>
-                      <a class="list-group-item list-group-item-action product-item" id="list-category3-list" data-toggle="list" href="#list-category3" role="tab" aria-controls="category3"> ATHLETES</a>
-                      <a class="list-group-item list-group-item-action product-item" id="list-category4-list" data-toggle="list" href="#list-category4" role="tab" aria-controls="category4"> MEN'S SHOES</a>
-                      <a class="list-group-item list-group-item-action product-item" id="list-category5-list" data-toggle="list" href="#list-category5" role="tab" aria-controls="category5"> MEN'S CLOTHING</a>
-                      <a class="list-group-item list-group-item-action product-item" id="list-category6-list" data-toggle="list" href="#list-category6" role="tab" aria-controls="category6"> WOMEN'S SHOES</a>
-                      <a class="list-group-item list-group-item-action product-item" id="list-category7-list" data-toggle="list" href="#list-category7" role="tab" aria-controls="category7"> WOMEN'S CLOTHING</a>
-                      <a class="list-group-item list-group-item-action product-item" id="list-category8-list" data-toggle="list" href="#list-category8" role="tab" aria-controls="category8"> KID'S SHOES</a>
-                      <a class="list-group-item list-group-item-action product-item" id="list-category9-list" data-toggle="list" href="#list-category9" role="tab" aria-controls="category9"> KID'S CLOTHING</a>
+                      <a class="list-group-item list-group-item-action product-item" id="list-category0-copy-list" data-toggle="list" href="#list-category0-copy" role="tab" aria-controls="category0-copy"> ADIDAS ORIGINALS</a>
+                      <a class="list-group-item list-group-item-action product-item" id="list-category1-copy-list" data-toggle="list" href="#list-category1-copy" role="tab" aria-controls="category1-copy"> NIKELAB</a>
+                      <a class="list-group-item list-group-item-action product-item" id="list-category2-copy-list" data-toggle="list" href="#list-category2-copy" role="tab" aria-controls="category2-copy"> SPORTS</a>
+                      <a class="list-group-item list-group-item-action product-item" id="list-category3-copy-list" data-toggle="list" href="#list-category3-copy" role="tab" aria-controls="category3-copy"> ATHLETES</a>
+                      <a class="list-group-item list-group-item-action product-item" id="list-category4-copy-list" data-toggle="list" href="#list-category4-copy" role="tab" aria-controls="category4-copy"> MEN'S SHOES</a>
+                      <a class="list-group-item list-group-item-action product-item" id="list-category5-copy-list" data-toggle="list" href="#list-category5-copy" role="tab" aria-controls="category5-copy"> MEN'S CLOTHING</a>
+                      <a class="list-group-item list-group-item-action product-item" id="list-category6-copy-list" data-toggle="list" href="#list-category6-copy" role="tab" aria-controls="category6-copy"> WOMEN'S SHOES</a>
+                      <a class="list-group-item list-group-item-action product-item" id="list-category7-copy-list" data-toggle="list" href="#list-category7-copy" role="tab" aria-controls="category7-copy"> WOMEN'S CLOTHING</a>
+                      <a class="list-group-item list-group-item-action product-item" id="list-category8-copy-list" data-toggle="list" href="#list-category8-copy" role="tab" aria-controls="category8-copy"> KID'S SHOES</a>
+                      <a class="list-group-item list-group-item-action product-item" id="list-category9-copy-list" data-toggle="list" href="#list-category9-copy" role="tab" aria-controls="category9-copy"> KID'S CLOTHING</a>
                     </div>
                   </div>
                   <div class="col-md-10">
                     <div class="tab-content" id="nav-tabContent">
-                      <div class="tab-pane fade show active" id="list-category0" role="tabpanel" aria-labelledby="list-category0-list">
+                      <div class="tab-pane fade show active" id="list-category0-copy" role="tabpanel" aria-labelledby="list-category0-copy-list">
 
                         <div class="row">
                           <div class="col-md-7">
@@ -909,7 +909,7 @@
                         </div>
                       </div>
 
-                      <div class="tab-pane fade" id="list-category1" role="tabpanel" aria-labelledby="list-category1-list">
+                      <div class="tab-pane fade" id="list-category1-copy" role="tabpanel" aria-labelledby="list-category1-copy-list">
                         <div class="row">
                           <div class="col-md-7">
 
@@ -1016,36 +1016,36 @@
                         </div>
                       </div>
 
-                      <div class="tab-pane fade" id="list-category2" role="tabpanel" aria-labelledby="list-category2-list">
-                        category2
+                      <div class="tab-pane fade" id="list-category2-copy" role="tabpanel" aria-labelledby="list-category2-copy-list">
+                        category2-copy
                       </div>
 
-                      <div class="tab-pane fade" id="list-category3" role="tabpanel" aria-labelledby="list-category3-list">
-                        category3
+                      <div class="tab-pane fade" id="list-category3-copy" role="tabpanel" aria-labelledby="list-category3-copy-list">
+                        category3-copy
                       </div>
 
-                      <div class="tab-pane fade" id="list-category4" role="tabpanel" aria-labelledby="list-category4-list">
-                        category4
+                      <div class="tab-pane fade" id="list-category4-copy" role="tabpanel" aria-labelledby="list-category4-copy-list">
+                        category4-copy
                       </div>
 
-                      <div class="tab-pane fade" id="list-category5" role="tabpanel" aria-labelledby="list-category5-list">
-                        category5
+                      <div class="tab-pane fade" id="list-category5-copy" role="tabpanel" aria-labelledby="list-category5-copy-list">
+                        category5-copy
                       </div>
 
-                      <div class="tab-pane fade" id="list-category6" role="tabpanel" aria-labelledby="list-category6-list">
-                        category6
+                      <div class="tab-pane fade" id="list-category6-copy" role="tabpanel" aria-labelledby="list-category6-copy-list">
+                        category6-copy
                       </div>
 
-                      <div class="tab-pane fade" id="list-category7" role="tabpanel" aria-labelledby="list-category7-list">
-                        category7
+                      <div class="tab-pane fade" id="list-category7-copy" role="tabpanel" aria-labelledby="list-category7-copy-list">
+                        category7-copy
                       </div>
 
-                      <div class="tab-pane fade" id="list-category8" role="tabpanel" aria-labelledby="list-category8-list">
-                        category8
+                      <div class="tab-pane fade" id="list-category8-copy" role="tabpanel" aria-labelledby="list-category8-copy-list">
+                        category8-copy
                       </div>
 
-                      <div class="tab-pane fade" id="list-category9" role="tabpanel" aria-labelledby="list-category9-list">
-                        category9
+                      <div class="tab-pane fade" id="list-category9-copy" role="tabpanel" aria-labelledby="list-category9-copy-list">
+                        category9-copy
                       </div>
 
                     </div>
@@ -1061,7 +1061,7 @@
 
     <!-- Logo -->
     <div class="col-md-1 my-auto d-flex logo-header">
-      <img class="mx-auto my-auto logo" style="height: 2.5rem;"src="images/logo.svg" alt ="Logo-header">
+      <img class="mx-auto my-auto logo" style="height: 2.5rem;" src="images/logo.svg" alt ="Logo-header">
     </div>
 
     <!-- Search form -->
