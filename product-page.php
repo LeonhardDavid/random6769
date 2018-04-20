@@ -19,10 +19,11 @@
 				<p class="product-code"> cod produs: <span name="product-code"> 1236769 </span></p>
 			</div>
 			<div class="col-6 text-right">
-				<a href="#" class="product-action-a px-1" name="wishlist"> <i class="fas fa-heart"></i>  Wishlist </a>
-				<a href="#" class="product-action-a px-1" name="compare"> <input type="checkbox" id="compare-checkbox"> <label>Compara</label> </a>
-				<!-- Facebook share button -->
-				<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&layout=button&size=small&mobile_iframe=true&appId=762524080486595&width=59&height=20" width="59" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+				<div class="row float-right">
+					<!-- Facebook share button -->
+					<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&layout=button&size=small&mobile_iframe=true&appId=762524080486595&width=59&height=20" width="59" height="20" style="border:none;overflow:hidden;margin-bottom: 0;" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+					<a href="#" class="product-action-a px-1" name="compare"> <input type="checkbox" id="compare-checkbox"> <label>Compara</label> </a>
+				</div>
 			</div>
 		</div>
 
@@ -33,14 +34,65 @@
 				<img class="product-photos-img" src="images/product-images/product-image-1.jpg">
 			</div>
 
-			<div class="col-md-6 product-description">
-				<p class="product-description-p">
-					The first iteration of the Nike Komyuter, the ACG.07.KMTR, silhouette's function guides its stance. The upper transforms from its loose, open state into a sleek, fast silhouette that marries gracefully to a full-rubber bottom with wet traction lugs (derived from the tooling of the Nike Tallac Flyknit ACG).
-				</p>
-				<p class="product-description-p">
-					Compositionally, this build simultaneously conveys comfort in speed and a readiness to take on anything. Reflective hits on the logo and welding seams help ensure the all-day, all-challenges equipment is balanced with requisite safety features.
-				</p>
+			<div class="col-md-3 product-details-1 text-left font-sz">
+				<ul class="ul-col-left px-0">
+							<li class="mb-2"> <span class="grey-text"> opinia clientilor:</span> </li>
+							<li class="mb-2"> 
+								<a href="#" class="col-left-a" style="display:flex;">
+									<div class="star-rating" name="star-rating" data-input="3.5">
+										<i class="fas fa-star yellow"></i>
+										<i class="fas fa-star yellow"></i>
+										<i class="fas fa-star yellow"></i>
+										<i class="fas fa-star grey"></i>
+										<i class="fas fa-star grey"></i>
+									</div>
+									&nbsp; 3.0
+								</a>
+								<a href="#" class="normal-link"> 2 review-uri </a>
+							</li>
+							<li class="mb-2"> <span class="grey-text"> Vandut de: </span> <span class="black-text"> eMAG</span> </li>
+							<li class="mb-2"> <span class="grey-text"> Ajunge in: </span> <span class="black-text"> <strong> Suceava (Suceava)</strong></span> <a href="#" class="normal-link"> schimba </a> </li>
+							<hr>
+							<li class="my-2"> 
+								<div class="row font-sz">
+									<div class="col-2">
+										<i class="fas fa-truck"></i>
+									</div>
+									<div class="col-7 px-1">
+										<span class="black-text"> Livrare standard</span>
+									</div>
+									<div class="col-3 px-1">
+										<span class="green-text float-right"> Gratuita </span>
+									</div>  
+							</li>
+							<hr>
+							<li class="my-2"> 
+								<div class="row font-sz">
+									<div class="col-2">
+										<i class="far fa-calendar-check"></i>
+									</div>
+									<div class="col-7 px-1">
+										<span class="black-text"> Livrare "cand vrei tu"</span><a class="normal-link" href="#"> (detalii) </a>
+									</div>
+									<div class="col-3 px-1">
+										<span class="black-text float-right"> 19 <sup> 00 </sup>Lei </span>
+									</div>
+							</li>
+							<hr>
+							<li class="mt-2">
+								<h4> Culori disponibile </h4>
+								<ul class="thumbnail-color-ul px-0">
+									<li class="mx-1"> <a class="thumbnail-color-a" href="#"> <img class="thumbnail-color-img" src="images/product-images/thumb-1.jpg"> </a></li>
+									<li class="mx-1"> <a class="thumbnail-color-a" href="#"> <img class="thumbnail-color-img active" src="images/product-images/thumb-2.jpg"> </a></li>
+								</ul>
+							</li>
+						</ul>
+			</div>
 
+			<div class="col-md-3 product-details-2">
+
+			</div>
+				<!--
 				<h4> Culori disponibile </h4>
 				<ul class="thumbnail-color-ul px-0">
 					<li class="mx-1"> <a class="thumbnail-color-a" href="#"> <img class="thumbnail-color-img" src="images/product-images/thumb-1.jpg"> </a></li>
@@ -49,24 +101,7 @@
 				
 				<div class="row mt-2">
 					<div class="col-md-6">
-						<ul class="ul-col-left px-0">
-							<li> <p class="mb-1 old-price"> Pret vechi: 2313,67lei</p> </li>
-							<li> <p class="mb-1 actual-price"> 1575 <sup> ,34 </sup> lei</p></li>
-							<li> <span class="badge badge-warning">Stoc limitat</span></li>
-							<li> 
-								<a href="#" class="col-left-a">
-									<div class="star-rating" name="star-rating" data-input="3.5">
-										<i class="fas fa-star yellow"></i>
-										<i class="fas fa-star yellow"></i>
-										<i class="fas fa-star yellow"></i>
-										<i class="fas fa-star-half yellow"></i>
-										<!-- Empty star: <i class="far fa-star"></i> -->
-									</div>
-								</a>
-								<a href="#" class="star-rating-a"> 3.5 (2156 recenzii) </a>
-							</li>
-							<li> <p class="mb-1 normal-text"> Preturile includ TVA. </p> </li>
-						</ul>
+						
 					</div>
 
 					<div class="col-md-6 text-right">
@@ -90,7 +125,9 @@
 						
 					</div>
 				</div>
+
 			</div>
+		-->
 		</div>
 
 	</div>
