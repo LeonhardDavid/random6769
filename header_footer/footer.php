@@ -136,6 +136,35 @@
 		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<script type="text/javascript" src="css/slick/slick.min.js"></script>
 
+    <!-- +/- quantity-->
+    <script>
+       $(document).ready(function(){
+            //-- Click on QUANTITY
+            $(".btn-minus").on("click",function(){
+                var now = $(".input-quantity > input").val();
+                if ($.isNumeric(now)){
+                    if (parseInt(now) -1 > 0){ now--;}
+                    $(".input-quantity > input").val(now);
+                }else{
+                    $(".input-quantity > input").val("1");
+                }
+            })            
+            $(".btn-plus").on("click",function(){
+                var now = $(".input-quantity > input").val();
+                if ($.isNumeric(now)){
+                    $(".input-quantity > input").val(parseInt(now)+1);
+                }else{
+                    $(".input-quantity > input").val("1");
+                }
+            })                        
+        }) 
+    </script>
+
+    <!-- product image gallery -->
+    <script>
+      
+    </script>
+
     <script type="text/javascript">
     (function ($) {
     $(document).ready(function(){
@@ -146,8 +175,7 @@
       // fade in .header-scroll
       $(function () {
           $(window).scroll(function () {
-
-                   // set distance user needs to scroll before we start fadeIn
+              // set distance user needs to scroll before we start fadeIn
               if ($(this).scrollTop() > 450) {
                   $('.header-scroll').show();
               } else {
@@ -278,7 +306,12 @@
           ]
       });
 
-});
+    });
+    $(".product-page-carousel").slick({
+        slidesToShow:4,
+        slidesToScroll:1,
+        autoplay:false,
+        });
 		</script>
 
 		<!-- Font Awesome CDN for vector icons-->

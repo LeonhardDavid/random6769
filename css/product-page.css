@@ -1,32 +1,39 @@
 
 .product-container{
-	background-color: #fafafa;
-	border-radius: 5px;
 	margin-top: 0;
 	padding: 2rem .5rem 2rem .5rem !important;
 }
 
-.product-container .product-path{
+.cont{
+	margin-left: -25px; 
+	margin-right: -25px; 
+	margin-top: -5px; 
+	margin-bottom: 25px;
+	background-color: white; 
+	border-radius: 15px;
+}
+
+.cont .product-path{
 	font-size: .75rem;
 	color: var(--text-color-grey);	
 }
 
-.product-container .product-path-a{
+.cont .product-path-a{
 	color: var(--text-color-grey);	
 	text-decoration: none;
 }
 
-.product-container .product-path-a:hover{
+.cont .product-path-a:hover{
 	color: var(--text-color-blue-hover);	
 	text-decoration: underline;
 }
 
-.product-container .product-title{
+.cont .product-title{
 	font-weight: bold;
 
 }
 
-.product-container .row{
+.cont .row{
 	font-size: .875rem;
 }
 
@@ -40,13 +47,9 @@
 	text-decoration: none;
 }
 
-.product-container .top-line{
+.cont .top-line{
 	width: 100%;
 	border-top: 1px solid var(--text-color-blue-hover);
-}
-
-.product-container .product-row{
-
 }
 
 .product-photos .product-photos-img{
@@ -81,14 +84,15 @@
 }
 
 .old-price{
-	color: var(--text-color-grey);
+	color: var(--text-color-black);
 	font-size: 1rem;
 	text-decoration: line-through;
+	font-weight: bold;
 }
 
 .actual-price{
 	color: var(--text-color-red);
-	font-size: 2rem;
+	font-size: 1.5rem;
 	font-weight: bold;
 }
 
@@ -118,11 +122,6 @@
 	font-size: 1rem;
 }
 
-.quantity-input{
-	width: 45px;
-	border-radius: 5px;
-}
-
 .add-to-cart{
 	background-color: var(--navbar-categories-bg-color);
 	border-radius: 5px;
@@ -137,7 +136,7 @@
 .add-to-cart .add-to-cart-btn{
 	background-color: transparent;
 	color: white;
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 	outline: none;
 	cursor: pointer;
 	border: 0;
@@ -149,6 +148,37 @@
 	width: 40px;
 	background-color: var(--text-color-red);
 	color: white;
+	border-radius: 0px 5px 5px 0px;
+	padding: 5px;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.add-to-fav{
+	background-color: white ;
+	border-radius: 5px;
+	border: 1px solid var(--navbar-categories-bg-color);
+	cursor: pointer;
+	display: inline-flex;
+}
+
+.add-to-fav:hover{
+	background-color: rgb(235,245,255);
+}
+
+.add-to-fav .add-to-fav-btn{
+	background-color: transparent;
+	color: var(--navbar-categories-bg-color);
+	font-size: 1.2rem;
+	outline: none;
+	cursor: pointer;
+	border: 0;
+	padding: 5px 10px 5px 10px;
+	width: 100%;
+}
+
+.add-to-fav .heart{
+	color: var(--navbar-categories-bg-color);
 	border-radius: 0px 5px 5px 0px;
 	padding: 5px;
 	text-align: center;
@@ -170,4 +200,69 @@
 
 .font-sz{
 	font-size: 1rem !important;
+}
+
+.input-group-prepend .button-round{
+	border-top-left-radius: 15px !important;
+	border-bottom-left-radius: 15px !important;
+}
+
+.input-group-append .button-round{
+	border-top-right-radius: 15px !important;
+	border-bottom-right-radius: 15px !important;
+}
+
+.button-round{
+	background-color: var(--navbar-categories-bg-color) !important;
+	border: 0 !important;
+}
+
+.button-round:hover{
+	background-color: rgb(21,67,160) !important;
+}
+
+/*
+product image gallery
+*/
+
+.product-photos .preview {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media screen and (max-width: 996px) {
+    .product-photos .preview {
+      margin-bottom: 20px; } }
+
+.preview .preview-pic {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; }
+
+.preview .tab-content {
+  overflow: hidden; }
+  .preview .tab-content img {
+    width: 100%;
+    -webkit-animation-name: opacity;
+            animation-name: opacity;
+    -webkit-animation-duration: .3s;
+            animation-duration: .3s; }
+
+.product-thumbnail{
+	background-color: var(--text-color-white)!important;
+	margin: 5px;
+	display: flex;
+	width: 100%;
+	padding-bottom:5px;
+	border-radius:5px;
+}
+
+.thumb-pic{
+	width:;
 }
