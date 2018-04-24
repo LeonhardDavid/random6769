@@ -263,6 +263,8 @@ product image gallery
 	border-radius:5px;
 }
 
-.thumb-pic{
-	width:;
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }

@@ -1,6 +1,6 @@
 <?php require 'header_footer/header.php';?>
 
-	<div class="container product-container py-0">
+	<div class="container product-container pt-0">
 		<div class="cont pt-5 px-3" style="">
 		<p class="product-path mb-1"> 
 			<a class="product-path-a" href="#"> Clothing & Shoes</a>
@@ -81,106 +81,215 @@
 				</div>
 				
 			</div>
-		<div class="col-md-6">
-			<div class="row px-2">
-				<div class="col-lg-6 product-details-1 text-left font-sz">
-					<ul class="ul-col-left px-0">
-								<li class="mb-2"> <span class="grey-text"> opinia clientilor:</span> </li>
-								<li class="mb-2"> 
-									<a href="#" class="col-left-a" style="display:flex;">
-										<div class="star-rating" name="star-rating" data-input="3.5">
-											<i class="fas fa-star yellow"></i>
-											<i class="fas fa-star yellow"></i>
-											<i class="fas fa-star yellow"></i>
-											<i class="fas fa-star grey"></i>
-											<i class="fas fa-star grey"></i>
-										</div>
-										&nbsp; 3.0
-									</a>
-									<a href="#" class="normal-link"> 2 review-uri </a>
-								</li>
-								<li class="mb-2"> <span class="grey-text"> Vandut de: </span> <span class="black-text"> eMAG</span> </li>
-								<li class="mb-2"> <span class="grey-text"> Ajunge in: </span> <span class="black-text"> <strong> Suceava (Suceava)</strong></span> <a href="#" class="normal-link"> schimba </a> </li>
-								<hr>
-								<li class="my-2"> 
-									<div class="row font-sz">
-										<div class="col-2">
-											<i class="fas fa-truck"></i>
-										</div>
-										<div class="col-7 px-1">
-											<span class="black-text"> Livrare standard</span>
-										</div>
-										<div class="col-3 px-1">
-											<span class="green-text float-right"> Gratuita </span>
-										</div>  
-								</li>
-								<hr>
-								<li class="my-2"> 
-									<div class="row font-sz">
-										<div class="col-2">
-											<i class="far fa-calendar-check"></i>
-										</div>
-										<div class="col-7 px-1">
-											<span class="black-text"> Livrare "cand vrei tu"</span><a class="normal-link" href="#"> (detalii) </a>
-										</div>
-										<div class="col-3 px-1">
-											<span class="black-text float-right"> 19 <sup> 00 </sup>Lei </span>
-										</div>
-								</li>
-								<hr>
-								<li class="mt-2">
-									<h4> Culori disponibile </h4>
-									<ul class="thumbnail-color-ul px-0">
-										<li class="mx-1"> <a class="thumbnail-color-a" href="#"> <img class="thumbnail-color-img" src="images/product-images/thumb-1.jpg"> </a></li>
-										<li class="mx-1"> <a class="thumbnail-color-a" href="#"> <img class="thumbnail-color-img active" src="images/product-images/thumb-2.jpg"> </a></li>
-									</ul>
-								</li>
-							</ul>
-				</div>
+			<div class="col-md-6">
+				<div class="row px-2">
+					<div class="col-lg-6 product-details-1 text-left font-sz">
+						<ul class="ul-col-left px-0">
+									<li class="mb-2"> <span class="grey-text"> opinia clientilor:</span> </li>
+									<li class="mb-2"> 
+										<a href="#" class="col-left-a" style="display:flex;">
+											<div class="star-rating" name="star-rating" data-input="3.5">
+												<i class="fas fa-star yellow"></i>
+												<i class="fas fa-star yellow"></i>
+												<i class="fas fa-star yellow"></i>
+												<i class="fas fa-star grey"></i>
+												<i class="fas fa-star grey"></i>
+											</div>
+											&nbsp; 3.0
+										</a>
+										<a href="#" class="normal-link"> 2 review-uri </a>
+									</li>
+									<li class="mb-2"> <span class="grey-text"> Vandut de: </span> <span class="black-text"> eMAG</span> </li>
+									<li class="mb-2"> <span class="grey-text"> Ajunge in: </span> <span class="black-text"> <strong> Suceava (Suceava)</strong></span> <a href="#" class="normal-link"> schimba </a> </li>
+									<hr>
+									<li class="my-2"> 
+										<div class="row font-sz">
+											<div class="col-2">
+												<i class="fas fa-truck"></i>
+											</div>
+											<div class="col-7 px-1">
+												<span class="black-text"> Livrare standard</span>
+											</div>
+											<div class="col-3 px-1">
+												<span class="green-text float-right"> Gratuita </span>
+											</div>  
+									</li>
+									<hr>
+									<li class="my-2"> 
+										<div class="row font-sz">
+											<div class="col-2">
+												<i class="far fa-calendar-check"></i>
+											</div>
+											<div class="col-7 px-1">
+												<span class="black-text"> Livrare "cand vrei tu"</span><a class="normal-link" href="#"> (detalii) </a>
+											</div>
+											<div class="col-3 px-1">
+												<span class="black-text float-right"> 19 <sup> 00 </sup>Lei </span>
+											</div>
+									</li>
+									<hr>
+									<li class="mt-2">
+										<h4> Culori disponibile </h4>
+										<ul class="thumbnail-color-ul px-0">
+											<li class="mx-1"> <a class="thumbnail-color-a" href="#"> <img class="thumbnail-color-img" src="images/product-images/thumb-1.jpg"> </a></li>
+											<li class="mx-1"> <a class="thumbnail-color-a" href="#"> <img class="thumbnail-color-img active" src="images/product-images/thumb-2.jpg"> </a></li>
+										</ul>
+									</li>
+								</ul>
+					</div>
 
-				<div class="col-lg-6 product-details-2">
-					<ul class="ul-col-right px-0 text-left">
-						<li class="mb-2"> <span class="old-price"> 2313 <sup>67</sup> Lei </span> <span class="grey-text"> &nbsp; (-20%)</span></li>
-						<li class="mb-2"> <span class="actual-price"> 1575 <sup>34</sup> Lei</span></li>
-						<!-- <li class="mb-2"> <span class="badge badge-warning">Stoc limitat</span></li> -->
-						<!-- <li class="mb-2"> <span class="badge badge-danger">Stoc epuizat!</span></li> -->
-						<li class="mb-2"> <span class="badge badge-success">In stoc</span></li>
-						<li class="mb-2"> <span class="black-text"> <strong> Garantie inclusa: </strong> </span> <a class="normal-link" href=#> detalii </a> </li>
-						<li class="mb-3"> <span class="black-text"> Persoane fizice: 24 luni </span> </li>
-						<li class="mb-3">
-							<div class="input-group input-quantity mb-3">
-							 	<div class="input-group-prepend w-25">
-								    <button class="btn btn-primary w-100 button-round btn-minus" type="button">-</button>
-							 	</div>
-							  	<input type="numeric" class="form-control w-50 text-center" placeholder="" aria-label="" value="1" aria-describedby="basic-addon1">
-								<div class="input-group-append w-25">
-									<button class="btn btn-primary w-100 button-round btn-plus" type="button">+</button>
+					<div class="col-lg-6 product-details-2">
+						<ul class="ul-col-right px-0 text-left">
+							<li class="mb-2"> <span class="old-price"> 2313 <sup>67</sup> Lei </span> <span class="grey-text"> &nbsp; (-20%)</span></li>
+							<li class="mb-2"> <span class="actual-price"> 1575 <sup>34</sup> Lei</span></li>
+							<!-- <li class="mb-2"> <span class="badge badge-warning">Stoc limitat</span></li> -->
+							<!-- <li class="mb-2"> <span class="badge badge-danger">Stoc epuizat!</span></li> -->
+							<li class="mb-2"> <span class="badge badge-success">In stoc</span></li>
+							<li class="mb-2"> <span class="black-text"> <strong> Garantie inclusa: </strong> </span> <a class="normal-link" href=#> detalii </a> </li>
+							<li class="mb-3"> <span class="black-text"> Persoane fizice: 24 luni </span> </li>
+							<li class="mb-3">
+								<div class="input-group input-quantity mb-3">
+								 	<div class="input-group-prepend w-25">
+									    <button class="btn btn-primary w-100 button-round btn-minus" type="button">-</button>
+								 	</div>
+								  	<input type="numeric" class="form-control w-50 text-center" placeholder="" aria-label="" value="1" aria-describedby="basic-addon1">
+									<div class="input-group-append w-25">
+										<button class="btn btn-primary w-100 button-round btn-plus" type="button">+</button>
+									</div>
 								</div>
-							</div>
-						</li>
-						<li class="mb-3"> 
-									<div class="add-to-cart w-100">
-										<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
-										<span class="shopping-cart">
-											<i class="fas fa-shopping-cart"></i>
-										</span>
-									</div>
-						</li>
-						<li class="mb-3"> 
-									<div class="add-to-fav w-100">
-										<input class="add-to-fav-btn" type="submit" value="Adauga la favorite">
-										<span class="heart">
-											<i class="far fa-heart"></i>
-										</span>
-									</div>
-						</li>
-					</ul>
+							</li>
+							<li class="mb-3"> 
+										<div class="add-to-cart w-100">
+											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+											<span class="shopping-cart">
+												<i class="fas fa-shopping-cart"></i>
+											</span>
+										</div>
+							</li>
+							<li class="mb-3"> 
+										<div class="add-to-fav w-100">
+											<input class="add-to-fav-btn" type="submit" value="Adauga la favorite">
+											<span class="heart">
+												<i class="far fa-heart"></i>
+											</span>
+										</div>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
+			<div class="row-flex mx-3">
+						<div class="col-md-12 my-3">
+								<span class>Produse similare:</span>
+						</div>
+			</div>
+					
+			<div class="similar-products-carousel row">
+					<div class="styling_bottom">
+								<span class="badge badge-danger custom-badge-new">NOU!</span>
+								<span class="badge badge-danger custom-badge-additional">-20%</span>
+							<img src="images/product-images/similar-product-1.jpg" alt="Tricou1" class="mx-auto d-block">
+							<br>
+							<span>Adidas Women reversible<br> track jacket</span>
+							<br>
+							<span class="red">134 lei</span>
+							<span class="grey">165 lei</span>
+							<br>
+							<div class="btn-group" role="group" aria-label="Basic example">
+								<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
+								<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>					
+							</div>
+					</div>
+					<div class="styling_bottom">
+								<span class="badge badge-danger custom-badge-new">NOU!</span>
+								<img src="images/product-images/similar-product-2.jpg" alt="Tricou2" class="mx-auto d-block">
+								<br>
+								<span>Adidas Women reversible<br> track jacket</span>
+								<br>
+								<span class="red">134 lei</span>
+								<span class="grey">165 lei</span>
+								<br>
+								<div class="btn-group" role="group" aria-label="Basic example">
+									<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
+									<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+								</div>
+					</div>
+					<div class="styling_bottom">
+								<img src="images/product-images/similar-product-3.jpg" alt="Tricou3" class="mx-auto d-block">
+								<br>
+								<span>Adidas Women reversible<br> track jacket</span>
+								<br>
+								<span class="red">134 lei</span>
+								<span class="grey">165 lei</span>
+								<br>
+								<div class="btn-group" role="group" aria-label="Basic example">
+									<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
+									<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+								</div>
+					</div>
+					<div class="styling_bottom">
+								<img src="images/product-images/similar-product-4.jpg" alt="Tricou4" class="mx-auto d-block">
+								<br>
+								<span>Adidas Women reversible<br> track jacket</span>
+								<br>
+								<span class="red">134 lei</span>
+								<span class="grey">165 lei</span>
+								<br>
+								<div class="btn-group" role="group" aria-label="Basic example">
+									<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
+									<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+								</div>
+					</div>
+					<div class="styling_bottom" >
+								<span class="badge badge-danger custom-badge-new">-20%</span>
+								<img src="images/product-images/similar-product-5.jpg" alt="Tricou5" class="mx-auto d-block">
+								<br>
+								<span>Adidas Women reversible<br> track jacket</span>
+								<br>
+								<span class="red">134 lei</span>
+								<span class="grey">165 lei</span>
+								<br>
+								<div class="btn-group" role="group" aria-label="Basic example">
+									<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
+									<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+								</div>
+					</div>
+			</div>
+		</div>
+	</div>
+		<div class="container button-row sticky-top" style="top: 3.5rem !important;">
+			<div class="row">
+				<div class="col-12 buttons py-2" style="background-color: var(--navbar-categories-bg-color);"">
+				<input type="button" class="btn btn-primary" onClick="document.getElementById('description').scrollIntoView();" value="Descriere"/>
+				<input type="button" class="btn btn-primary" onClick="document.getElementById('specification').scrollIntoView();" value="Specificatii"/>
+				<input type="button" class="btn btn-primary" onClick="document.getElementById('review').scrollIntoView();" value="Review-uri"/>
+				<input type="button" class="btn btn-primary" onClick="document.getElementById('qanda').scrollIntoView();" value="Intrebari si raspunsuri"/>
+				</div>
 
-		</div>
-		</div>
+				<div class="col-12 " id="description">
+					description
+				<p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+				</div>
+
+
+				<div class="col-12 " id="specification">
+					specification
+				<p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+				</div>
+
+
+				<div class="col-12 " id="review">
+					review
+				<p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+				</div>
+
+
+				<div class="col-12 " id="qanda">
+					intrebari si raspunsuri
+				<p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+				</div>
+			</div>
 	</div>
 
 <?php require 'header_footer/footer.php';?>
