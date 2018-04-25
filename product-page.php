@@ -88,6 +88,7 @@
 									<li class="mb-2"> <span class="grey-text"> opinia clientilor:</span> </li>
 									<li class="mb-2"> 
 										<a href="#" class="col-left-a" style="display:flex;">
+											<!--
 											<div class="star-rating" name="star-rating" data-input="3.5">
 												<i class="fas fa-star yellow"></i>
 												<i class="fas fa-star yellow"></i>
@@ -96,6 +97,7 @@
 												<i class="fas fa-star grey"></i>
 											</div>
 											&nbsp; 3.0
+										-->
 										</a>
 										<a href="#" class="normal-link"> 2 review-uri </a>
 									</li>
@@ -186,7 +188,7 @@
 						</div>
 			</div>
 					
-			<div class="similar-products-carousel row">
+			<div class="similar-products-carousel row pb-4">
 					<div class="styling_bottom">
 								<span class="badge badge-danger custom-badge-new">NOU!</span>
 								<span class="badge badge-danger custom-badge-additional">-20%</span>
@@ -266,7 +268,7 @@
 					<div class="container product-container py-0 pl-3">
 				<input type="button" class="btn buttons-custom" onClick="document.getElementById('description').scrollIntoView();" value="Descriere"/>
 				<input type="button" class="btn buttons-custom" onClick="document.getElementById('specification').scrollIntoView();" value="Specificatii"/>
-				<input type="button" class="btn buttons-custom" onClick="document.getElementById('review').scrollIntoView();" value="Review-uri"/>
+				<input type="button" class="btn buttons-custom" onClick="document.getElementById('review').scrollIntoView();" value="Review-uri (26)"/>
 				<input type="button" class="btn buttons-custom" onClick="document.getElementById('qanda').scrollIntoView();" value="Intrebari si raspunsuri"/>
 					</div>
 				</div>
@@ -275,7 +277,7 @@
 					<div class="col-12 pt-3" id="description">
 						<h3 class="heading-style-desc"> Descriere </h3>
 						<div class="line"> </div>
-						<div class="row">
+						<div class="row my-3">
 							<div class="col-lg-8">
 								<h2 class="heading-style-desc"> MOVE. ADAPAT. PROTECT. </h2>
 								<p class="paragraph-style-desc"> 
@@ -290,18 +292,239 @@
 								<img class="img-desc" src="images/product-images/product-desc-1.jpg">
 							</div>
 						</div>
+						<div class="row my-3">
+							<div class="col-lg-4">
+								<img class="img-desc" src="images/product-images/product-desc-2.jpg">
+							</div>
+							<div class="col-lg-8">
+								<h2 class="heading-style-desc"> CONSTRUCTED TO PROTECT. BUILT TO MOVE. </h2>
+								<p class="paragraph-style-desc"> 
+									A proposition for increased access and ease led designers to place a bag around a foot and scrunch it to form the shape of a shoe. This elementary act informed an inventive outcome: facilitating the metamorphosis of a single-piece upper from a wide-open entry to a supportive closed state would result in a new performance silhouette.
+								</p>
+								<p class="paragraph-style-desc">
+									Ultimately, the designers fashioned the ACG.07.KMTR with a four-way stretch water-resistant upper shell that conforms to the foot through an integrated draw cord and stabilizes via a forefoot strap equipped with a Fidlock magnetic buckle.
+								</p>
+								<p class="paragraph-style-desc">
+									Therein lies the complexity: In order to facilitate a shoe with high function and high comfort, translating the brown paper bag to high performance is something akin to a science experiment.
+								</p>
+							</div>
+						</div>
+						<div class="row my-3 justify-content-center">
+							<div class="col-md-8 col-12">
+								<p class="grey-text">
+									“This shoe is water resistant, light, flexible, easy to put on, has great traction and introduces a new aesthetic,” says Nike NSW footwear designer, Gerald Sullivan. “Moreover, it reduces functional elements to bare necessity — one doesn’t need the distractions of complicated entry and lockdown systems when moving around the city.”
+								</p>
+							</div>
+							<div class="col-md-8 col-12">
+								<img class="img-desc" src="images/product-images/product-desc-gif.gif">
+							</div>
+							<div class="col-md-8 col-12 mt-4">
+								<p class="grey-text">
+									“We trialed a number of closure systems, and I began thinking about how a parachute unfurls and wondered how that might operate in reverse. Ultimately what worked best was pulling the cord through the shoe via a single hinge. This act molds the bag-like upper into form,” explains Sullivan. “Secondary lockdown is achieved through the magnetic buckle, which is not only low profile, but adds a distinct panache to the shoe’s form.”
+								</p>
+							</div>
+						</div>
+						<div class="row my-3">
+							<div class="col-lg-6">
+								<p class="paragraph-style-desc">
+									To understand the origin of the ACG.07.KMTR’s premise is to appreciate its broad parameters. The shoe was created for all-day urban wear in a range of environments. This includes flash rains and temperature shifts, and everything from hard concrete sidewalks to a variety of indoor floorings. It also takes into account that the wearer could easily cover more ground over the course of a day’s action than an elite athlete does in a training session.
+								</p>
+							</div>
+							<div class="col-lg-6">
+								<p class="paragraph-style-desc">
+									The ACG.07.KMTR’s function guides its stance. The upper transforms from its loose, open state into a sleek, fast silhouette that marries gracefully to a full-rubber bottom with wet traction lugs (derived from the tooling of the Nike Tallac Flyknit ACG). Compositionally, this build simultaneously conveys comfort in speed and a readiness to take on anything. Reflective hits on the logo and welding seams help ensure the all-day, all-challenges equipment is balanced with requisite safety features. As a full package, it is a far cry from a brown paper bag.
+								</p>
+							</div>
+						</div>
+
 					</div>
 
 
 					<div class="col-12 pt-3" id="specification">
-						specification
-					
+						<h3 class="heading-style-desc"> Specificatii tehnice </h3>
+						<div class="line"> </div>
+						<table class="table table-striped table-responsive-md mt-4">
+						  <!--
+						  <thead>
+						    <tr>
+						      <th scope="col">col-header-1</th>
+						      <th scope="col">col-header-2</th>
+						    </tr>
+						  </thead>
+							-->
+						  <tbody>
+						    <tr class="t-row-height">
+						      <th scope="row">Brand:</th>
+						      <td>NIKE</td>
+						    </tr>
+						    <tr class="t-row-height">
+						      <th scope="row">Designer:</th>
+						      <td>Acronym founder Errolson Hugh</td>
+						    </tr>
+						    <tr class="t-row-height">
+						      <th scope="row">Product type:</th>
+						      <td>All conditions urban footwear.</td>
+						    </tr>
+						    <tr class="t-row-height">
+						      <th scope="row">Protection:</th>
+						      <td>	A water-repellent textile upper helps keep moisture out for weather protection without the bulk and weight of a boot.</td>
+						    </tr>
+						    <tr class="t-row-height">
+						      <th scope="row">Fit:</th>
+						      <td>The lightweight upper provides four-way stretch for a flexible, sock-like fit.</td>
+						    </tr>
+						    <tr class="t-row-height">
+						      <th scope="row">Straps</th>
+						      <td>Magnetically fastened.</td>
+						    </tr>
+						    <tr class="t-row-height">
+						      <th scope="row">Outsole:</th>
+						      <td>	Rubber outsole for traction.</td>
+						    </tr>
+						    <tr class="t-row-height">
+						      <th scope="row">Outsole pattern:</th>
+						      <td>Rugged outsole pattern inspired by the NikeLab ACG Tallac Flyknit.</td>
+						    </tr>
+						    <tr class="t-row-height">
+						      <th scope="row">Midsole:</th>
+						      <td>Lightweight foam midsole for comfort.</td>
+						    </tr>
+						  </tbody>
+						</table>
 					</div>
 
 
-					<div class="col-12 pt-3" id="review">
-						review
-					
+					<div class="col-12 pt-3 text-left" id="review">
+						<h3 class="heading-style-desc"> Review-uri (26 de review-uri) </h3>
+						<div class="line"> </div>
+						<div class="row py-4 review-row">
+							<div class="col-md-6 col-lg-4">
+								<span class="bold-text">Ratingul general al produsului </span>
+								<div class="stars">
+
+									<table class="star-rating">
+									  <tbody>
+									    <tr class="rating_a">
+									      <td>
+									        <div class="stars-outer">
+									          <div class="stars-inner">
+									          </div>
+									        </div>
+									      </td>
+									    </tr>
+									  </tbody>
+									</table>
+
+								</div>
+								<span class="bold-text"> 4.62 </span> <span class="font-sz"> (26 de review-uri)</span>
+							</div>
+							<div class="col-lg-4 d-lg-block d-none">
+								<div class="row my-1">
+									<div class="col-3">
+										<a href="#" class="progress-bar-a"> 5 stele <i class="fas fa-star yellow"></i></a>
+									</div>
+									<div class="col-7 px-0 my-auto">
+										<div class="progress ">
+									  		 <div class="progress-bar bg-warning" style="width:85%">
+									  		 	
+									  	</div>
+									 
+									</div>
+									</div>
+									<div class="col-2">
+										<span> <a href="#" class="progress-bar-a">(21)</a></span>
+									</div>
+								</div>
+								<div class="row my-1">
+									<div class="col-3">
+										<a href="#" class="progress-bar-a"> 4 stele <i class="fas fa-star yellow"></i></a>
+									</div>
+									<div class="col-7 px-0 my-auto">
+										<div class="progress ">
+									  		 <div class="progress-bar bg-warning" style="width:10%">
+									  		 	
+									  	</div>
+									 
+									</div>
+									</div>
+									<div class="col-2">
+										<span> <a href="#" class="progress-bar-a">(2)</a></span>
+									</div>
+								</div>
+								<div class="row my-1">
+									<div class="col-3">
+										<a href="#" class="progress-bar-a"> 3 stele <i class="fas fa-star yellow"></i></a>
+									</div>
+									<div class="col-7 px-0 my-auto">
+										<div class="progress ">
+									  		 <div class="progress-bar bg-warning" style="width:10%">
+									  		 	
+									  	</div>
+									 
+									</div>
+									</div>
+									<div class="col-2">
+										<span> <a href="#" class="progress-bar-a">(2)</a></span>
+									</div>
+								</div>
+								<div class="row my-1">
+									<div class="col-3">
+										<a href="#" class="progress-bar-a"> 2 stele <i class="fas fa-star yellow"></i></a>
+									</div>
+									<div class="col-7 px-0 my-auto">
+										<div class="progress ">
+									  		 <div class="progress-bar bg-warning" style="width:0%">
+									  		 	
+									  	</div>
+									 
+									</div>
+									</div>
+									<div class="col-2">
+										<span> <a href="#" class="progress-bar-a">(0)</a></span>
+									</div>
+								</div>
+								<div class="row my-1">
+									<div class="col-3">
+										<a href="#" class="progress-bar-a"> 1 stea <i class="fas fa-star yellow"></i></a>
+									</div>
+									<div class="col-7 px-0 my-auto">
+										<div class="progress ">
+									  		 <div class="progress-bar bg-warning" style="width:5%">
+									  		 	
+									  	</div>
+									 
+									</div>
+									</div>
+									<div class="col-2">
+										<span> <a href="#" class="progress-bar-a">(1)</a></span>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4 grey-box py-2">
+								<h3 class="bold-text"> Detii sau ai utilizat produsul?</h3>
+								<span class="font-sz"> Spune-ti parerea acordand o nota produsului</span>
+								<div class="row">
+									<div class="col-lg-7 col-md-6 pr-0">
+								<fieldset class="rating">
+								    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Excelent"></label>
+								  
+								    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Bun"></label>
+								  
+								    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Acceptabil"></label>
+								  
+								    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Slab"></label>
+								  
+								    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Nu recomand"></label>
+								  
+								</fieldset>
+							</div>
+							<div class="col-lg-5 col-md-6 px-0 v-center">
+								<span class="bold-text"> Acorda o nota </span>
+							</div>
+						</div>
+								<button class="btn btn-review"> Adauga un review </button> 
+							</div>
+						</div>
 					</div>
 
 

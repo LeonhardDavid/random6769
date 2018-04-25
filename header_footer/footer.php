@@ -136,6 +136,22 @@
 		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<script type="text/javascript" src="css/slick/slick.min.js"></script>
 
+
+    <script>
+      const ratings = {
+        rating_a : 4.62,
+      };
+
+      // total number of stars
+      const starTotal = 5;
+
+      for(const rating in ratings) {  
+        const starPercentage = (ratings[rating] / starTotal) * 100;
+        const starPercentageRounded = `${starPercentage}%`;
+        document.querySelector(`.${rating} .stars-inner`).style.width = starPercentageRounded; 
+      }
+    </script>
+
     <script type="text/javascript">
     (function ($) {
     $(document).ready(function(){
