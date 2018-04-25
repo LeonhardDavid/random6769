@@ -338,7 +338,7 @@
     $(".similar-products-carousel").slick({
           slidesToShow:5,
           slidesToScroll:1,
-          dots:true,
+          dots:false,
           responsive:
           [
           {

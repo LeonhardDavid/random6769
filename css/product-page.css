@@ -263,8 +263,31 @@ product image gallery
 	border-radius:5px;
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+.row .button-row{
+	top: 3.5rem !important;
+	background-color: var(--navbar-categories-bg-color);
+	z-index: 1 !important;
+}
+
+.buttons-custom{
+	background-color: var(--navbar-categories-bg-color);
+	color: var(--text-color-white);
+}
+
+.buttons-custom:hover{
+	background-color: var(--text-color-blue-hover);
+}
+
+.heading-style-desc{
+	color: var(--navbar-categories-bg-color);
+	text-indent: 2rem;
+}
+
+.paragraph-style-desc{
+	text-indent: 2rem;
+	padding-left: 1rem;
+}
+
+.img-desc{
+	max-width: 100%;
 }

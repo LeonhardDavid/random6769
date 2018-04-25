@@ -1,7 +1,7 @@
 <?php require 'header_footer/header.php';?>
 
-	<div class="container product-container pt-0">
-		<div class="cont pt-5 px-3" style="">
+	<div class="container product-container py-0">
+		<div class="cont pt-5 px-4 mb-0" style="">
 		<p class="product-path mb-1"> 
 			<a class="product-path-a" href="#"> Clothing & Shoes</a>
 			>
@@ -179,6 +179,7 @@
 				</div>
 			</div>
 		</div>
+
 			<div class="row-flex mx-3">
 						<div class="col-md-12 my-3">
 								<span class>Produse similare:</span>
@@ -256,40 +257,58 @@
 								</div>
 					</div>
 			</div>
-		</div>
+		
 	</div>
-		<div class="container button-row sticky-top" style="top: 3.5rem !important;">
-			<div class="row">
-				<div class="col-12 buttons py-2" style="background-color: var(--navbar-categories-bg-color);"">
-				<input type="button" class="btn btn-primary" onClick="document.getElementById('description').scrollIntoView();" value="Descriere"/>
-				<input type="button" class="btn btn-primary" onClick="document.getElementById('specification').scrollIntoView();" value="Specificatii"/>
-				<input type="button" class="btn btn-primary" onClick="document.getElementById('review').scrollIntoView();" value="Review-uri"/>
-				<input type="button" class="btn btn-primary" onClick="document.getElementById('qanda').scrollIntoView();" value="Intrebari si raspunsuri"/>
+</div>
+
+			<div class="row ">
+				<div class="col-12 buttons py-2 button-row sticky-top d-lg-block d-none">
+					<div class="container product-container py-0 pl-3">
+				<input type="button" class="btn buttons-custom" onClick="document.getElementById('description').scrollIntoView();" value="Descriere"/>
+				<input type="button" class="btn buttons-custom" onClick="document.getElementById('specification').scrollIntoView();" value="Specificatii"/>
+				<input type="button" class="btn buttons-custom" onClick="document.getElementById('review').scrollIntoView();" value="Review-uri"/>
+				<input type="button" class="btn buttons-custom" onClick="document.getElementById('qanda').scrollIntoView();" value="Intrebari si raspunsuri"/>
+					</div>
 				</div>
+				<div class="container product-container pt-0 mb-4">
+					<div class="cont text-justify px-4">
+					<div class="col-12 pt-3" id="description">
+						<h3 class="heading-style-desc"> Descriere </h3>
+						<div class="line"> </div>
+						<div class="row">
+							<div class="col-lg-8">
+								<h2 class="heading-style-desc"> MOVE. ADAPAT. PROTECT. </h2>
+								<p class="paragraph-style-desc"> 
+									The first iteration of the Nike Komyuter, the ACG.07.KMTR, silhouette's function guides its stance. The upper transforms from its loose, open state into a sleek, fast silhouette that marries gracefully to a full-rubber bottom with wet traction lugs (derived from the tooling of the Nike Tallac Flyknit ACG). Compositionally, this build simultaneously conveys comfort in speed and a readiness to take on anything.
+								</p>
+								<p class="paragraph-style-desc">
+									Inspiration for the complex design of the ACG.07.KMTR, the latest version of NikeLab’s all-conditions shoe and the first iteration of the new Nike Komyuter silhouette, came in the form of a brown paper bag. It’s a prime example of how sophisticated solutions can stem from straightforward, functional suggestions.
+								</p>
+							</div>
 
-				<div class="col-12 " id="description">
-					description
-				<p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+							<div class="col-lg-4">
+								<img class="img-desc" src="images/product-images/product-desc-1.jpg">
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-12 pt-3" id="specification">
+						specification
+					
+					</div>
+
+
+					<div class="col-12 pt-3" id="review">
+						review
+					
+					</div>
+
+
+					<div class="col-12 pt-3" id="qanda">
+						intrebari si raspunsuri
+					</div>
 				</div>
-
-
-				<div class="col-12 " id="specification">
-					specification
-				<p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-				</div>
-
-
-				<div class="col-12 " id="review">
-					review
-				<p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-				</div>
-
-
-				<div class="col-12 " id="qanda">
-					intrebari si raspunsuri
-				<p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p><p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
 				</div>
 			</div>
-	</div>
-
 <?php require 'header_footer/footer.php';?>
