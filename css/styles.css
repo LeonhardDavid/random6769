@@ -208,6 +208,12 @@ Row after gallery
 	width:100%;
 }
 
+.line-black{
+	height: 1px;
+	background: black;
+	width: 100%;
+}
+
 .product-carousel .product-carousel-style{
 		text-align: center;
 		font-weight: 600;

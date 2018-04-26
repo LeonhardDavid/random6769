@@ -85,19 +85,27 @@
 				<div class="row px-2">
 					<div class="col-lg-6 product-details-1 text-left font-sz">
 						<ul class="ul-col-left px-0">
-									<li class="mb-2"> <span class="grey-text"> opinia clientilor:</span> </li>
+									<li> <span class="grey-text"> opinia clientilor:</span> </li>
 									<li class="mb-2"> 
 										<a href="#" class="col-left-a" style="display:flex;">
-											<!--
-											<div class="star-rating" name="star-rating" data-input="3.5">
-												<i class="fas fa-star yellow"></i>
-												<i class="fas fa-star yellow"></i>
-												<i class="fas fa-star yellow"></i>
-												<i class="fas fa-star grey"></i>
-												<i class="fas fa-star grey"></i>
+											<div class="stars">
+
+												<table class="star-rating font-sz">
+												  <tbody>
+												    <tr class="rating_a">
+												      <td>
+												        <div class="stars-outer">
+												          <div class="stars-inner">
+												          </div>
+												        </div>
+												      </td>
+												    </tr>
+												  </tbody>
+												</table>
+
 											</div>
-											&nbsp; 3.0
-										-->
+											
+											<span class="ml-2">4.62</span>
 										</a>
 										<a href="#" class="normal-link"> 2 review-uri </a>
 									</li>
@@ -262,7 +270,6 @@
 		
 	</div>
 </div>
-
 			<div class="row ">
 				<div class="col-12 buttons py-2 button-row sticky-top d-lg-block d-none">
 					<div class="container product-container py-0 pl-3">
@@ -279,7 +286,7 @@
 						<div class="line"> </div>
 						<div class="row my-3">
 							<div class="col-lg-8">
-								<h2 class="heading-style-desc"> MOVE. ADAPAT. PROTECT. </h2>
+								<h2 class="heading-style-desc"> MOVE. ADAPT. PROTECT. </h2>
 								<p class="paragraph-style-desc"> 
 									The first iteration of the Nike Komyuter, the ACG.07.KMTR, silhouette's function guides its stance. The upper transforms from its loose, open state into a sleek, fast silhouette that marries gracefully to a full-rubber bottom with wet traction lugs (derived from the tooling of the Nike Tallac Flyknit ACG). Compositionally, this build simultaneously conveys comfort in speed and a readiness to take on anything.
 								</p>
@@ -397,7 +404,7 @@
 					<div class="col-12 pt-3 text-left" id="review">
 						<h3 class="heading-style-desc"> Review-uri (26 de review-uri) </h3>
 						<div class="line"> </div>
-						<div class="row py-4 review-row">
+						<div class="row py-5 review-row">
 							<div class="col-md-6 col-lg-4">
 								<span class="bold-text">Ratingul general al produsului </span>
 								<div class="stars">
@@ -420,7 +427,7 @@
 							</div>
 							<div class="col-lg-4 d-lg-block d-none">
 								<div class="row my-1">
-									<div class="col-3">
+									<div class="col-3 px-0">
 										<a href="#" class="progress-bar-a"> 5 stele <i class="fas fa-star yellow"></i></a>
 									</div>
 									<div class="col-7 px-0 my-auto">
@@ -436,7 +443,7 @@
 									</div>
 								</div>
 								<div class="row my-1">
-									<div class="col-3">
+									<div class="col-3 px-0">
 										<a href="#" class="progress-bar-a"> 4 stele <i class="fas fa-star yellow"></i></a>
 									</div>
 									<div class="col-7 px-0 my-auto">
@@ -452,7 +459,7 @@
 									</div>
 								</div>
 								<div class="row my-1">
-									<div class="col-3">
+									<div class="col-3 px-0">
 										<a href="#" class="progress-bar-a"> 3 stele <i class="fas fa-star yellow"></i></a>
 									</div>
 									<div class="col-7 px-0 my-auto">
@@ -468,7 +475,7 @@
 									</div>
 								</div>
 								<div class="row my-1">
-									<div class="col-3">
+									<div class="col-3 px-0">
 										<a href="#" class="progress-bar-a"> 2 stele <i class="fas fa-star yellow"></i></a>
 									</div>
 									<div class="col-7 px-0 my-auto">
@@ -484,7 +491,7 @@
 									</div>
 								</div>
 								<div class="row my-1">
-									<div class="col-3">
+									<div class="col-3 px-0">
 										<a href="#" class="progress-bar-a"> 1 stea <i class="fas fa-star yellow"></i></a>
 									</div>
 									<div class="col-7 px-0 my-auto">
@@ -500,32 +507,250 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6 col-lg-4 grey-box py-2">
+							<div class="col-md-6 col-lg-4 grey-box py-2 mb-2">
 								<h3 class="bold-text"> Detii sau ai utilizat produsul?</h3>
 								<span class="font-sz"> Spune-ti parerea acordand o nota produsului</span>
-								<div class="row">
-									<div class="col-lg-7 col-md-6 pr-0">
-								<fieldset class="rating">
-								    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Excelent"></label>
-								  
-								    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Bun"></label>
-								  
-								    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Acceptabil"></label>
-								  
-								    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Slab"></label>
-								  
-								    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Nu recomand"></label>
-								  
-								</fieldset>
-							</div>
-							<div class="col-lg-5 col-md-6 px-0 v-center">
-								<span class="bold-text"> Acorda o nota </span>
-							</div>
+								<div class="d-md-block d-none">
+									<div class="col-12 pl-0">
+										<span class="bold-text"> Acorda o nota </span>
+									</div>
+									<div class="col-12 pl-0">
+										<fieldset class="rating">
+										    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Nu recomand"></label>
+										  
+										    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Slab"></label>
+										  
+										    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Acceptabil"></label>
+										    
+										    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Bun"></label>
+										  
+										    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Excelent"></label>
+										  
+										</fieldset>
+									</div>
+								</div>
+								<br><br><br>
+								<div class="col-12 pl-0">
+									<button class="btn btn-review"> Adauga un review </button> 
+								</div>
 						</div>
-								<button class="btn btn-review"> Adauga un review </button> 
-							</div>
+					
+					<div class="line"></div>
+
+					<div class="row w-100 mt-3 mx-auto">
+						<div class="col-12 d-lg-none grey-box">
+						<form class="form-inline my-1 mx-auto" >
+						      <input class="form-control search-reviews search-reviews-long" type="search" placeholder="Cauta in review-uri" aria-label="Search">
+						      <button class="btn search-reviews-btn" type="submit"><i class="fas fa-search"></i></button>
+						</form>
+
+						</div>
+
+						<div class="col-xl-4 col-lg-4 col-md-6 pr-0 mt-1" style="display: flex;">
+							<span class="bold-text font-sz py-1"> Sorteaza dupa: </span>
+							<div class="form-group mx-auto">
+							    <select class="form-control" id="sort-review-dropdown">
+							      <option>Cele mai populare</option>
+							      <option>Cele mai noi</option>
+							    </select>
+							  </div>
+						</div>
+						<div class="col-xl-4 col-lg-4 col-md-6 pr-0 mt-1" style="display: flex;">
+							<span class="bold-text font-sz py-1"> Filtreaza: </span>
+							<div class="form-group mx-auto">
+							    <select class="form-control" id="sort-review-dropdown">
+							      <option>Toate review-urile</option>
+							      <option>Review-uri de 5 stele</option>
+							      <option>Review-uri de 4 stele</option>
+							      <option>Review-uri de 3 stele</option>
+							      <option>Review-uri de 2 stele</option>
+							      <option>Review-uri de o stea</option>
+							    </select>
+							  </div>
+						</div>
+						
+						<div class="col-xl-1 d-xl-block d-none">
+							
+						</div>
+
+						<div class="col-xl-3 col-lg-4 d-lg-block d-none px-0">
+							<form class="form-inline" style="float: right;">
+						      <input class="form-control search-reviews" type="search" placeholder="Cauta in review-uri" aria-label="Search">
+						      <button class="btn search-reviews-btn" type="submit"><i class="fas fa-search"></i></button>
+						    </form>
 						</div>
 					</div>
+
+					<div class="line"></div>
+					<!-- Review user 1-->
+					
+					<div class="row user-review-row mt-3 mx-auto">
+						<div class="col-md-2">
+							<ul class="lst-none">
+								<li class="my-4"> <a href="#" class="user-circle"> B </a></li>
+								<li> <a class="normal-link bold-text" href="#"> user </a></li>
+								<li> <span class="grey-text"> 14 sep 2017 </span></li>
+							</ul>
+						</div>
+						<div class="col-md-10">
+							<ul class="lst-none">
+								<li> <a class="review-title" href="#">  TV Samsung 40MU6102 - Best buy la un buget de 2k </a></li>
+								<li> 
+								<div class="stars">
+
+									<table class="star-rating">
+									  <tbody>
+									    <tr class="rating_user_a">
+									      <td>
+									        <div class="stars-outer">
+									          <div class="stars-inner">
+									          </div>
+									        </div>
+									      </td>
+									    </tr>
+									  </tbody>
+									</table>
+
+								</div>
+								</li>
+								<li> 
+									<p>
+										Il am de 2 zile si pot sa va zic ca mi-a depasit un pic asteptarile... Imaginea este foarte buna, mai am un Sony XD8077 si evident imaginea e mai buna la Sony dar si pretul pe masura. 
+									</p>
+									<p>
+										In schimb meniul la Samsung si partea de smart sunt incredibil de fluide/rapide chiar mai bune decat la Sony. Mi-a luat un pic sa ma obisnuesc cu telecomanda foarte fina/minimalista in materie de butoane dar isi face treaba destul de bine. Setarile initiale se fac rapid, i-am pus un cablu de lan si un card CI, vede instant reteaua fara setari suplimentare. Pt a vedea si canalele blocate gen HBO trebuie sa sunati la provider (in cazul meu RDS) ca sa reinitializeze ei cardul.
+									</p>
+									<p>
+										Singura remarca negativa este pretul, care este un pic mai mare decat poti sa il gasesti la alt furnizor... Eu l-am prins cu 2,000 LEI (e drept, fara suport de prindere pe perete, dar in cazul meu nici nu era necesar acesta).
+									</p>
+									<p>
+										In concluzie, este un TV foarte bun, un "best-buy" dupa parerea mea, modern si cu o conectivitate excelenta. 4.8* din 5*
+									</p>
+								</li>
+								<li>
+									<ul class="lst-none dsp-flex">
+										<li class="mx-2"> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-thumbs-up"></i> 169 </a></li>
+										<li class="mx-2"> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-comment-alt"></i> Adauga comentariu </a></li>
+										<li class="mx-2"> <a href="#" class="normal-link no-underline font-sz"><i class="fas fa-comments"></i> Vezi comentarii (12) </a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="line"> </div>
+					</div>
+
+					<!-- Review user 2-->
+					<div class="row user-review-row mt-3 mx-auto">
+						<div class="col-md-2">
+							<ul class="lst-none">
+								<li class="my-4"> <a href="#" class="user-circle"> L </a></li>
+								<li> <a class="normal-link bold-text" href="#"> user2 </a></li>
+								<li> <span class="grey-text"> 28 oct 2017 </span></li>
+							</ul>
+						</div>
+						<div class="col-md-10">
+							<ul class="lst-none">
+								<li> <a class="review-title" href="#">  Dezamagitor </a></li>
+								<li> 
+								<div class="stars">
+
+									<table class="star-rating">
+									  <tbody>
+									    <tr class="rating_user_b">
+									      <td>
+									        <div class="stars-outer">
+									          <div class="stars-inner">
+									          </div>
+									        </div>
+									      </td>
+									    </tr>
+									  </tbody>
+									</table>
+
+								</div>
+								</li>
+								<li> 
+									<p>
+										Salut,
+
+										Intampin si eu probleme cu un TV 4k Samsung Seria UE43MU6102. Daca rulez filme din Media Server, sau ma uit la Youtube, sau poate chiar 4k de pe un stick totul merge super bine. Cand ma uit pe un post HD, ex Antena 1 HD sau Digi Sport 1 HD sau Protv HD, la un interval de timp intre 1-2 minute am o sacadare a imaginii din momentul respectiv (de o secunda, insa e sesizabila mereu)... Am incercat sa resetez televizorul la setarile din fabrica, am incercat sa dezactivez optiunile de imagine din meniu, am achizitionat noi cabluri noi din ONT-ul de la RDS in TV, nimic... Televizorul are o optiune Signal Information, si acolo poti vedea puterea semnalului primit si tot timpul e 100% si niciun bit error, atasez si poze. Nu stiu ce sa mai fac... Mentionez ca doar posturile care sunt HD au problema asta...
+
+										Tv-ul are ultima versiune de firmware instalata...
+									</p>
+									
+								</li>
+								<li>
+									<ul class="lst-none dsp-flex">
+										<li class="mx-2"> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-thumbs-up"></i> 116 </a></li>
+										<li class="mx-2"> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-comment-alt"></i> Adauga comentariu </a></li>
+										<li class="mx-2"> <a href="#" class="normal-link no-underline font-sz"><i class="fas fa-comments"></i> Vezi comentarii (33) </a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="line"> </div>
+					</div>
+
+					<!-- Review user3-->
+					<div class="row user-review-row mt-3 mx-auto">
+						<div class="col-md-2">
+							<ul class="lst-none">
+								<li class="my-4"> <a href="#" class="user-circle"> U </a></li>
+								<li> <a class="normal-link bold-text" href="#"> user3 </a></li>
+								<li> <span class="grey-text"> 13 Noi 2017 </span></li>
+							</ul>
+						</div>
+						<div class="col-md-10">
+							<ul class="lst-none">
+								<li> <a class="review-title" href="#">  Foarte multumit! </a></li>
+								<li> 
+								<div class="stars">
+
+									<table class="star-rating">
+									  <tbody>
+									    <tr class="rating_user_c">
+									      <td>
+									        <div class="stars-outer">
+									          <div class="stars-inner">
+									          </div>
+									        </div>
+									      </td>
+									    </tr>
+									  </tbody>
+									</table>
+
+								</div>
+								</li>
+								<li> 
+									<p>
+										Am tinut neaparat sa scriu acest review, pentru ca am fost cat pe ce sa returnez produsul pentru neatenția mea!
+										Am achiziționat acum o saptamana acest produs si l-am incercat in diferite feluri. Calitatea imaginii in videoclipurile 4K este ireproșabila, partea Smart la fel, se misca foarte foarte bine. 
+									</p>
+									<p>
+										DAR... La conectarea consolelor de jocuri Xbox sau PlayStation, in timpul jocurilor, imaginea sacada... Echivalentul scăderii Frame-urilor in joc, lucru extrem de frustrant având in vedere calitatea imaginii si potențialul pe care tv ul il avea in filme / clipuri 4K. 
+										Menționez ca am testat consolele pe un tv mai vechi full hd samsung pe care il am si imaginea avea o calitate mai slaba dar jocul era fluent si nesacadat.
+										Astazi m am interesat care sunt demersurile pentru returnarea lui si chiar inainte de a il împacheta am decis sa ma joc cu setările acestuia. 
+									</p>
+									<p>
+										Era foarte simplu, la setările avansate am posibilitatea de a activa modul game care este special pentru console video si rezolva problema mai sus menționata prin optimizarea imaginii la configurația consolei.
+									</p>
+									<p>
+										Așadar, recomand acest produs, raportul calitate / pret este extraordinar si merita cu siguranta 2400 RON, pentru ce oferă!
+									</p>
+								</li>
+								<li>
+									<ul class="lst-none dsp-flex">
+										<li class="mx-2"> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-thumbs-up"></i> 51 </a></li>
+										<li class="mx-2"> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-comment-alt"></i> Adauga comentariu </a></li>
+										<li class="mx-2"> <a href="#" class="normal-link no-underline font-sz"><i class="fas fa-comments"></i> Vezi comentarii (3) </a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="line"> </div>
+					</div>
+					</div>
+				</div>
 
 
 					<div class="col-12 pt-3" id="qanda">

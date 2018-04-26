@@ -140,6 +140,9 @@
     <script>
       const ratings = {
         rating_a : 4.62,
+        rating_user_a : 5,
+        rating_user_b : 3,
+        rating_user_c : 4
       };
 
       // total number of stars

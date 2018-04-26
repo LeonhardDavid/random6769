@@ -95,25 +95,6 @@
 	font-size: 1.5rem;
 	font-weight: bold;
 }
-/*
-.star-rating .yellow{
-	color: rgba(255,194,0,1);
-}
-
-.star-rating .grey{
-	color: var(--text-color-grey) !important;
-}
-
-.star-rating-a{
-	color: var(--text-color-black);
-	text-decoration: none;
-}
-
-.star-rating-a:hover{
-	color: var(--text-color-blue-hover);
-	text-decoration: none;
-}
-*/
 
 .ul-col-left .col-left-a:hover{
 	text-decoration: none;
@@ -324,7 +305,7 @@ table.star-rating {
 .stars-outer {
   display: inline-block;
   position: relative;
-  font-family: FontAwesome;
+  font-family: FontAwesome !important;
 }
 
 .stars-outer::before {
@@ -333,6 +314,7 @@ table.star-rating {
 }
 
 .stars-inner {
+  font-family: FontAwesome !important;
   position: absolute;
   top: 0;
   left: 0;
@@ -342,7 +324,7 @@ table.star-rating {
 }
 
 .stars-inner::before {
-  content: "\f006 \f006 \f006 \f006 \f006";
+  content: "\f005 \f005 \f005 \f005 \f005";
   color: #f8ce0b;
 }
 
@@ -370,6 +352,10 @@ table.star-rating {
 	.review-row{
 		text-align: center;
 	}
+	.star-rating, .rating{
+		margin: auto !important;
+	}
+
 }
 .grey-box{
 	background-color: rgba(233, 235, 238,1);
@@ -386,7 +372,7 @@ table.star-rating {
 
 .rating { 
   border: none;
-  float: left;
+  float:left;
 }
 
 .rating > input { display: none; } 
@@ -405,7 +391,7 @@ table.star-rating {
 
 .rating > label { 
   color: #ddd; 
- float: right; 
+  float: right;
 }
 
 /***** CSS Magic to Highlight Stars on Hover *****/
@@ -418,3 +404,74 @@ table.star-rating {
 .rating > input:checked ~ label:hover,
 .rating > label:hover ~ input:checked ~ label, /* lighten current selection */
 .rating > input:checked ~ label:hover ~ label { color: #FFD700;  } 
+
+.search-reviews{
+	border-radius: 5px 0px 0px 5px !important;
+	border-right: 0 !important;
+}
+
+.search-reviews-long{
+	width: 95% !important;
+}
+
+@media (max-width: 851px){
+	.search-reviews-long{
+		width: 93% !important;
+	}
+}
+
+@media (max-width: 617px){
+	.search-reviews-long{
+		width: 88% !important;
+	}
+}
+
+.search-reviews-btn{
+	background-color: transparent;
+	color: var(--text-color-grey);
+	border-radius: 0px 5px 5px 0px !important;
+	border: 1px solid rgb(206,212,218) !important;
+	border-left: 0 !important;
+}
+
+.lst-none{
+	list-style-type:none;
+	padding-left:0;
+}
+
+.dsp-flex{
+	display: flex;
+}
+
+.user-circle{
+	height: 40px;
+	width: 40px;
+	background-color: var(--navbar-categories-bg-color);
+	color: white;
+	font-size: 2rem;
+	padding: 15px 25px 15px 25px;
+	border-radius: 50%;
+}
+
+.user-circle:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.review-title{
+	font-size: 1.25rem;
+	color: var(--navbar-categories-bg-color);
+	text-decoration: none;
+}
+
+.review-title:hover{
+	color: var(--text-color-blue-hover);
+}
+
+.no-underline{
+	text-decoration: none;
+}
+
+.no-underline:hover{
+	text-decoration: none;
+}
