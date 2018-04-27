@@ -5,6 +5,18 @@
     font-size: 0.6rem;
   }
 
+  .nav-top-right .badge-translate-scroll{
+    transform: translate(-18px, -3px);
+    position: absolute;
+    font-size: 0.6rem;
+  }
+
+  .translate-menu{
+    transform: translate(-35px, 20px) !important;
+    width: 990px !important;
+    top: 25px !important;
+  }
+
   .n1{
     padding-left: 3px !important;
     padding-right: 3px !important;
@@ -16,7 +28,8 @@
 
   .dropdown .product-catalog-menu{
     width: 990px !important;
-    transform: translateX(-3px);
+    transform: translateX(-3px) !important;
+    top: 25px !important;
   }
 
   .product-list .product-item{
@@ -37,15 +50,22 @@
 }
 
 @media (min-width: 1200px){
-  .nav-top-right .badge-translate{
+  .nav-top-right .badge-translate, .nav-top-right .badge-translate-scroll{
     transform: translate(-20px, -3px);
     position: absolute;
     font-size: 0.6rem;
   }
 
   .dropdown .product-catalog-menu{
-  width: 1170px !important;
-  transform: translateX(-15px);
+    width: 1170px !important;
+    transform: translateX(-15px) !important;
+    top: 25px !important;
+  }
+
+  .translate-menu{
+    transform: translate(-35px, 20px) !important;
+    width: 1170px !important;
+    top: 25px !important;
   }
 
   .image-right .tab-category-img{
@@ -84,6 +104,10 @@
   color: var(--text-color-blue);
   font-size: 1.1rem;
   line-height: 0.5rem;
+}
+
+.lh-normal{
+  line-height: normal;
 }
 
 .dropdown .nav-top-right{

@@ -98,6 +98,11 @@ Top bar
   display: block;
 }
 
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
 .dropdown .dropdown-languages{
 	top: 33px;
 	min-width: 100px;

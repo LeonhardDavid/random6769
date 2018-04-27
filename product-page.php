@@ -92,7 +92,7 @@
 
 												<table class="star-rating font-sz">
 												  <tbody>
-												    <tr class="rating_a">
+												    <tr class="rating_total_top">
 												      <td>
 												        <div class="stars-outer">
 												          <div class="stars-inner">
@@ -279,7 +279,7 @@
 				<input type="button" class="btn buttons-custom" onClick="document.getElementById('qanda').scrollIntoView();" value="Intrebari si raspunsuri"/>
 					</div>
 				</div>
-				<div class="container product-container pt-0 mb-4">
+				<div class="container product-container py-0" style="z-index: 10 !important; margin-bottom: -30px;">
 					<div class="cont text-justify px-4">
 					<div class="col-12 pt-3" id="description">
 						<h3 class="heading-style-desc"> Descriere </h3>
@@ -404,14 +404,14 @@
 					<div class="col-12 pt-3 text-left" id="review">
 						<h3 class="heading-style-desc"> Review-uri (26 de review-uri) </h3>
 						<div class="line"> </div>
-						<div class="row py-5 review-row">
+						<div class="row pt-5 review-row">
 							<div class="col-md-6 col-lg-4">
 								<span class="bold-text">Ratingul general al produsului </span>
 								<div class="stars">
 
 									<table class="star-rating">
 									  <tbody>
-									    <tr class="rating_a">
+									    <tr class="rating_total_bot">
 									      <td>
 									        <div class="stars-outer">
 									          <div class="stars-inner">
@@ -516,16 +516,11 @@
 									</div>
 									<div class="col-12 pl-0">
 										<fieldset class="rating">
-										    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Nu recomand"></label>
-										  
-										    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Slab"></label>
-										  
-										    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Acceptabil"></label>
-										    
-										    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Bun"></label>
-										  
 										    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Excelent"></label>
-										  
+										    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Bun"></label>
+										    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Acceptabil"></label>
+										    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Slab"></label>
+										    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Nu recomand"></label>
 										</fieldset>
 									</div>
 								</div>
@@ -753,9 +748,233 @@
 				</div>
 
 
-					<div class="col-12 pt-3" id="qanda">
-						intrebari si raspunsuri
+					<div class="col-12 py-3 px-0" id="qanda">
+						<div class="row pb-3 mx-auto">
+							<div class="col-xl-10 col-lg-9 col-md-8 my-auto pb-1">
+								<h2 class="heading-style-desc resp-font-sz my-auto"> Intrebarile si raspunsurile clientilor <span class="grey-text font-sz"> (50 de intrebari) </span> </h2> 
+							</div>
+							<div class="col-xl-2 col-lg-3 col-md-4 my-auto pb-1">
+								<button class="btn btn-primary text-center w-100"> Adauga intrebare</button> 
+							</div>
+						</div>
+
+						<div class="line mt-2 mb-3"> </div>
+
+						<!-- Question + 2 answers 1-->
+						<div class="row question-answer-row pt-4 mx-auto">
+							<div class="col-md-1 col-2 pt-2 pl-4">
+								<a href="#" class="user-circle-sm"> B </a>
+							</div>
+							<div class="col-md-11 col-10">
+								<div class="row question-row">
+									<ul class="lst-none">
+										<li> <a href="#" class="normal-link bold-link"> Bogdan </a></li>
+										<li> <span class="grey-text"> 01 Mar 2018 </span> </li>
+										<li> 
+											<p class="question-p"> Pot sa conectez un PS4 PRO? </p> 
+										</li>
+										<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-comment-alt"></i> Adauga un raspuns </a></li>
+									</ul>
+									<div class="line mb-2"> </div>
+								</div>
+								<div class="row answers-row">
+									
+									<!-- Answer 1 -->
+									<div class="row">
+										<div class="col-md-1 col-2 pt-2 pl-2 pr-0">
+											<a href="#" class="user-circle-sm"> A </a>
+										</div>
+										<div class="col-md-11 col-10">
+											<div class="row">
+												<ul class="lst-none">
+													<li> <a href="#" class="normal-link bold-link"> Anghel Alexandru </a></li>
+													<li> <span class="grey-text"> 22 Mar 2018 </span> </li>
+													<li> 
+														<p class="answer-p"> De ce doamne iarta-ma nu ai putea sa conectezi un ps4 pro la el? </p> 
+													</li>
+													<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-thumbs-up"></i> 51 </a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="line mb-2"></div>
+									</div>
+
+									<!-- Answer 2-->
+									<div class="row">
+										<div class="col-md-1 col-2 pt-2 pl-2 pr-0">
+											<a href="#" class="user-circle-sm"> N </a>
+										</div>
+										<div class="col-md-11 col-10">
+											<div class="row">
+												<ul class="lst-none">
+													<li> <a href="#" class="normal-link bold-link"> Neculae Gabriel </a></li>
+													<li> <span class="grey-text"> 07 Apr 2018 </span> </li>
+													<li> 
+														<p class="answer-p"> Ca sa arata ca si-a luat si PS4 PRO... </p> 
+													</li>
+													<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-thumbs-up"></i> A fost util raspunsul? </a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="line mb-2"></div>
+
+						<!-- Question + 1 answer 2-->
+						<div class="row question-answer-row pt-4 mx-auto">
+							<div class="col-md-1 col-2 pt-2 pl-4">
+								<a href="#" class="user-circle-sm"> E </a>
+							</div>
+							<div class="col-md-11 col-10">
+								<div class="row question-row">
+									<ul class="lst-none">
+										<li> <a href="#" class="normal-link bold-link"> Emilian </a></li>
+										<li> <span class="grey-text"> 19 Apr 2018 </span> </li>
+										<li> 
+											<p class="question-p"> Am cumparat tv Samsung seria 6 si nu reusesc deloc sa fac lista de canale in ordinea pe care o vreau eu. Ma poate ajuta cineva?  </p> 
+										</li>
+										<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-comment-alt"></i> Adauga un raspuns </a></li>
+									</ul>
+									<div class="line mb-2"> </div>
+								</div>
+								<div class="row answers-row">
+									
+									<!-- Answer 1 -->
+									<div class="row">
+										<div class="col-md-1 col-2 pt-2 pl-2 pr-0">
+											<a href="#" class="user-circle-sm"> A </a>
+										</div>
+										<div class="col-md-11 col-10">
+											<div class="row">
+												<ul class="lst-none">
+													<li> <a href="#" class="normal-link bold-link"> Andrei A </a></li>
+													<li> <span class="grey-text"> 24 Apr 2018 </span> </li>
+													<li> 
+														<p class="answer-p"> In meniu, televizorul are optiunea de a exporta lista de canale pe un stick usb. Fisierul il deschizi pe calculator cu un program (de exemplu SamsChannelEditor) si le ordonezi cum ai chef. Sunt diverse programe care fac asta, este simplu. Dupa ce faci modificarea si salvezi fisierul, bagi stick-ul la loc in tv si dai import la lista. </p> 
+													</li>
+													<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-thumbs-up"></i> 6 </a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="line mb-2"></div>
+
+						<!-- Question only 3-->
+						<div class="row question-answer-row pt-4 mx-auto">
+							<div class="col-md-1 col-2 pt-2 pl-4">
+								<a href="#" class="user-circle-sm"> P </a>
+							</div>
+							<div class="col-md-11 col-10">
+								<div class="row question-row">
+									<ul class="lst-none">
+										<li> <a href="#" class="normal-link bold-link"> Petronela </a></li>
+										<li> <span class="grey-text"> 13 Apr 2018 </span> </li>
+										<li> 
+											<p class="question-p"> Salut, planuiesc sa cumpar acest TV, insa am o intrebare, serialele si filmele full hd dupa stick/hdd se vad la fel de bine ca pe un tv full hd?, sau se vad pixelat </p> 
+										</li>
+										<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-comment-alt"></i> Adauga un raspuns </a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="line mb-2"></div>
+
+						<!-- Question + 3 answers 4-->
+						<div class="row question-answer-row pt-4 mx-auto">
+							<div class="col-md-1 col-2 pt-2 pl-4">
+								<a href="#" class="user-circle-sm"> P </a>
+							</div>
+							<div class="col-md-11 col-10">
+								<div class="row question-row">
+									<ul class="lst-none">
+										<li> <a href="#" class="normal-link bold-link"> Paula </a></li>
+										<li> <span class="grey-text"> 21 Feb 2018 </span> </li>
+										<li> 
+											<p class="question-p">Vede subtitrarea in romana pe Netflix? Eu mai am un Samsung mai vechi si nu o vede - din vina televizorului, nu a Netflixului. </p> 
+										</li>
+										<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-comment-alt"></i> Adauga un raspuns </a></li>
+									</ul>
+									<div class="line mb-2"> </div>
+								</div>
+								<div class="row answers-row">
+									
+									<!-- Answer 1 -->
+									<div class="row">
+										<div class="col-md-1 col-2 pt-2 pl-2 pr-0">
+											<a href="#" class="user-circle-sm"> G </a>
+										</div>
+										<div class="col-md-11 col-10">
+											<div class="row">
+												<ul class="lst-none">
+													<li> <a href="#" class="normal-link bold-link"> Gion </a></li>
+													<li> <span class="grey-text"> 22 Feb 2018 </span> </li>
+													<li> 
+														<p class="answer-p"> Vede fara probleme. </p> 
+													</li>
+													<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-thumbs-up"></i> 2 </a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="line mb-2"></div>
+									</div>
+
+									<!-- Answer 2 -->
+									<div class="row">
+										<div class="col-md-1 col-2 pt-2 pl-2 pr-0">
+											<a href="#" class="user-circle-sm"> L </a>
+										</div>
+										<div class="col-md-11 col-10">
+											<div class="row">
+												<ul class="lst-none">
+													<li> <a href="#" class="normal-link bold-link"> Leon </a></li>
+													<li> <span class="grey-text"> 22 Feb 2018 </span> </li>
+													<li> 
+														<p class="answer-p"> Se vede, happy Netflix and chill! ;) </p> 
+													</li>
+													<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-thumbs-up"></i> 667 </a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="line mb-2"></div>
+									</div>
+
+									<!-- Answer 3 -->
+									<div class="row">
+										<div class="col-md-1 col-2 pt-2 pl-2 pr-0">
+											<a href="#" class="user-circle-sm"> R </a>
+										</div>
+										<div class="col-md-11 col-10">
+											<div class="row">
+												<ul class="lst-none">
+													<li> <a href="#" class="normal-link bold-link"> Radu Cristian </a></li>
+													<li> <span class="grey-text"> 23 Feb 2018 </span> </li>
+													<li> 
+														<p class="answer-p"> Mie imi vede pe acest model:) </p> 
+													</li>
+													<li> <a href="#" class="normal-link no-underline font-sz"><i class="far fa-thumbs-up"></i>2 </a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="line mb-2"></div>
+
 					</div>
+
 				</div>
 				</div>
 			</div>

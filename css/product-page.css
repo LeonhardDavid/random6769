@@ -248,7 +248,7 @@ product image gallery
 .row .button-row{
 	top: 3.5rem !important;
 	background-color: var(--navbar-categories-bg-color);
-	z-index: 1 !important;
+	z-index: 15 !important;
 }
 
 .buttons-custom{
@@ -444,8 +444,6 @@ table.star-rating {
 }
 
 .user-circle{
-	height: 40px;
-	width: 40px;
 	background-color: var(--navbar-categories-bg-color);
 	color: white;
 	font-size: 2rem;
@@ -454,6 +452,19 @@ table.star-rating {
 }
 
 .user-circle:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.user-circle-sm{
+	background-color: var(--navbar-categories-bg-color);
+	color: white;
+	font-size: 1rem;
+	padding: 15px 20px 15px 20px;
+	border-radius: 50%;
+}
+
+.user-circle-sm:hover{
 	text-decoration: none;
 	color: white;
 }
@@ -474,4 +485,31 @@ table.star-rating {
 
 .no-underline:hover{
 	text-decoration: none;
+}
+
+@media (max-width: 992px){
+	.resp-font-sz{
+		font-size: 1.4rem !important;
+	}
+}
+
+
+@media (max-width: 500px){
+	.resp-font-sz{
+		font-size: 1.2rem !important;
+	}
+}
+
+.answers-row{
+	display: initial !important;
+	margin: 0 !important;
+}
+
+.question-p{
+	font-size: 1.1rem;
+	font-weight: 600;
+}
+
+.bold-link{
+	font-weight: 600;
 }

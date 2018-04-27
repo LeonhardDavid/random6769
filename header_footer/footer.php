@@ -136,15 +136,26 @@
 		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<script type="text/javascript" src="css/slick/slick.min.js"></script>
 
+    <script>
+      $('body').on('mouseenter mouseleave','.dropdown',function(e){
+        var _d=$(e.target).closest('.dropdown');
+        _d.addClass('show');
+        setTimeout(function(){
+          _d[_d.is(':hover')?'addClass':'removeClass']('show');
+          $('[data-toggle="dropdown"]', _d).attr('aria-expanded',_d.is(':hover'));
+        },300);
+      });
+    </script>
 
     <script>
       const ratings = {
-        rating_a : 4.62,
+        rating_total_top : 4.62,
+        rating_total_bot : 4.62,
         rating_user_a : 5,
         rating_user_b : 3,
         rating_user_c : 4
       };
-
+      
       // total number of stars
       const starTotal = 5;
 

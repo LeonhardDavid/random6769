@@ -468,7 +468,7 @@
     <div class="row product-catalog-row">
       <div class="col-md-2 n1 d-flex justify-content-between">
           <div class="dropdown show">
-            <a class="product-catalog-a" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="product-catalog-a py-2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               CATALOG PRODUSE &nbsp;
               <span>
                 <i class="fas fa-align-justify"></i>
@@ -773,17 +773,17 @@
   <div class="row" style="height: 3.5rem;">
 
     <!-- Product catalog dropdown-->
-    <div class="col-md-1">
+    <div class="col-lg-1 my-auto">
     <div class="product-catalog-row py-1" style="font-size: 1.5rem !important;">
       <div class="n1 d-flex justify-content-between" style="padding: 5px !important; border-radius: 5px !important;">
           <div class="dropdown show mx-auto">
-            <a class="product-catalog-a" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="product-catalog-a py-3 px-3" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span>
                 <i class="fas fa-align-justify"></i>
               </span>
             </a>
 
-            <div class="dropdown-menu product-catalog-menu" aria-labelledby="dropdownMenuLink" style="transform: translate(-36px, 10px);">
+            <div class="dropdown-menu translate-menu" aria-labelledby="dropdownMenuLink" >
 
               <div class="container px-0 product-catalog-dropdown">
                 <div class="row">
@@ -1062,14 +1062,14 @@
     </div>
 
     <!-- Logo -->
-    <div class="col-md-1 my-auto d-flex logo-header">
+    <div class="col-lg-1 px-0 my-auto d-flex logo-header">
       <img class="mx-auto my-auto logo" style="height: 2.5rem;" src="images/logo.svg" alt ="Logo-header">
     </div>
 
     <!-- Search form -->
-    <div class="col-md-8 my-2">
+    <div class="col-lg-7 my-auto">
         <form>
-          <div class="form-group mx-2">
+          <div class="form-group mx-2 my-auto">
             <div class="input-group">
                 <input type="text" class="form-control" placeholder="Cauta produsul dorit...">
                   <span class="input-group-btn">
@@ -1081,13 +1081,13 @@
       </div>
 
       <!-- My account & my cart dropdowns -->
-      <div class="col-md-2 d-flex justify-content-center align-self-center px-0 mx-0">
+      <div class="col-lg-3 d-flex justify-content-center align-self-center mx-auto my-auto">
         <div class="d-flex align-self-center padds">
 
           <div class="dropdown show">
           <a class="nav-top-right" href="#">
             <img class="mx-auto my-auto nav-svg" src="images/my-account.svg" alt="my-account" >
-            <span class="pstyle">
+            <span class="pstyle lh-normal">
               Contul <br> meu
             </span>
           </a>
@@ -1119,9 +1119,9 @@
 
           <div class="dropdown show">
           <a class="nav-top-right" href="#" data-toggle="tooltip" data-placement="right" title="Total: 6769 lei">
-            <span class="badge badge-pill badge-danger badge-translate py-1 px-1">17</span>
+            <span class="badge badge-pill badge-danger badge-translate-scroll py-1 px-1">17</span>
             <img class="mx-auto my-auto nav-svg" src="images/shopping-cart.svg" alt="shopping-cart">
-            <span class="pstyle">
+            <span class="pstyle lh-normal">
               Cosul <br> meu
            </span>
           </a>
