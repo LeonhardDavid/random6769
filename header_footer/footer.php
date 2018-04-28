@@ -136,6 +136,59 @@
 		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<script type="text/javascript" src="css/slick/slick.min.js"></script>
 
+    <script>
+      $('body').on('mouseenter mouseleave','.dropdown',function(e){
+        var _d=$(e.target).closest('.dropdown');
+        _d.addClass('show');
+        setTimeout(function(){
+          _d[_d.is(':hover')?'addClass':'removeClass']('show');
+          $('[data-toggle="dropdown"]', _d).attr('aria-expanded',_d.is(':hover'));
+        },300);
+      });
+    </script>
+
+    <script>
+      const ratings = {
+        rating_total_top : 4.62,
+        rating_total_bot : 4.62,
+        rating_user_a : 5,
+        rating_user_b : 3,
+        rating_user_c : 4
+      };
+      
+      // total number of stars
+      const starTotal = 5;
+
+      for(const rating in ratings) {  
+        const starPercentage = (ratings[rating] / starTotal) * 100;
+        const starPercentageRounded = `${starPercentage}%`;
+        document.querySelector(`.${rating} .stars-inner`).style.width = starPercentageRounded; 
+      }
+    </script>
+
+    <script type="text/javascript">
+    (function ($) {
+    $(document).ready(function(){
+
+      // hide .button-row first
+      $(".button-row").css("cssText", "display: none !important;");
+
+      // fade in .button-row
+      $(function () {
+          $(window).scroll(function () {
+              // set distance user needs to scroll before we start fadeIn
+              if ($(this).scrollTop() > 450) {
+                  $('.button-row').show();
+              } else {
+                  $('.button-row').css("cssText", "display: none !important;");
+              }
+          });
+      });
+
+  });
+    }(jQuery));
+    </script>
+
     <!-- +/- quantity-->
     <script>
        $(document).ready(function(){
@@ -306,14 +359,52 @@
           ]
       });
 
-    });
     $(".product-page-carousel").slick({
         slidesToShow:4,
         slidesToScroll:1,
+        dots: true,
         autoplay:false,
         });
-		</script>
+    $(".similar-products-carousel").slick({
+          slidesToShow:5,
+          slidesToScroll:1,
+          dots:false,
+          responsive:
+          [
+          {
+            breakpoint: 1250,
+            settings: {
+              slidesToShow:4,
+              slidesToScroll:4
+            }
+          },
+          {
+            breakpoint:1000,
+            settings:{
+              slidesToShow:3,
+              slidesToScroll:3
+            }
+          },
+          {
+            breakpoint:740,
+            settings:{
+              slidesToShow:2,
+              slidesToScroll:2,
+            }
+          },
+          {
+            breakpoint:480,
+            settings:{
+              slidesToShow:1,
+              slidesToScroll:1
+            }
+          }
+          ]
+      });
 
-		<!-- Font Awesome CDN for vector icons-->
-		<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    });
+    </script>
+
+    <!-- Font Awesome CDN for vector icons-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 </html>

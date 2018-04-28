@@ -98,6 +98,11 @@ Top bar
   display: block;
 }
 
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
 .dropdown .dropdown-languages{
 	top: 33px;
 	min-width: 100px;
@@ -205,7 +210,13 @@ Row after gallery
 	background: -moz-linear-gradient(left, #1e5799 0%, #207cca 39%, #b7b7b7 39%, #b7b7b7 39%, #b7b7b7 100%);
 	background: -webkit-linear-gradient(left, #1e5799 0%,#207cca 39%,#b7b7b7 39%,#b7b7b7 39%,#b7b7b7 100%);
 	background: linear-gradient(to right, #1e5799 0%,#207cca 39%,#b7b7b7 39%,#b7b7b7 39%,#b7b7b7 100%);
-	width:98%;
+	width:100%;
+}
+
+.line-black{
+	height: 1px;
+	background: black;
+	width: 100%;
 }
 
 .product-carousel .product-carousel-style{
