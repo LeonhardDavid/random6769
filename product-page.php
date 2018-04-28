@@ -2,7 +2,7 @@
 
 	<div class="container product-container py-0">
 		<div class="cont pt-5 px-3" style="">
-		<p class="product-path mb-1"> 
+		<p class="product-path mb-1">
 			<a class="product-path-a" href="#"> Clothing & Shoes</a>
 			>
 			<a class="product-path-a" href="#"> Shoes</a>
@@ -34,7 +34,7 @@
 			<div class="col-md-6 product-photos">
 				<!-- <img class="product-photos-img" src="images/product-images/product-image-1.jpg">-->
 				<div class="preview">
-						
+
 						<div class="preview-pic tab-content">
 						  <div class="tab-pane active" id="pic-1"><img src="images/product-images/product-image-1.jpg" /></div>
 						  <div class="tab-pane" id="pic-2"><img src="images/product-images/product-image-2.jpg" /></div>
@@ -79,14 +79,14 @@
 						</ul>
 					-->
 				</div>
-				
+
 			</div>
 		<div class="col-md-6">
 			<div class="row px-2">
 				<div class="col-lg-6 product-details-1 text-left font-sz">
 					<ul class="ul-col-left px-0">
 								<li class="mb-2"> <span class="grey-text"> opinia clientilor:</span> </li>
-								<li class="mb-2"> 
+								<li class="mb-2">
 									<a href="#" class="col-left-a" style="display:flex;">
 										<div class="star-rating" name="star-rating" data-input="3.5">
 											<i class="fas fa-star yellow"></i>
@@ -102,7 +102,7 @@
 								<li class="mb-2"> <span class="grey-text"> Vandut de: </span> <span class="black-text"> eMAG</span> </li>
 								<li class="mb-2"> <span class="grey-text"> Ajunge in: </span> <span class="black-text"> <strong> Suceava (Suceava)</strong></span> <a href="#" class="normal-link"> schimba </a> </li>
 								<hr>
-								<li class="my-2"> 
+								<li class="my-2">
 									<div class="row font-sz">
 										<div class="col-2">
 											<i class="fas fa-truck"></i>
@@ -112,10 +112,10 @@
 										</div>
 										<div class="col-3 px-1">
 											<span class="green-text float-right"> Gratuita </span>
-										</div>  
+										</div>
 								</li>
 								<hr>
-								<li class="my-2"> 
+								<li class="my-2">
 									<div class="row font-sz">
 										<div class="col-2">
 											<i class="far fa-calendar-check"></i>
@@ -158,7 +158,7 @@
 								</div>
 							</div>
 						</li>
-						<li class="mb-3"> 
+						<li class="mb-3">
 									<div class="add-to-cart w-100">
 										<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
 										<span class="shopping-cart">
@@ -166,7 +166,7 @@
 										</span>
 									</div>
 						</li>
-						<li class="mb-3"> 
+						<li class="mb-3">
 									<div class="add-to-fav w-100">
 										<input class="add-to-fav-btn" type="submit" value="Adauga la favorite">
 										<span class="heart">
