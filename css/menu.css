@@ -37,13 +37,6 @@
     padding-right: 8px;
   }
 
-  .image-right .tab-category-img{
-    border-bottom-right-radius: 4px;
-    transform: translateX(-45px);
-    width: 375px;
-    height: 441px;
-  }
-
   .row .links{
     font-size: .85rem;
   }
@@ -58,7 +51,7 @@
 
   .dropdown .product-catalog-menu{
     width: 1170px !important;
-    transform: translateX(-15px) !important;
+    transform: translate(-15px, -5px) !important;
     top: 25px !important;
   }
 
@@ -67,13 +60,28 @@
     width: 1170px !important;
     top: 25px !important;
   }
+}
 
-  .image-right .tab-category-img{
-    height: 441px;
-    transform: translateX(-48px);
-    border-bottom-right-radius: 4px;
-  }
+.head-height{
+  height: 3.5rem !important;
+}
 
+.font-sz-imp{
+  font-size: 1.5rem !important;
+}
+
+.pad-cust-imp{
+  padding: 5px !important; 
+  border-radius: 5px !important;
+}
+
+.pos-desc{
+  z-index: 10 !important;
+  margin-bottom: -20px;
+}
+
+.logo-height{
+  height: 2.5rem !important;
 }
 
 .header-style{
@@ -86,6 +94,20 @@
   background-position: center;
   background-size: cover;
   background-attachment: scroll;
+}
+
+.tab-list-background{
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+}
+
+.tlb-bg0{
+  background-image: url("../images/tab-category0-bg.jpg");    
+}
+
+.tlb-bg1{
+  background-image: url("../images/tab-category1-bg.jpg");
 }
 
 .h{

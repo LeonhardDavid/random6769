@@ -260,6 +260,11 @@ product image gallery
 	background-color: var(--text-color-blue-hover);
 }
 
+.pos-style-desc{
+	z-index: 10 !important; 
+	margin-bottom: -30px;
+}
+
 .heading-style-desc{
 	color: var(--navbar-categories-bg-color);
 	margin-top: 1rem;
@@ -394,6 +399,7 @@ table.star-rating {
   float: right;
 }
 
+
 /***** CSS Magic to Highlight Stars on Hover *****/
 
 .rating > input:checked ~ label, /* show gold star when clicked */
@@ -404,6 +410,16 @@ table.star-rating {
 .rating > input:checked ~ label:hover,
 .rating > label:hover ~ input:checked ~ label, /* lighten current selection */
 .rating > input:checked ~ label:hover ~ label { color: #FFD700;  } 
+
+.fl-r{
+	float: right;
+}
+
+@media (max-width: 767px){
+	.media-w-100{
+		width: 100% !important;
+	}
+}
 
 .search-reviews{
 	border-radius: 5px 0px 0px 5px !important;
@@ -432,6 +448,14 @@ table.star-rating {
 	border-radius: 0px 5px 5px 0px !important;
 	border: 1px solid rgb(206,212,218) !important;
 	border-left: 0 !important;
+}
+
+.active .page-link{
+	background-color: var(--navbar-categories-bg-color) !important;
+}
+
+.pagination .page-item .page-link{
+	border-radius: 5px !important;
 }
 
 .lst-none{
@@ -508,6 +532,11 @@ table.star-rating {
 .question-p{
 	font-size: 1.1rem;
 	font-weight: 600;
+	padding-right: 1.25rem !important;
+}
+
+.answer-p{
+	padding-right: 1.25rem !important;
 }
 
 .bold-link{

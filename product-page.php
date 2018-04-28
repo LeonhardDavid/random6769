@@ -1,7 +1,7 @@
 <?php require 'header_footer/header.php';?>
 
 	<div class="container product-container py-0">
-		<div class="cont pt-5 px-4 mb-0" style="">
+		<div class="cont pt-5 px-4 mb-0">
 		<p class="product-path mb-1"> 
 			<a class="product-path-a" href="#"> Clothing & Shoes</a>
 			>
@@ -87,7 +87,7 @@
 						<ul class="ul-col-left px-0">
 									<li> <span class="grey-text"> opinia clientilor:</span> </li>
 									<li class="mb-2"> 
-										<a href="#" class="col-left-a" style="display:flex;">
+										<a href="#" class="col-left-a dsp-flex">
 											<div class="stars">
 
 												<table class="star-rating font-sz">
@@ -279,7 +279,7 @@
 				<input type="button" class="btn buttons-custom" onClick="document.getElementById('qanda').scrollIntoView();" value="Intrebari si raspunsuri"/>
 					</div>
 				</div>
-				<div class="container product-container py-0" style="z-index: 10 !important; margin-bottom: -30px;">
+				<div class="container product-container py-0 pos-desc">
 					<div class="cont text-justify px-4">
 					<div class="col-12 pt-3" id="description">
 						<h3 class="heading-style-desc"> Descriere </h3>
@@ -296,12 +296,12 @@
 							</div>
 
 							<div class="col-lg-4">
-								<img class="img-desc" src="images/product-images/product-desc-1.jpg">
+								<img class="img-desc mx-auto d-block" src="images/product-images/product-desc-1.jpg">
 							</div>
 						</div>
 						<div class="row my-3">
 							<div class="col-lg-4">
-								<img class="img-desc" src="images/product-images/product-desc-2.jpg">
+								<img class="img-desc mx-auto d-block" src="images/product-images/product-desc-2.jpg">
 							</div>
 							<div class="col-lg-8">
 								<h2 class="heading-style-desc"> CONSTRUCTED TO PROTECT. BUILT TO MOVE. </h2>
@@ -323,7 +323,7 @@
 								</p>
 							</div>
 							<div class="col-md-8 col-12">
-								<img class="img-desc" src="images/product-images/product-desc-gif.gif">
+								<img class="img-desc mx-auto d-block" src="images/product-images/product-desc-gif.gif">
 							</div>
 							<div class="col-md-8 col-12 mt-4">
 								<p class="grey-text">
@@ -541,18 +541,18 @@
 
 						</div>
 
-						<div class="col-xl-4 col-lg-4 col-md-6 pr-0 mt-1" style="display: flex;">
-							<span class="bold-text font-sz py-1"> Sorteaza dupa: </span>
-							<div class="form-group mx-auto">
+						<div class="col-xl-4 col-lg-4 col-md-6 pr-0 mt-1 dsp-flex">
+							<span class="bold-text font-sz py-1 d-md-block d-none"> Sorteaza dupa: </span>
+							<div class="form-group mx-auto media-w-100 pr-3">
 							    <select class="form-control" id="sort-review-dropdown">
 							      <option>Cele mai populare</option>
 							      <option>Cele mai noi</option>
 							    </select>
 							  </div>
 						</div>
-						<div class="col-xl-4 col-lg-4 col-md-6 pr-0 mt-1" style="display: flex;">
-							<span class="bold-text font-sz py-1"> Filtreaza: </span>
-							<div class="form-group mx-auto">
+						<div class="col-xl-4 col-lg-4 col-md-6 pr-0 mt-1 dsp-flex">
+							<span class="bold-text font-sz py-1 d-md-block d-none"> Filtreaza: </span>
+							<div class="form-group mx-auto media-w-100 pr-3">
 							    <select class="form-control" id="sort-review-dropdown">
 							      <option>Toate review-urile</option>
 							      <option>Review-uri de 5 stele</option>
@@ -569,7 +569,7 @@
 						</div>
 
 						<div class="col-xl-3 col-lg-4 d-lg-block d-none px-0">
-							<form class="form-inline" style="float: right;">
+							<form class="form-inline fl-r">
 						      <input class="form-control search-reviews" type="search" placeholder="Cauta in review-uri" aria-label="Search">
 						      <button class="btn search-reviews-btn" type="submit"><i class="fas fa-search"></i></button>
 						    </form>
@@ -742,10 +742,31 @@
 								</li>
 							</ul>
 						</div>
+						
+						<div class="line"> </div>
+
+						<!-- Pagination -->
+						<div class="row mx-auto mt-4 mb-1">
+							<nav aria-label="Page navigation example" class="mx-auto">
+							  <ul class="pagination justify-content-center">
+							    <li class="page-item px-1 disabled">
+							      <a class="page-link" href="#" tabindex="-1"> <i class="fas fa-angle-left"></i> Pagina anterioara </a>
+							    </li>
+							    <li class="page-item px-1 active"><a class="page-link" href="#">1</a></li>
+							    <li class="page-item px-1"><a class="page-link" href="#">2</a></li>
+							    <li class="page-item px-1 disabled"><a class="page-link" href="#">...</a></li>
+							    <li class="page-item px-1"><a class="page-link" href="#">19</a></li>
+							    <li class="page-item px-1">
+							      <a class="page-link" href="#"> Pagina urmatoare <i class="fas fa-angle-right"></i> </a>
+							    </li>
+							  </ul>
+							</nav>
+						</div>
+
 						<div class="line"> </div>
 					</div>
-					</div>
 				</div>
+			</div>
 
 
 					<div class="col-12 py-3 px-0" id="qanda">
@@ -762,10 +783,10 @@
 
 						<!-- Question + 2 answers 1-->
 						<div class="row question-answer-row pt-4 mx-auto">
-							<div class="col-md-1 col-2 pt-2 pl-4">
+							<div class="col-md-1 col-2 px-auto pt-2">
 								<a href="#" class="user-circle-sm"> B </a>
 							</div>
-							<div class="col-md-11 col-10">
+							<div class="col-md-11 col-10 pl-4">
 								<div class="row question-row">
 									<ul class="lst-none">
 										<li> <a href="#" class="normal-link bold-link"> Bogdan </a></li>
@@ -781,10 +802,10 @@
 									
 									<!-- Answer 1 -->
 									<div class="row">
-										<div class="col-md-1 col-2 pt-2 pl-2 pr-0">
+										<div class="col-md-1 col-2 px-auto pt-3">
 											<a href="#" class="user-circle-sm"> A </a>
 										</div>
-										<div class="col-md-11 col-10">
+										<div class="col-md-11 col-10 pl-4">
 											<div class="row">
 												<ul class="lst-none">
 													<li> <a href="#" class="normal-link bold-link"> Anghel Alexandru </a></li>
@@ -801,10 +822,10 @@
 
 									<!-- Answer 2-->
 									<div class="row">
-										<div class="col-md-1 col-2 pt-2 pl-2 pr-0">
+										<div class="col-md-1 col-2 px-auto pt-3">
 											<a href="#" class="user-circle-sm"> N </a>
 										</div>
-										<div class="col-md-11 col-10">
+										<div class="col-md-11 col-10 pl-4">
 											<div class="row">
 												<ul class="lst-none">
 													<li> <a href="#" class="normal-link bold-link"> Neculae Gabriel </a></li>
@@ -826,10 +847,10 @@
 
 						<!-- Question + 1 answer 2-->
 						<div class="row question-answer-row pt-4 mx-auto">
-							<div class="col-md-1 col-2 pt-2 pl-4">
+							<div class="col-md-1 col-2 px-auto pt-2">
 								<a href="#" class="user-circle-sm"> E </a>
 							</div>
-							<div class="col-md-11 col-10">
+							<div class="col-md-11 col-10 pl-4">
 								<div class="row question-row">
 									<ul class="lst-none">
 										<li> <a href="#" class="normal-link bold-link"> Emilian </a></li>
@@ -845,10 +866,10 @@
 									
 									<!-- Answer 1 -->
 									<div class="row">
-										<div class="col-md-1 col-2 pt-2 pl-2 pr-0">
+										<div class="col-md-1 col-2 px-auto pt-3">
 											<a href="#" class="user-circle-sm"> A </a>
 										</div>
-										<div class="col-md-11 col-10">
+										<div class="col-md-11 col-10 pl-4">
 											<div class="row">
 												<ul class="lst-none">
 													<li> <a href="#" class="normal-link bold-link"> Andrei A </a></li>
@@ -870,10 +891,10 @@
 
 						<!-- Question only 3-->
 						<div class="row question-answer-row pt-4 mx-auto">
-							<div class="col-md-1 col-2 pt-2 pl-4">
+							<div class="col-md-1 col-2 px-auto pt-2">
 								<a href="#" class="user-circle-sm"> P </a>
 							</div>
-							<div class="col-md-11 col-10">
+							<div class="col-md-11 col-10 pl-4">
 								<div class="row question-row">
 									<ul class="lst-none">
 										<li> <a href="#" class="normal-link bold-link"> Petronela </a></li>
@@ -891,10 +912,10 @@
 
 						<!-- Question + 3 answers 4-->
 						<div class="row question-answer-row pt-4 mx-auto">
-							<div class="col-md-1 col-2 pt-2 pl-4">
+							<div class="col-md-1 col-2 px-auto pt-2">
 								<a href="#" class="user-circle-sm"> P </a>
 							</div>
-							<div class="col-md-11 col-10">
+							<div class="col-md-11 col-10 pl-4">
 								<div class="row question-row">
 									<ul class="lst-none">
 										<li> <a href="#" class="normal-link bold-link"> Paula </a></li>
@@ -910,10 +931,10 @@
 									
 									<!-- Answer 1 -->
 									<div class="row">
-										<div class="col-md-1 col-2 pt-2 pl-2 pr-0">
+										<div class="col-md-1 col-2 px-auto pt-3">
 											<a href="#" class="user-circle-sm"> G </a>
 										</div>
-										<div class="col-md-11 col-10">
+										<div class="col-md-11 col-10 pl-4">
 											<div class="row">
 												<ul class="lst-none">
 													<li> <a href="#" class="normal-link bold-link"> Gion </a></li>
@@ -930,10 +951,10 @@
 
 									<!-- Answer 2 -->
 									<div class="row">
-										<div class="col-md-1 col-2 pt-2 pl-2 pr-0">
+										<div class="col-md-1 col-2 px-auto pt-3">
 											<a href="#" class="user-circle-sm"> L </a>
 										</div>
-										<div class="col-md-11 col-10">
+										<div class="col-md-11 col-10 pl-4">
 											<div class="row">
 												<ul class="lst-none">
 													<li> <a href="#" class="normal-link bold-link"> Leon </a></li>
@@ -950,10 +971,10 @@
 
 									<!-- Answer 3 -->
 									<div class="row">
-										<div class="col-md-1 col-2 pt-2 pl-2 pr-0">
+										<div class="col-md-1 col-2 px-auto pt-3">
 											<a href="#" class="user-circle-sm"> R </a>
 										</div>
-										<div class="col-md-11 col-10">
+										<div class="col-md-11 col-10 pl-4">
 											<div class="row">
 												<ul class="lst-none">
 													<li> <a href="#" class="normal-link bold-link"> Radu Cristian </a></li>
@@ -973,9 +994,24 @@
 
 						<div class="line mb-2"></div>
 
+						<!-- Pagination -->
+						<div class="row mx-auto mt-4 mb-1">
+							<nav aria-label="Page navigation example" class="mx-auto">
+							  <ul class="pagination justify-content-center">
+							    <li class="page-item px-1 disabled">
+							      <a class="page-link" href="#" tabindex="-1"> <i class="fas fa-angle-left"></i> Pagina anterioara </a>
+							    </li>
+							    <li class="page-item px-1 active"><a class="page-link" href="#">1</a></li>
+							    <li class="page-item px-1"><a class="page-link" href="#">2</a></li>
+							    <li class="page-item px-1"><a class="page-link" href="#">3</a></li>
+							    <li class="page-item px-1">
+							      <a class="page-link" href="#"> Pagina urmatoare <i class="fas fa-angle-right"></i> </a>
+							    </li>
+							  </ul>
+							</nav>
+						</div>
 					</div>
-
-				</div>
 				</div>
 			</div>
+		</div>
 <?php require 'header_footer/footer.php';?>

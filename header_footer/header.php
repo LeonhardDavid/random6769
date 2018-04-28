@@ -476,7 +476,6 @@
             </a>
 
             <div class="dropdown-menu product-catalog-menu" aria-labelledby="dropdownMenuLink">
-
               <div class="container px-0 product-catalog-dropdown">
                 <div class="row">
                   <div class="col-md-2 px-0 product-tab">
@@ -494,10 +493,10 @@
                     </div>
                   </div>
                   <div class="col-md-10">
-                    <div class="tab-content" id="nav-tabContent">
-                      <div class="tab-pane fade show active" id="list-category0" role="tabpanel" aria-labelledby="list-category0-list">
+                    <div class="tab-content h-100" id="nav-tabContent">
+                      <div class="tab-pane fade show active h-100" id="list-category0" role="tabpanel" aria-labelledby="list-category0-list">
 
-                        <div class="row">
+                        <div class="row h-100 tab-list-background tlb-bg0">
                           <div class="col-md-7">
 
                             <div class="row">
@@ -597,14 +596,13 @@
                             </div>
                           </div>
 
-                          <div class="col-md-5 image-right">
-                            <img src="images/tab-category0-bg.jpg" class="tab-category-img">
+                          <div class="col-md-5">
                           </div>
                         </div>
                       </div>
 
-                      <div class="tab-pane fade" id="list-category1" role="tabpanel" aria-labelledby="list-category1-list">
-                        <div class="row">
+                      <div class="tab-pane fade h-100" id="list-category1" role="tabpanel" aria-labelledby="list-category1-list">
+                        <div class="row h-100 tab-list-background tlb-bg1">
                           <div class="col-md-7">
 
                             <div class="row">
@@ -704,41 +702,40 @@
                             </div>
                           </div>
 
-                          <div class="col-md-5 image-right">
-                            <img src="images/tab-category1-bg.jpg" class="tab-category-img">
+                          <div class="col-md-5">
                           </div>
                         </div>
                       </div>
 
-                      <div class="tab-pane fade" id="list-category2" role="tabpanel" aria-labelledby="list-category2-list">
+                      <div class="tab-pane fade h-100" id="list-category2" role="tabpanel" aria-labelledby="list-category2-list">
                         category2
                       </div>
 
-                      <div class="tab-pane fade" id="list-category3" role="tabpanel" aria-labelledby="list-category3-list">
+                      <div class="tab-pane fade h-100" id="list-category3" role="tabpanel" aria-labelledby="list-category3-list">
                         category3
                       </div>
 
-                      <div class="tab-pane fade" id="list-category4" role="tabpanel" aria-labelledby="list-category4-list">
+                      <div class="tab-pane fade h-100" id="list-category4" role="tabpanel" aria-labelledby="list-category4-list">
                         category4
                       </div>
 
-                      <div class="tab-pane fade" id="list-category5" role="tabpanel" aria-labelledby="list-category5-list">
+                      <div class="tab-pane fade h-100" id="list-category5" role="tabpanel" aria-labelledby="list-category5-list">
                         category5
                       </div>
 
-                      <div class="tab-pane fade" id="list-category6" role="tabpanel" aria-labelledby="list-category6-list">
+                      <div class="tab-pane fade h-100" id="list-category6" role="tabpanel" aria-labelledby="list-category6-list">
                         category6
                       </div>
 
-                      <div class="tab-pane fade" id="list-category7" role="tabpanel" aria-labelledby="list-category7-list">
+                      <div class="tab-pane fade h-100" id="list-category7" role="tabpanel" aria-labelledby="list-category7-list">
                         category7
                       </div>
 
-                      <div class="tab-pane fade" id="list-category8" role="tabpanel" aria-labelledby="list-category8-list">
+                      <div class="tab-pane fade h-100" id="list-category8" role="tabpanel" aria-labelledby="list-category8-list">
                         category8
                       </div>
 
-                      <div class="tab-pane fade" id="list-category9" role="tabpanel" aria-labelledby="list-category9-list">
+                      <div class="tab-pane fade h-100" id="list-category9" role="tabpanel" aria-labelledby="list-category9-list">
                         category9
                       </div>
 
@@ -768,14 +765,14 @@
 
 <!-- Header after scroll -->
 <div class="d-none d-lg-block px-0 header-style header-background header-scroll sticky-top">
-<div class="container" style="height: 3.5rem;">
+<div class="container head-height">
 
-  <div class="row" style="height: 3.5rem;">
+  <div class="row head-height">
 
     <!-- Product catalog dropdown-->
     <div class="col-lg-1 my-auto">
-    <div class="product-catalog-row py-1" style="font-size: 1.5rem !important;">
-      <div class="n1 d-flex justify-content-between" style="padding: 5px !important; border-radius: 5px !important;">
+    <div class="product-catalog-row py-1 font-sz-imp">
+      <div class="n1 d-flex justify-content-between pad-cust-imp" >
           <div class="dropdown show mx-auto">
             <a class="product-catalog-a py-3 px-3" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span>
@@ -784,6 +781,7 @@
             </a>
 
             <div class="dropdown-menu translate-menu" aria-labelledby="dropdownMenuLink" >
+
 
               <div class="container px-0 product-catalog-dropdown">
                 <div class="row">
@@ -802,10 +800,116 @@
                     </div>
                   </div>
                   <div class="col-md-10">
-                    <div class="tab-content" id="nav-tabContent">
-                      <div class="tab-pane fade show active" id="list-category0-copy" role="tabpanel" aria-labelledby="list-category0-copy-list">
+                    <div class="tab-content h-100" id="nav-tabContent">
+                      <div class="tab-pane fade h-100 show active h-100" id="list-category0-copy" role="tabpanel" aria-labelledby="list-category0-copy-list">
 
-                        <div class="row">
+                        <div class="row h-100 tab-list-background tlb-bg0">
+                          <div class="col-md-7">
+
+                            <div class="row">
+                              <div class="col">
+
+                                <!-- First column of links -->
+                                <div class="row">
+                                  <ul class="links">
+                                    <li>
+                                    <a href="#" class="top-link"> montes </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> eros </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> faucibus proin venenatis dolor </a>
+                                    </li>
+                                    <li>
+                                    <a href="#" class="secondary-link"> arcu justo habitant</a>
+                                    </li>
+                                  </ul>
+                                </div>
+
+                                <div class="row">
+
+                                  <ul class="links">
+                                    <li>
+                                      <a href="#" class="top-link"> eleifend phasellus tristique </a>
+                                    </li>
+
+                                    <li>
+                                      <a href="#" class="secondary-link"> mauris suspendisee </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> dapibus amet </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> cubilia bibendum ultrices </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> quam cras litora consectetur </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link">  dui lacus aliquam quis velit</a>
+                                    </li>
+                                  </ul>
+
+                                </div>
+                              </div>
+
+                              <div class="col">
+
+                                <!-- Second column of links -->
+                                <div class="row">
+
+                                  <ul class="links">
+                                    <li>
+                                      <a href="#" class="top-link"> feugiat eleifend</a>
+                                    </li>
+
+                                    <li>
+                                      <a href="#" class="secondary-link"> eget id </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> penetiubus tempor tristique</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> congaue</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> henderit</a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> fames dictustm sensectus</a>
+                                    </li>
+                                  </ul>
+                                </div>
+
+                                <div class="row">
+
+                                  <ul class="links">
+                                    <li>
+                                      <a href="#" class="top-link"> lorem ipsum dolor </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> auctor magna </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> massa senescut arcu </a>
+                                    </li>
+                                    <li>
+                                      <a href="#" class="secondary-link"> curabitur ultrices </a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-5">
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="tab-pane fade h-100" id="list-category1-copy" role="tabpanel" aria-labelledby="list-category1-copy-list">
+                        <div class="row  h-100 tab-list-background tlb-bg1">
                           <div class="col-md-7">
 
                             <div class="row">
@@ -906,147 +1010,39 @@
                           </div>
 
                           <div class="col-md-5 image-right">
-                            <img src="images/tab-category0-bg.jpg" class="tab-category-img">
                           </div>
                         </div>
                       </div>
 
-                      <div class="tab-pane fade" id="list-category1-copy" role="tabpanel" aria-labelledby="list-category1-copy-list">
-                        <div class="row">
-                          <div class="col-md-7">
-
-                            <div class="row">
-                              <div class="col">
-
-                                <!-- First column of links -->
-                                <div class="row">
-                                  <ul class="links">
-                                    <li>
-                                    <a href="#" class="top-link"> montes </a>
-                                    </li>
-                                    <li>
-                                    <a href="#" class="secondary-link"> eros </a>
-                                    </li>
-                                    <li>
-                                    <a href="#" class="secondary-link"> faucibus proin venenatis dolor </a>
-                                    </li>
-                                    <li>
-                                    <a href="#" class="secondary-link"> arcu justo habitant</a>
-                                    </li>
-                                  </ul>
-                                </div>
-
-                                <div class="row">
-
-                                  <ul class="links">
-                                    <li>
-                                      <a href="#" class="top-link"> eleifend phasellus tristique </a>
-                                    </li>
-
-                                    <li>
-                                      <a href="#" class="secondary-link"> mauris suspendisee </a>
-                                    </li>
-                                    <li>
-                                      <a href="#" class="secondary-link"> dapibus amet </a>
-                                    </li>
-                                    <li>
-                                      <a href="#" class="secondary-link"> cubilia bibendum ultrices </a>
-                                    </li>
-                                    <li>
-                                      <a href="#" class="secondary-link"> quam cras litora consectetur </a>
-                                    </li>
-                                    <li>
-                                      <a href="#" class="secondary-link">  dui lacus aliquam quis velit</a>
-                                    </li>
-                                  </ul>
-
-                                </div>
-                              </div>
-
-                              <div class="col">
-
-                                <!-- Second column of links -->
-                                <div class="row">
-
-                                  <ul class="links">
-                                    <li>
-                                      <a href="#" class="top-link"> feugiat eleifend</a>
-                                    </li>
-
-                                    <li>
-                                      <a href="#" class="secondary-link"> eget id </a>
-                                    </li>
-                                    <li>
-                                      <a href="#" class="secondary-link"> penetiubus tempor tristique</a>
-                                    </li>
-                                    <li>
-                                      <a href="#" class="secondary-link"> congaue</a>
-                                    </li>
-                                    <li>
-                                      <a href="#" class="secondary-link"> henderit</a>
-                                    </li>
-                                    <li>
-                                      <a href="#" class="secondary-link"> fames dictustm sensectus</a>
-                                    </li>
-                                  </ul>
-                                </div>
-
-                                <div class="row">
-
-                                  <ul class="links">
-                                    <li>
-                                      <a href="#" class="top-link"> lorem ipsum dolor </a>
-                                    </li>
-                                    <li>
-                                      <a href="#" class="secondary-link"> auctor magna </a>
-                                    </li>
-                                    <li>
-                                      <a href="#" class="secondary-link"> massa senescut arcu </a>
-                                    </li>
-                                    <li>
-                                      <a href="#" class="secondary-link"> curabitur ultrices </a>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div class="col-md-5 image-right">
-                            <img src="images/tab-category1-bg.jpg" class="tab-category-img">
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="tab-pane fade" id="list-category2-copy" role="tabpanel" aria-labelledby="list-category2-copy-list">
+                      <div class="tab-pane fade h-100" id="list-category2-copy" role="tabpanel" aria-labelledby="list-category2-copy-list">
                         category2-copy
                       </div>
 
-                      <div class="tab-pane fade" id="list-category3-copy" role="tabpanel" aria-labelledby="list-category3-copy-list">
+                      <div class="tab-pane fade h-100" id="list-category3-copy" role="tabpanel" aria-labelledby="list-category3-copy-list">
                         category3-copy
                       </div>
 
-                      <div class="tab-pane fade" id="list-category4-copy" role="tabpanel" aria-labelledby="list-category4-copy-list">
+                      <div class="tab-pane fade h-100" id="list-category4-copy" role="tabpanel" aria-labelledby="list-category4-copy-list">
                         category4-copy
                       </div>
 
-                      <div class="tab-pane fade" id="list-category5-copy" role="tabpanel" aria-labelledby="list-category5-copy-list">
+                      <div class="tab-pane fade h-100" id="list-category5-copy" role="tabpanel" aria-labelledby="list-category5-copy-list">
                         category5-copy
                       </div>
 
-                      <div class="tab-pane fade" id="list-category6-copy" role="tabpanel" aria-labelledby="list-category6-copy-list">
+                      <div class="tab-pane fade h-100" id="list-category6-copy" role="tabpanel" aria-labelledby="list-category6-copy-list">
                         category6-copy
                       </div>
 
-                      <div class="tab-pane fade" id="list-category7-copy" role="tabpanel" aria-labelledby="list-category7-copy-list">
+                      <div class="tab-pane fade h-100" id="list-category7-copy" role="tabpanel" aria-labelledby="list-category7-copy-list">
                         category7-copy
                       </div>
 
-                      <div class="tab-pane fade" id="list-category8-copy" role="tabpanel" aria-labelledby="list-category8-copy-list">
+                      <div class="tab-pane fade h-100" id="list-category8-copy" role="tabpanel" aria-labelledby="list-category8-copy-list">
                         category8-copy
                       </div>
 
-                      <div class="tab-pane fade" id="list-category9-copy" role="tabpanel" aria-labelledby="list-category9-copy-list">
+                      <div class="tab-pane fade h-100" id="list-category9-copy" role="tabpanel" aria-labelledby="list-category9-copy-list">
                         category9-copy
                       </div>
 
@@ -1063,7 +1059,7 @@
 
     <!-- Logo -->
     <div class="col-lg-1 px-0 my-auto d-flex logo-header">
-      <img class="mx-auto my-auto logo" style="height: 2.5rem;" src="images/logo.svg" alt ="Logo-header">
+      <img class="mx-auto my-auto logo logo-height" src="images/logo.svg" alt ="Logo-header">
     </div>
 
     <!-- Search form -->
