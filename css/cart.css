@@ -13,3 +13,63 @@ body
 {
 	border-top: 1px solid lightgrey!important;
 }
+
+.btn-cust{
+	background-color: var(--navbar-categories-bg-color) !important;
+	border-color: var(--navbar-categories-bg-color) !important;
+}
+
+.btn-cust:hover{
+	background-color: var(--text-color-blue-hover) !important;
+	border-color: var(--text-color-blue-hover) !important;
+}
+
+.btn-outline-cust{
+	border-color: var(--navbar-categories-bg-color) !important;
+	color: var(--navbar-categories-bg-color) !important;
+}
+
+.btn-outline-cust:hover{
+	background-color: var(--navbar-categories-bg-color) !important;
+	color: white !important;
+	border-color: var(--navbar-categories-bg-color) !important;
+}
+
+@media (max-width: 992px){
+	.container-resp-md{
+		min-width: 100% !important;
+	}
+	.img-fluid{
+		height: 3.5rem !important;
+	}
+	.font-resp{
+		font-size: 1.2rem !important;
+
+	}
+}
+
+.font-resp{
+	font-size: 1.5rem;
+}
+
+.lst-none{
+	list-style-type: none;
+	padding: 0;
+}
+
+.dsp-flex{
+	display: flex;
+}
+
+.old-price{
+	text-decoration: line-through;
+}
+
+.font-sz-sm{
+	font-size: 0.875rem;
+}
+
+.red-link, .red-link:hover{
+	text-decoration: none;
+	color: var(--text-color-red);
+}

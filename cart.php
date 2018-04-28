@@ -16,164 +16,227 @@
   </head>
 
 <body>
-	<div class="container my-5">
+	<div class="container container-resp-md my-5">
 		<div class="row">
-			<div class="col-md-2 my-3">
+			<div class="col-lg-2 my-3">
 				<img src="images/logo_blue.svg" alt="Page_logo" class="img-fluid">
 			</div>
-			<div class="col-md-10">
+			<div class="col-lg-10">
 				<hr>
 			</div>
 		</div>
 		<div class="row backcolor ">
 			<h2 class="my-4 mx-5 my-3"> Cos de cumparaturi </h2>
-			<div class="col-md-9">
+				<div class="col-lg-9">
 
-		<div class="container-fluid my-3" style="border:1px solid lightgrey; border-radius: 10px; box-shadow: 0px 1px 2px grey">
-			<div class="row">
-				<div class="col-md-4 d-flex align-self-center justify-content-center">
-					<img src="images/p1.jpg" alt="product_1" class="my-2" >
-				</div>
+					<div class="container-fluid my-3" style="border:1px solid lightgrey; border-radius: 10px; box-shadow: 0px 1px 2px grey">
+						<div class="row">
+							<div class="col-sm-3 col-4 d-flex align-self-center justify-content-center">
+								<img src="images/p1.jpg" alt="product_1" class="my-auto mx-auto w-100" >
+							</div>
 
-			<div class="col-md-8">
-					<div class="row">
-					<div class="col-md-6 text-left my-3">
-						<h4>Adidas Women reversible track jacket</h4>
+						<div class="col-sm-9 col-8">
+								<div class="row h-50">
+								<div class="col-sm-6 text-left my-1">
+									<span class="font-resp">Adidas Women reversible track jacket</span>
+								</div>
+								<div class="col-sm-2 col-2 my-1">
+									<input type="text" name="Cantitate" value="1" placeholder="Cantitate" required class="form-control" style="width: 40px;">
+								</div>
+									<div class="col-sm-4 col-10 text-right my-1">
+										<ul class="lst-none">
+											<li> <span><h5>779 <sup>,98</sup> Lei</h5></span></li>
+											<li> <span class="old-price"><h6>900 <sup>,15</sup> Lei</h6></li>
+											<li> <span class="font-sz-sm">Economisesti: 121 Lei</span> </li>
+										</ul>
+									</div>
+								</div>
+								<div class="row h-50">
+									<div class="col-9 text-left align-self-end">
+										<ul class="lst-none">
+											<li> <span class="font-sz-sm"> Disponibilitate: In stoc</span></li>
+											<li> <span class="font-sz-sm"> Garantie inclusa: 5 ani </span></li>
+										</ul>
+									</div>
+									<div class="col-3 text-right align-self-end mb-2">
+										<a href="#" class="red-link"> sterge </a>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="col-md-3 my-3">
-						<input type="text" name="Cantitate" value="1" placeholder="Cantitate" required class="form-control">
+
+					<div class="container-fluid my-3" style="border:1px solid lightgrey; border-radius: 10px; box-shadow: 0px 1px 2px grey">
+						<div class="row">
+							<div class="col-sm-3 col-4 d-flex align-self-center justify-content-center">
+								<img src="images/p2.jpg" alt="product_1" class="my-auto mx-auto w-100" >
+							</div>
+
+						<div class="col-sm-9 col-8">
+								<div class="row h-50">
+								<div class="col-sm-6 text-left my-1">
+									<span class="font-resp">Adidas Women reversible track jacket</span>
+								</div>
+								<div class="col-sm-2 col-2 my-1">
+									<input type="text" name="Cantitate" value="1" placeholder="Cantitate" required class="form-control" style="width: 40px;">
+								</div>
+									<div class="col-sm-4 col-10 text-right my-1">
+										<ul class="lst-none">
+											<li> <span><h5>779 <sup>,98</sup> Lei</h5></span></li>
+											<li> <span class="old-price"><h6>900 <sup>,15</sup> Lei</h6></li>
+											<li> <span class="font-sz-sm">Economisesti: 121 Lei</span> </li>
+										</ul>
+									</div>
+								</div>
+								<div class="row h-50">
+									<div class="col-9 text-left align-self-end">
+										<ul class="lst-none">
+											<li> <span class="font-sz-sm"> Disponibilitate: In stoc</span></li>
+											<li> <span class="font-sz-sm"> Garantie inclusa: 5 ani </span></li>
+										</ul>
+									</div>
+									<div class="col-3 text-right align-self-end mb-2">
+										<a href="#" class="red-link"> sterge </a>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="col-md-3 text-right my-3">
-					<span><h5>779,98 Lei</h5></span><br>
-					<span><h6>900,15 Lei</h6></span><br>
-					<span>Economisesti: 121 Lei</span>
+
+					<div class="container-fluid my-3" style="border:1px solid lightgrey; border-radius: 10px; box-shadow: 0px 1px 2px grey">
+						<div class="row">
+							<div class="col-sm-3 col-4 d-flex align-self-center justify-content-center">
+								<img src="images/p3.jpg" alt="product_1" class="my-auto mx-auto w-100" >
+							</div>
+
+						<div class="col-sm-9 col-8">
+								<div class="row h-50">
+								<div class="col-sm-6 text-left my-1">
+									<span class="font-resp">Adidas Women reversible track jacket</span>
+								</div>
+								<div class="col-sm-2 col-2 my-1">
+									<input type="text" name="Cantitate" value="1" placeholder="Cantitate" required class="form-control" style="width: 40px;">
+								</div>
+									<div class="col-sm-4 col-10 text-right my-1">
+										<ul class="lst-none">
+											<li> <span><h5>779 <sup>,98</sup> Lei</h5></span></li>
+											<li> <span class="old-price"><h6>900 <sup>,15</sup> Lei</h6></li>
+											<li> <span class="font-sz-sm">Economisesti: 121 Lei</span> </li>
+										</ul>
+									</div>
+								</div>
+								<div class="row h-50">
+									<div class="col-9 text-left align-self-end">
+										<ul class="lst-none">
+											<li> <span class="font-sz-sm"> Disponibilitate: In stoc</span></li>
+											<li> <span class="font-sz-sm"> Garantie inclusa: 5 ani </span></li>
+										</ul>
+									</div>
+									<div class="col-3 text-right align-self-end mb-2">
+										<a href="#" class="red-link"> sterge </a>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
+
+					<div class="top-line mb-2"></div>
+					<div class="row backcolor">
+						<div class="col-12">
+								<div class="row">
+									<div class="col-6 d-lg-block d-none"></div>
+									<div class="col-lg-6 col-12">
+										<div class="row">
+											<div class="col-6">
+											<p class="text-left">Total produse:</p>
+											<p class="text-left">Cost livrare</p>
+											<p class="text-left font-weight-bold">Subtotal:</p>
+											</div>
+											<div class="col-6">
+												<p class="text-right">2339<sup>,94</sup> Lei</p>
+												<p class="text-right">150 Lei</p>
+												<p class="text-right font-weight-bold">2489<sup>,94</sup> Lei</p>
+											</div>
+				 						</div>
+									</div>
+								</div>
+							<div class="top-line mb-2"></div>
+							<div class="row">
+								<div class="col-sm-8 col-7">
+									<h5>Produsele tale:</h5>
+									<div class="row">
+										<div class="col-6 my-2 pr-0">
+											<p>Total produse:</p>
+											<p>Cost livrare:</p>
+										</div>
+										<div class="col-6 my-2 px-2">
+											<p class="text-right">2339<sup>,94</sup> Lei</p>
+											<p class="text-right">150 Lei</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-4 col-5 my-2 left-line">
+									<h4>Total:</h4>
+									<h4>2339<sup>,94</sup> Lei</h4>
+									<button type="button" class="btn btn-primary btn-block btn-cust my-3 px-1">Pasul urmator</button>
+								</div>
+							</div>
+						</div>
 					</div>
-				</div>
+
 			</div>
-		</div>
-
-		<div class="container-fluid my-3" style="border:1px solid lightgrey; border-radius: 10px; box-shadow: 0px 1px 2px grey">
-			<div class="row">
-				<div class="col-md-4 d-flex align-self-center justify-content-center">
-					<img src="images/p2 (1).jpg" alt="product_1" class="my-2" >
-				</div>
-
-			<div class="col-md-8">
-					<div class="row">
-					<div class="col-md-6 text-left my-3">
-						<h4>Adidas Women reversible track jacket</h4>
-					</div>
-					<div class="col-md-3 my-3">
-						<input type="text" name="Cantitate" value="1" placeholder="Cantitate" required class="form-control">
-					</div>
-					<div class="col-md-3 text-right my-3">
-					<span><h5>779,98 Lei</h5></span><br>
-					<span><h6>900,15 Lei</h6></span><br>
-					<span>Economisesti: 121 Lei</span>
-					</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="container-fluid my-3" style="border:1px solid lightgrey; border-radius: 10px; box-shadow: 0px 1px 2px grey;">
-			<div class="row">
-				<div class="col-md-4 d-flex align-self-center justify-content-center">
-					<img src="images/p3 (2).jpg" alt="product_1" class="my-2" style="height:14rem">
-				</div>
-
-			<div class="col-md-8">
-					<div class="row">
-					<div class="col-md-6 text-left my-3">
-						<h4>Adidas Women reversible track jacket</h4>
-					</div>
-					<div class="col-md-3 my-3">
-						<input type="text" name="Cantitate" value="1" placeholder="Cantitate" required class="form-control">
-					</div>
-					<div class="col-md-3 text-right my-3">
-					<span><h5>779,98 Lei</h5></span><br>
-					<span><h6>900,15 Lei</h6></span><br>
-					<span>Economisesti: 121 Lei</span>
-					</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-			</div>
-			<div class="col-md-3">
+			<div class="col-lg-3">
 				<div class="container-fluid my-3" style="border:1px solid lightgrey; border-radius: 10px; box-shadow: 0px 1px 2px grey;">
-					<h5 class="my-3">Sumar comanda</h5>
-					<span>Total produse</span>
-					<br>
-					<p class="text-right">2339<sup>,94</sup> Lei</p>
-					<span>Cost livrare:</span>
-					<br>
-					<p class="text-right">150 Lei</p>
-					<hr>
-					<h4 class="my-3">Total</h4>
-					<h4 class="my-3">2489,94 Lei</h4>
-					<button type="button" class="btn btn-primary btn-lg btn-block">Pasul urmator</button>
-					<br>
-					<h5>Ai un voucher sau card cadou?</h5>
-					<hr>
-					<span>Adauga un card cadou:</span>
-					<input type="text" name="Cantitate" value="1" placeholder="Cantitate" class="form-control">
-					<button type="button" class="btn btn-outline-primary btn-block my-3">Aplica</button>
-				</div>
-
-			</div>
-		</div>
-		<div class="row backcolor">
-			<div class="col-md-9">
-				<hr>
-				<div class="container-fluid">
+					
+					
 					<div class="row">
-					<div class="col-md-7"></div>
-					<div class="col-md-5">
-						<div class="row">
-							<div class="col-md-6">
-							<p class="text-left">Total produse:</p>
-							<p class="text-left">Cost livrare</p>
-							<p class="text-left font-weight-bold">Subtotal:</p>
-							</div>
-						<div class="col-md-6">
-							<p class="text-right">2339<sup>,94</sup> Lei</p>
-							<p class="text-right">150 Lei</p>
-							<p class="text-right font-weight-bold">2489<sup>,94</sup> Lei</p>
+						<div class="col-12">
+							<h5 class="my-3">Sumar comanda</h5>
 						</div>
- 						</div>
-
-					</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-9">
-				<hr>
-				<div class="row">
-					<div class="col-md-8">
-						<h5>Produsele tale:</h5>
-						<div class="row">
-							<div class="col-md-6 my-2">
-								<p>Total produse:</p>
-								<p>Cost livrare:</p>
-							</div>
-							<div class="col-md-6 my-2">
-								<p class="text-right">2339<sup>,94</sup> Lei</p>
-								<p class="text-right">150 Lei</p>
-							</div>
+						<div class="col-6 text-left">
+							<span>Total produse:</span>
+						</div>
+						<div class="col-6 text-right">
+							<span>2339<sup>,94</sup> Lei</span>
 						</div>
 					</div>
-					<div class="col-md-4 my-2 left-line">
-						<h4>Total:</h4>
-						<h4>2339<sup>,94</sup> Lei</h4>
-						<button type="button" class="btn btn-primary btn-block my-3">Pasul urmator</button>
+					<div class="row">
+						<div class="col-6 text-left">
+							<span>Cost livrare:</span>
+						</div>
+						<div class="col-6 text-right">
+							<span>150 Lei</span>
+						</div>
+					</div>
+
+					<div class="top-line my-2"></div>
+
+					<div class="row">
+						<div class="col-12">
+							<h4> Total: </h4>
+						</div>
+						<div class="col-12">
+							<h4>2489<sup>,94</sup> Lei</h4>
+						</div>
+						<div class="col-12">
+							<button type="button" class="btn btn-primary btn-lg btn-block btn-cust">Pasul urmator</button>
+						</div>
+						<div class="col-12 mt-2">
+							<h5>Ai un voucher sau card cadou?</h5>
+						</div>
+						<div class="top-line"></div>
+						<div class="col-12">
+							<input type="text" name="Cantitate" value="1" placeholder="Cantitate" class="form-control">
+						</div>
+						<div class="col-12">
+							<button type="button" class="btn btn-outline-primary btn-block btn-outline-cust my-3">Aplica</button>
+						</div>
 					</div>
 				</div>
+
 			</div>
 		</div>
+		
 
 	</div>
   <footer class="top-line">
