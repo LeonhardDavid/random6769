@@ -1,0 +1,15 @@
+body
+{
+	background-color: rgba(67,67,67,0.05)!important;
+}
+.backcolor{
+	background-color: white;
+}
+.left-line
+{
+	border-left: 1px solid lightgrey!important;
+}
+.top-line
+{
+	border-top: 1px solid lightgrey!important;
+}

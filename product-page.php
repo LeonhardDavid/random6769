@@ -1,7 +1,9 @@
 <?php require 'header_footer/header.php';?>
 
 	<div class="container product-container py-0">
+
 		<div class="cont pt-5 px-4 mb-0">
+
 		<p class="product-path mb-1"> 
 			<a class="product-path-a" href="#"> Clothing & Shoes</a>
 			>
@@ -34,7 +36,7 @@
 			<div class="col-md-6 product-photos">
 				<!-- <img class="product-photos-img" src="images/product-images/product-image-1.jpg">-->
 				<div class="preview">
-						
+
 						<div class="preview-pic tab-content">
 						  <div class="tab-pane active" id="pic-1"><img src="images/product-images/product-image-1.jpg" /></div>
 						  <div class="tab-pane" id="pic-2"><img src="images/product-images/product-image-2.jpg" /></div>
@@ -79,7 +81,7 @@
 						</ul>
 					-->
 				</div>
-				
+
 			</div>
 			<div class="col-md-6">
 				<div class="row px-2">
@@ -183,7 +185,6 @@
 												<i class="far fa-heart"></i>
 											</span>
 										</div>
-							</li>
 						</ul>
 					</div>
 				</div>
@@ -767,7 +768,6 @@
 					</div>
 				</div>
 			</div>
-
 
 					<div class="col-12 py-3 px-0" id="qanda">
 						<div class="row pb-3 mx-auto">
