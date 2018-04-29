@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/product-page.css" type="text/css"/>
     <link rel="stylesheet" href="css/footer.css" type="text/css"/>
     <link rel="stylesheet" href="css/colors.css" type="text/css"/>
-
+    <link rel="stylesheet" href="css/grid.css" type="text/css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -24,7 +24,9 @@
     <!-- Emoji CSS -->
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 
-
+    <!-- Range Slider CSS -->
+    <link rel="stylesheet" href="css/range-slider/bootstrap-slider.css" type="text/css"/>
+    <link rel="stylesheet" href="css/range-slider/bootstrap-slider.min.css" type="text/css"/>
   </head>
 
   <body>
