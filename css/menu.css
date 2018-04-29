@@ -5,6 +5,18 @@
     font-size: 0.6rem;
   }
 
+  .nav-top-right .badge-translate-scroll{
+    transform: translate(-18px, -3px);
+    position: absolute;
+    font-size: 0.6rem;
+  }
+
+  .translate-menu{
+    transform: translate(-35px, 20px) !important;
+    width: 990px !important;
+    top: 25px !important;
+  }
+
   .n1{
     padding-left: 3px !important;
     padding-right: 3px !important;
@@ -16,19 +28,13 @@
 
   .dropdown .product-catalog-menu{
     width: 990px !important;
-    transform: translateX(-3px);
+    transform: translateX(-3px) !important;
+    top: 25px !important;
   }
 
   .product-list .product-item{
     padding-left: 8px;
     padding-right: 8px;
-  }
-
-  .image-right .tab-category-img{
-    border-bottom-right-radius: 4px;
-    transform: translateX(-45px);
-    width: 375px;
-    height: 441px;
   }
 
   .row .links{
@@ -37,23 +43,45 @@
 }
 
 @media (min-width: 1200px){
-  .nav-top-right .badge-translate{
+  .nav-top-right .badge-translate, .nav-top-right .badge-translate-scroll{
     transform: translate(-20px, -3px);
     position: absolute;
     font-size: 0.6rem;
   }
 
   .dropdown .product-catalog-menu{
-  width: 1170px !important;
-  transform: translateX(-15px);
+    width: 1170px !important;
+    transform: translate(-15px, -5px) !important;
+    top: 25px !important;
   }
 
-  .image-right .tab-category-img{
-    height: 441px;
-    transform: translateX(-48px);
-    border-bottom-right-radius: 4px;
+  .translate-menu{
+    transform: translate(-35px, 20px) !important;
+    width: 1170px !important;
+    top: 25px !important;
   }
+}
 
+.head-height{
+  height: 3.5rem !important;
+}
+
+.font-sz-imp{
+  font-size: 1.5rem !important;
+}
+
+.pad-cust-imp{
+  padding: 5px !important; 
+  border-radius: 5px !important;
+}
+
+.pos-desc{
+  z-index: 10 !important;
+  margin-bottom: -20px;
+}
+
+.logo-height{
+  height: 2.5rem !important;
 }
 
 .header-style{
@@ -66,6 +94,20 @@
   background-position: center;
   background-size: cover;
   background-attachment: scroll;
+}
+
+.tab-list-background{
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+}
+
+.tlb-bg0{
+  background-image: url("../images/tab-category0-bg.jpg");    
+}
+
+.tlb-bg1{
+  background-image: url("../images/tab-category1-bg.jpg");
 }
 
 .h{
@@ -84,6 +126,10 @@
   color: var(--text-color-blue);
   font-size: 1.1rem;
   line-height: 0.5rem;
+}
+
+.lh-normal{
+  line-height: normal;
 }
 
 .dropdown .nav-top-right{
