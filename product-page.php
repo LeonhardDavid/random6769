@@ -1,15 +1,8 @@
 <?php require 'header_footer/header.php';?>
 
 	<div class="container product-container py-0">
-<<<<<<< HEAD
-		<div class="cont pt-5 px-3" style="">
-		<p class="product-path mb-1">
-=======
-
 		<div class="cont pt-5 px-4 mb-0">
-
 		<p class="product-path mb-1"> 
->>>>>>> c39c0b904ea72ba270299bf8e73299dc2a83e741
 			<a class="product-path-a" href="#"> Clothing & Shoes</a>
 			>
 			<a class="product-path-a" href="#"> Shoes</a>
@@ -41,7 +34,7 @@
 			<div class="col-md-6 product-photos">
 				<!-- <img class="product-photos-img" src="images/product-images/product-image-1.jpg">-->
 				<div class="preview">
-
+						
 						<div class="preview-pic tab-content">
 						  <div class="tab-pane active" id="pic-1"><img src="images/product-images/product-image-1.jpg" /></div>
 						  <div class="tab-pane" id="pic-2"><img src="images/product-images/product-image-2.jpg" /></div>
@@ -86,35 +79,8 @@
 						</ul>
 					-->
 				</div>
-
+				
 			</div>
-<<<<<<< HEAD
-		<div class="col-md-6">
-			<div class="row px-2">
-				<div class="col-lg-6 product-details-1 text-left font-sz">
-					<ul class="ul-col-left px-0">
-								<li class="mb-2"> <span class="grey-text"> opinia clientilor:</span> </li>
-								<li class="mb-2">
-									<a href="#" class="col-left-a" style="display:flex;">
-										<div class="star-rating" name="star-rating" data-input="3.5">
-											<i class="fas fa-star yellow"></i>
-											<i class="fas fa-star yellow"></i>
-											<i class="fas fa-star yellow"></i>
-											<i class="fas fa-star grey"></i>
-											<i class="fas fa-star grey"></i>
-										</div>
-										&nbsp; 3.0
-									</a>
-									<a href="#" class="normal-link"> 2 review-uri </a>
-								</li>
-								<li class="mb-2"> <span class="grey-text"> Vandut de: </span> <span class="black-text"> eMAG</span> </li>
-								<li class="mb-2"> <span class="grey-text"> Ajunge in: </span> <span class="black-text"> <strong> Suceava (Suceava)</strong></span> <a href="#" class="normal-link"> schimba </a> </li>
-								<hr>
-								<li class="my-2">
-									<div class="row font-sz">
-										<div class="col-2">
-											<i class="fas fa-truck"></i>
-=======
 			<div class="col-md-6">
 				<div class="row px-2">
 					<div class="col-lg-6 product-details-1 text-left font-sz">
@@ -208,7 +174,6 @@
 											<span class="shopping-cart">
 												<i class="fas fa-shopping-cart"></i>
 											</span>
->>>>>>> c39c0b904ea72ba270299bf8e73299dc2a83e741
 										</div>
 							</li>
 							<li class="mb-3"> 
@@ -218,24 +183,7 @@
 												<i class="far fa-heart"></i>
 											</span>
 										</div>
-<<<<<<< HEAD
-										<div class="col-3 px-1">
-											<span class="green-text float-right"> Gratuita </span>
-										</div>
-								</li>
-								<hr>
-								<li class="my-2">
-									<div class="row font-sz">
-										<div class="col-2">
-											<i class="far fa-calendar-check"></i>
-										</div>
-										<div class="col-7 px-1">
-											<span class="black-text"> Livrare "cand vrei tu"</span><a class="normal-link" href="#"> (detalii) </a>
-										</div>
-										<div class="col-3 px-1">
-											<span class="black-text float-right"> 19 <sup> 00 </sup>Lei </span>
-										</div>
-=======
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -673,7 +621,6 @@
 									<p>
 										In concluzie, este un TV foarte bun, un "best-buy" dupa parerea mea, modern si cu o conectivitate excelenta. 4.8* din 5*
 									</p>
->>>>>>> c39c0b904ea72ba270299bf8e73299dc2a83e741
 								</li>
 								<li>
 									<ul class="lst-none dsp-flex">
@@ -816,50 +763,11 @@
 							</nav>
 						</div>
 
-<<<<<<< HEAD
-				<div class="col-lg-6 product-details-2">
-					<ul class="ul-col-right px-0 text-left">
-						<li class="mb-2"> <span class="old-price"> 2313 <sup>67</sup> Lei </span> <span class="grey-text"> &nbsp; (-20%)</span></li>
-						<li class="mb-2"> <span class="actual-price"> 1575 <sup>34</sup> Lei</span></li>
-						<!-- <li class="mb-2"> <span class="badge badge-warning">Stoc limitat</span></li> -->
-						<!-- <li class="mb-2"> <span class="badge badge-danger">Stoc epuizat!</span></li> -->
-						<li class="mb-2"> <span class="badge badge-success">In stoc</span></li>
-						<li class="mb-2"> <span class="black-text"> <strong> Garantie inclusa: </strong> </span> <a class="normal-link" href=#> detalii </a> </li>
-						<li class="mb-3"> <span class="black-text"> Persoane fizice: 24 luni </span> </li>
-						<li class="mb-3">
-							<div class="input-group input-quantity mb-3">
-							 	<div class="input-group-prepend w-25">
-								    <button class="btn btn-primary w-100 button-round btn-minus" type="button">-</button>
-							 	</div>
-							  	<input type="numeric" class="form-control w-50 text-center" placeholder="" aria-label="" value="1" aria-describedby="basic-addon1">
-								<div class="input-group-append w-25">
-									<button class="btn btn-primary w-100 button-round btn-plus" type="button">+</button>
-								</div>
-							</div>
-						</li>
-						<li class="mb-3">
-									<div class="add-to-cart w-100">
-										<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
-										<span class="shopping-cart">
-											<i class="fas fa-shopping-cart"></i>
-										</span>
-									</div>
-						</li>
-						<li class="mb-3">
-									<div class="add-to-fav w-100">
-										<input class="add-to-fav-btn" type="submit" value="Adauga la favorite">
-										<span class="heart">
-											<i class="far fa-heart"></i>
-										</span>
-									</div>
-						</li>
-					</ul>
-=======
 						<div class="line"> </div>
 					</div>
->>>>>>> c39c0b904ea72ba270299bf8e73299dc2a83e741
 				</div>
 			</div>
+
 
 					<div class="col-12 py-3 px-0" id="qanda">
 						<div class="row pb-3 mx-auto">
@@ -912,8 +820,6 @@
 										<div class="line mb-2"></div>
 									</div>
 
-<<<<<<< HEAD
-=======
 									<!-- Answer 2-->
 									<div class="row">
 										<div class="col-md-1 col-2 px-auto pt-3">
@@ -1108,5 +1014,4 @@
 				</div>
 			</div>
 		</div>
->>>>>>> c39c0b904ea72ba270299bf8e73299dc2a83e741
 <?php require 'header_footer/footer.php';?>
