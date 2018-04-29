@@ -264,6 +264,39 @@
 		<script type="text/javascript" src="css/slick/slick.min.js"></script>
 
     <script>
+      $(window).resize(function () {
+            var viewportWidth = $(window).width();
+            if (viewportWidth < 992) {
+                    $(".element").removeClass("col-md-9").addClass("col-md-12");
+                    $(".col-hide-md").hide();
+                    $(".col-md-change").removeClass("col-md-3").addClass("col-md-4");
+                  
+            }
+            else {
+              $(".element").removeClass("col-md-12").addClass("col-md-9");
+              $(".col-hide-md").show();
+              $(".col-md-change").removeClass("col-md-4").addClass("col-md-3");
+
+            }
+        });
+      $(window).resize(function () {
+            var viewportWidth = $(window).width();
+            if (viewportWidth < 992) {
+                    $(".element").removeClass("col-md-9").addClass("col-md-12");
+                    $(".col-hide-md").hide();
+                    $(".col-md-change").removeClass("col-md-3").addClass("col-md-4");
+
+            }
+            else {
+              $(".element").removeClass("col-md-12").addClass("col-md-9");
+              $(".col-hide-md").show();
+              $(".col-md-change").removeClass("col-md-4").addClass("col-6");
+
+            }
+        });
+    </script>
+
+    <script>
       $('body').on('mouseenter mouseleave','.dropdown',function(e){
         var _d=$(e.target).closest('.dropdown');
         _d.addClass('show');
