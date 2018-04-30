@@ -9,10 +9,9 @@ body{
 }
 
 .cont-extended{
-	margin-left: -25px; 
+	margin-left: -25px;
 	margin-right: -25px;
 	background-color: white;
-	border-radius: 15px 15px 0px 0px; 
 }
 
 .background-up
@@ -52,15 +51,8 @@ body{
 .up-margin{
 	padding-top:50px!important;
 }
-@media (max-width: 992px){
-	.container-resp-md{
-		min-width: 100% !important;
-	}
-	.img-fluid{
-		height: 3.5rem !important;
-	}
-	.font-resp{
-		font-size: 1.2rem !important;
-
-	}
+.dropdown-menu{
+	top:50px!important;
+	max-width:auto!important;
+	width:95%!important;
 }

@@ -130,7 +130,7 @@
                   <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
                 </div>
           </div>
-          
+
           <div class="styling_bottom" >
             <div class="badge-group">
                 <span class="badge badge-danger custom-badge">-20%</span>
@@ -290,35 +290,18 @@
 		<script type="text/javascript" src="css/slick/slick.min.js"></script>
 
     <script>
+
       $(window).resize(function () {
             var viewportWidth = $(window).width();
-            if (viewportWidth < 992) {
-                    $(".element").removeClass("col-md-9").addClass("col-md-12");
-                    $(".col-hide-md").hide();
-                    $(".col-md-change").removeClass("col-md-3").addClass("col-md-4");
-                  
+
+            if(viewportWidth <992)
+            {
+            $(".element").removeClass("col-md-8").addClass("col-md-12")
             }
             else {
-              $(".element").removeClass("col-md-12").addClass("col-md-9");
-              $(".col-hide-md").show();
-              $(".col-md-change").removeClass("col-md-4").addClass("col-md-3");
-
+            $(".element").removeClass("col-md-12").addClass("col-md-8")
             }
-        });
-      $(window).resize(function () {
-            var viewportWidth = $(window).width();
-            if (viewportWidth < 992) {
-                    $(".element").removeClass("col-md-9").addClass("col-md-12");
-                    $(".col-hide-md").hide();
-                    $(".col-md-change").removeClass("col-md-3").addClass("col-md-4");
 
-            }
-            else {
-              $(".element").removeClass("col-md-12").addClass("col-md-9");
-              $(".col-hide-md").show();
-              $(".col-md-change").removeClass("col-md-4").addClass("col-6");
-
-            }
         });
     </script>
 
@@ -341,14 +324,14 @@
         rating_user_b : 3,
         rating_user_c : 4
       };
-      
+
       // total number of stars
       const starTotal = 5;
 
-      for(const rating in ratings) {  
+      for(const rating in ratings) {
         const starPercentage = (ratings[rating] / starTotal) * 100;
         const starPercentageRounded = `${starPercentage}%`;
-        document.querySelector(`.${rating} .stars-inner`).style.width = starPercentageRounded; 
+        document.querySelector(`.${rating} .stars-inner`).style.width = starPercentageRounded;
       }
     </script>
 
