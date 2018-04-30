@@ -196,10 +196,12 @@
 						</div>
 			</div>
 					
-			<div class="similar-products-carousel row pb-4">
+			<div class="similar-products-carousel row mx-5 pb-4">
 					<div class="styling_bottom">
-								<span class="badge badge-danger custom-badge-new">NOU!</span>
-								<span class="badge badge-danger custom-badge-additional">-20%</span>
+							<div class="badge-group">
+								<span class="badge badge-danger custom-badge">NOU!</span>
+								<span class="badge badge-danger custom-badge">-20%</span>
+							</div>
 							<img src="images/product-images/similar-product-1.jpg" alt="Tricou1" class="mx-auto d-block">
 							<br>
 							<span>Adidas Women reversible<br> track jacket</span>
@@ -213,7 +215,9 @@
 							</div>
 					</div>
 					<div class="styling_bottom">
-								<span class="badge badge-danger custom-badge-new">NOU!</span>
+							<div class="badge-group">
+								<span class="badge badge-danger custom-badge">NOU!</span>
+							</div>
 								<img src="images/product-images/similar-product-2.jpg" alt="Tricou2" class="mx-auto d-block">
 								<br>
 								<span>Adidas Women reversible<br> track jacket</span>
@@ -253,7 +257,9 @@
 								</div>
 					</div>
 					<div class="styling_bottom" >
-								<span class="badge badge-danger custom-badge-new">-20%</span>
+							<div class="badge-group">
+								<span class="badge badge-danger custom-badge">-20%</span>
+							</div>
 								<img src="images/product-images/similar-product-5.jpg" alt="Tricou5" class="mx-auto d-block">
 								<br>
 								<span>Adidas Women reversible<br> track jacket</span>

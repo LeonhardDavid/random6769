@@ -2,19 +2,18 @@
     font-size: 0.98rem;
 }
 body{
-  background-image: url("../images/login-images/login_bg1.jpg");
+  background: url("../images/login-images/login_bg1.jpg") no-repeat 100% 0;
 	background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
 }
+
 .container1{
-  width:100%!important;
-  max-width:410px!important;
-  margin-top:5rem!important;
+  width:100% !important;
+  max-width:410px !important;
+  margin-top:5rem !important;
 }
 .image-cust
 {
@@ -79,4 +78,31 @@ body{
 .move
 {
   transform:translateX(-10px);
+}
+.normal-link{
+  text-decoration: none;
+  color: white;
+}
+.normal-link:hover{
+  text-decoration: underline;
+  color: white;
+}
+.btn-cust{
+  background-color: var(--navbar-categories-bg-color) !important;
+  border-color: var(--navbar-categories-bg-color) !important;
+  color: white !important;
+}
+.btn-cust:hover{
+  background-color: var(--text-color-blue-hover) !important;
+  border-color: var(--text-color-blue-hover) !important;
+}
+
+@media (max-width: 576px){
+  .font-resp{
+    font-size: 0.875rem !important;
+  }
+}
+
+.font-resp{
+  font-size: .9rem;
 }

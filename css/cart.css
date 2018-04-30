@@ -42,9 +42,21 @@ body
 	.img-fluid{
 		height: 3.5rem !important;
 	}
-	.font-resp{
+	.font-resp, h5, h6{
 		font-size: 1.2rem !important;
 
+	}
+	.font-sz-sm{
+		font-size: 0.75rem;
+	}
+}
+
+@media (max-width: 576px){
+	.font-resp, h5, h6{
+		font-size: 1rem !important;
+	}
+	.font-resp-summary{
+		font-size: 0.875rem !important;
 	}
 }
 
@@ -52,9 +64,28 @@ body
 	font-size: 1.5rem;
 }
 
+.font-resp-summary{
+	font-size: 1rem;
+}
+
+.title-blue{
+	color: var(--text-color-blue-hover);
+}
+
 .lst-none{
 	list-style-type: none;
 	padding: 0;
+	margin-bottom: 0;
+}
+
+.product-container, .summary-container{
+	border:1px solid lightgrey; 
+	border-radius: 10px; 
+	box-shadow: 0px 1px 2px grey;
+}
+
+.w-40{
+	width: 40px !important;
 }
 
 .dsp-flex{

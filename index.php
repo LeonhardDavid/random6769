@@ -106,7 +106,9 @@
 			<div class="my-5 mx-5">
 				<div class="product-carousel">
 					<div class="styling">
-						<span class="badge badge-danger custom-badge-new">NOU!</span>
+						<div class="badge-group">
+							<span class="badge badge-danger custom-badge">NOU!</span>
+						</div>
 						<img src="images/pl1.jpg" alt="Product1" class="mx-auto d-block custom-height">
 						Adidas Women reversible track jacket
 						<br>
@@ -119,8 +121,10 @@
 						</div>
 					</div>
 					<div class="styling">
-						<span class="badge badge-danger custom-badge-new">NOU!</span>
-						<span class="badge badge-danger custom-badge-additional">-20%</span>
+						<div class="badge-group">
+							<span class="badge badge-danger custom-badge">NOU!</span>
+							<span class="badge badge-danger custom-badge">-20%</span>
+						</div>
 						<img src="images/pl2.jpg" alt="Product1" class="mx-auto d-block custom-height">
 						Adidas Women reversible track jacket
 						<br>
@@ -185,7 +189,9 @@
 						</div>
 					</div>
 					<div class="styling">
-						<span class="badge badge-danger custom-badge-new">-20%</span>
+						<div class="badge-group">
+							<span class="badge badge-danger custom-badge">-20%</span>
+						</div>
 						<img src="images/pl2.jpg" alt="Product1" class="mx-auto d-block custom-height">
 						Adidas Women reversible track jacket
 						<br>
@@ -198,7 +204,9 @@
 						</div>
 					</div>
 					<div class="styling">
-						<span class="badge badge-danger custom-badge-new">NOU!</span>
+						<div class="badge-group">
+							<span class="badge badge-danger custom-badge">NOU!</span>
+						</div>
 						<img src="images/pl3.jpg" alt="Product1" class="mx-auto d-block custom-height">
 						Adidas Women reversible track jacket
 						<br>
@@ -211,8 +219,10 @@
 						</div>
 					</div>
 					<div class="styling">
-						<span class="badge badge-danger custom-badge-new">NOU!</span>
-						<span class="badge badge-danger custom-badge-additional">-20%</span>
+						<div class="badge-group">
+							<span class="badge badge-danger custom-badge">NOU!</span>
+							<span class="badge badge-danger custom-badge">-20%</span>
+						</div>
 						<img src="images/pl4.jpg" alt="Product1" class="mx-auto d-block custom-height">
 						Adidas Women reversible track jacket
 						<br>
@@ -313,19 +323,25 @@
 			</div>
 
 						<div class="container-fluid section-bg" >
-								<div class="row text">
-									<h1 class="title-text text-center mx-auto my-3">
-											AMERICAN BASKET equipment
-									</h1>
+								<div class="row mx-auto text">
+									<div class="col-12">
+										<h1 class="title-text text-center mx-auto my-3">
+												AMERICAN BASKET equipment
+										</h1>
+									</div>
+									<div class="col-12">
 										<h2 class="subtitle-text text-center mx-auto">
-											The Nike Shield Women's Running Jacket is water-resistant for<br> lightweight protection from the elements.
+											The Nike Shield Women's Running Jacket is water-resistant for lightweight protection from the elements.
 										</h2>
+									</div>
 								</div>
-								<br><br><br><br>
 								<div class="row basket-carousel">
 									<div class="styling">
-											<span class="badge badge-danger custom-badge-new">NOU!</span>
-											<span class="badge badge-danger custom-badge-additional">-20%</span>
+											<div class="badge-group">
+												<span class="badge badge-danger custom-badge">NOU!</span>
+												<br>
+												<span class="badge badge-danger custom-badge">-20%</span>
+											</div>
 											<img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
@@ -355,7 +371,9 @@
 											</div>
 									</div>
 									<div class="styling">
-											<span class="badge badge-danger custom-badge-new">NOU!</span>
+										<div class="badge-group">
+											<span class="badge badge-danger custom-badge">NOU!</span>
+										</div>
 											<img src="images/pb3.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
@@ -370,7 +388,9 @@
 											</div>
 									</div>
 									<div class="styling">
-											<span class="badge badge-danger custom-badge-new">NOU!</span>
+										<div class="badge-group">
+											<span class="badge badge-danger custom-badge">NOU!</span>
+										</div>
 											<img src="images/pb4.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
@@ -385,7 +405,9 @@
 											</div>
 									</div>
 									<div class="styling">
-											<span class="badge badge-danger custom-badge-new">-20%</span>
+										<div class="badge-group">
+											<span class="badge badge-danger custom-badge">-20%</span>
+										</div>
 											<img src="images/pb5.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
@@ -400,7 +422,9 @@
 											</div>
 									</div>
 									<div class="styling">
-											<span class="badge badge-danger custom-badge-new">NOU!</span>
+										<div class="badge-group">
+											<span class="badge badge-danger custom-badge">NOU!</span>
+										</div>
 											<img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
@@ -415,7 +439,9 @@
 											</div>
 									</div>
 									<div class="styling">
-											<span class="badge badge-danger custom-badge-new">-20%</span>
+										<div class="badge-group">
+											<span class="badge badge-danger custom-badge">-20%</span>
+										</div>
 											<img src="images/pb2.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
@@ -430,8 +456,11 @@
 											</div>
 									</div>
 									<div class="styling">
-											<span class="badge badge-danger custom-badge-new">NOU!</span>
-											<span class="badge badge-danger custom-badge-additional">-20%</span>
+										<div class="badge-group">
+											<span class="badge badge-danger custom-badge">NOU!</span>
+											<br>
+											<span class="badge badge-danger custom-badge">-20%</span>
+										</div>
 											<img src="images/pb3.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>
@@ -461,7 +490,9 @@
 											</div>
 									</div>
 									<div class="styling">
-											<span class="badge badge-danger custom-badge-new">NOU!</span>
+										<div class="badge-group">
+											<span class="badge badge-danger custom-badge">NOU!</span>
+										</div>
 											<img src="images/pb5.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
 											Adidas Women
 											<br>

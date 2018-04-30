@@ -4,7 +4,13 @@
     <title> Webpage </title>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1">
+
+    <style>
+    body{
+      overflow-x: hidden;
+    }
+    </style>
 
     <!-- Custom CSS -->
 
@@ -32,7 +38,6 @@
   </head>
 
   <body>
-
     <nav class="navbar navbar-expand-lg navbar-custom">
 
       <!-- top elements on mobile only-->

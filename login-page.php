@@ -3,7 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1">
 
+    <style>
+    body{
+      overflow-x: hidden;
+    }
+    </style>
+    
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/colors.css" type="text/css"/>
     <link rel="stylesheet" href="css/login.css" type="text/css"/>
@@ -16,18 +23,17 @@
 
   <body>
     <div class="container container1">
-      <div class="row d-flex justify-content-center align-self-center">
+      <div class="row d-flex justify-content-center mb-5 align-self-center">
         <img src="images/login-images/logo_blue_ex.svg" alt="Logo" class="image-cust">
       </div>
-      <br><br>
 
       <div class="row d-flex align-self-center justify-content-center color">
         <div class="col-md-12 color padd">
             <h6>
-            <a href="#" class="nav-link-cust"> < Inapoi </a>
+            <a href="#" class="nav-link-cust font-resp"> < Inapoi </a>
             </h6>
             <br>
-            <div class="center-text" >
+            <div class="center-text font-resp" >
               <h3>Bine ai venit!</h3>
               <br>
               Se pare ca nu ai un cont NEXST.
@@ -38,7 +44,7 @@
             </div>
 
             <form class="form-group" action="index.html" method="post">
-              <div class="center-text">
+              <div class="center-text font-resp">
                   Numele si prenumele tau:
                   <br>
                   <input type="text" name="Nume_prenume" value="" placeholder="Nume si prenume" class="form-control">
@@ -54,23 +60,23 @@
                 <div>
                   <div class="form-check padding-top-cust">
                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                    <label class="form-check-label" for="defaultCheck1">
-                      Am citit si sunt de acord cu <a href="#" class="nav-link-cust highlight">termenii si conditiile.</a>
+                    <label class="form-check-label font-resp" for="defaultCheck1">
+                      Am citit si sunt de acord cu <a href="#" class="nav-link-cust highlight font-resp">termenii si conditiile.</a>
                     </label>
                   </div>
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" checked>
-                    <label class="form-check-label" for="defaultCheck2">
+                    <label class="form-check-label font-resp" for="defaultCheck2">
                        Vreau sa fiu la curent cu cele mai bune oferte.
                     </label>
-                    <br><br>
-                  <button class="btn btn-primary btn-block move" type="submit">Continua</button>
+                  </div>
+                  <div class="row">
+                    <button class="btn btn-primary btn-block w-100 mx-2 my-2 btn-cust font-resp" type="submit">Continua</button>
                   </div>
               </div>
             </form>
-            <br>
             <div class="center-text">
-              <a href="#" class="nav-link-cust">Ai nevoie de ajutor?</a>
+              <a href="#" class="nav-link-cust font-resp">Ai nevoie de ajutor?</a>
             </div>
         </div>
     </div>
@@ -78,20 +84,20 @@
 
 <div class="container container_bottom">
   <div class="row">
-    <div class="col-md-3">
-      Cont client NEXST
+    <div class="col-lg-3">
+      <a class="normal-link" href="#"> Cont client NEXST </a>
     </div>
 
-    <div class="col-md-3">
-      Date cu caracter personal
+    <div class="col-lg-3">
+      <a class="normal-link" href="#"> Date cu caracter personal </a>
     </div>
 
-    <div class="col-md-3">
-      ANPC
+    <div class="col-lg-3">
+      <a class="normal-link" href="#"> ANPC</a>
     </div>
 
-    <div class="col-md-3">
-      NEXST foloseste cookie–uri
+    <div class="col-lg-3">
+      <a class="normal-link" href="#"> NEXST foloseste cookie–uri</a>
     </div>
   </div>
 </div>

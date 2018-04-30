@@ -4,7 +4,6 @@
 }
 
 body{
-	overflow-x: hidden;
 	background: url("../images/background.jpg") no-repeat center center;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -232,18 +231,32 @@ Row after gallery
 	height: auto;
 }
 
-.custom-badge-new{
-	position: absolute;
-	transform: translateX(40px);
+.custom-badge{
 	font-size: 1rem !important;
-	width: 53px;
+	width: 100% !important;
+	margin: 2px;
 }
 
-.custom-badge-additional{
+.badge-group{
 	position: absolute;
-	transform: translate(40px, 27px);
-	font-size: 1rem !important;
-	width: 53px;
+	top: 5px;
+	margin: 5px;
+	max-width: 65px;
+}
+
+@media (max-width: 454px){
+	.section-bg{
+		/*padding: 2rem 12rem 2rem 12rem !important;*/
+		padding-right: 15% !important;
+		padding-left: 15% !important;
+	}	
+}
+
+@media (min-width: 455px){
+	.section-bg{
+		padding-right: 11% !important;
+		padding-left: 11% !important;
+	}
 }
 
 .col-md-3{
@@ -332,9 +345,8 @@ ul.list-group li a:active{
 	position:relative;
 	bottom:190px!important;
 	margin-bottom:-190px!important;
-	padding-left: 20%!important;
-	padding-right:20%!important;
-	padding-bottom:30px;
+
+	
 }
 .text{
 	color:var(--text-color-white);
@@ -366,6 +378,8 @@ ul.list-group li a:active{
 	padding-bottom:5px;
 	border-radius:5px;
 	font-weight: 600;
+	width: 100%;
+	height: auto !important;
 }
 .larger{
 	height:6rem!important;

@@ -52,10 +52,12 @@
     </div>
   </div>
 
-      <div class="product_history_carousel row">
+      <div class="product_history_carousel mx-5 row">
           <div class="styling_bottom">
-                <span class="badge badge-danger custom-badge-new">NOU!</span>
-                <span class="badge badge-danger custom-badge-additional">-20%</span>
+              <div class="badge-group">
+                <span class="badge badge-danger custom-badge">NOU!</span>
+                <span class="badge badge-danger custom-badge">-20%</span>
+              </div>
               <img src="images/p1.jpg" alt="Tricou1" class="mx-auto d-block">
               <br>
               <span>Adidas Women reversible<br> track jacket</span>
@@ -69,7 +71,9 @@
               </div>
           </div>
           <div class="styling_bottom">
-                <span class="badge badge-danger custom-badge-new">NOU!</span>
+            <div class="badge-group">
+                <span class="badge badge-danger custom-badge">NOU!</span>
+              </div>
                 <img src="images/p2.jpg" alt="Tricou2" class="mx-auto d-block">
                 <br>
                 <span>Adidas Women reversible<br> track jacket</span>
@@ -96,6 +100,23 @@
                 </div>
           </div>
           <div class="styling_bottom">
+              <div class="badge-group">
+                <span class="badge badge-danger custom-badge">NOU!</span>
+                <span class="badge badge-danger custom-badge">-20%</span>
+              </div>
+              <img src="images/p1.jpg" alt="Tricou1" class="mx-auto d-block">
+              <br>
+              <span>Adidas Women reversible<br> track jacket</span>
+              <br>
+              <span class="red">134 lei</span>
+              <span class="grey">165 lei</span>
+              <br>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
+                <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+              </div>
+          </div>
+          <div class="styling_bottom">
                 <img src="images/p4.jpg" alt="Tricou4" class="mx-auto d-block">
                 <br>
                 <span>Adidas Women reversible<br> track jacket</span>
@@ -108,8 +129,11 @@
                   <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
                 </div>
           </div>
+          
           <div class="styling_bottom" >
-                <span class="badge badge-danger custom-badge-new">-20%</span>
+            <div class="badge-group">
+                <span class="badge badge-danger custom-badge">-20%</span>
+              </div>
                 <img src="images/p5.jpg" alt="Tricou5" class="mx-auto d-block">
                 <br>
                 <span>Adidas Women reversible<br> track jacket</span>
@@ -250,7 +274,7 @@
 	        designed by <strong> designTeamLions</strong>
 	      </div>
 	    </div>
-
+    </footer>
   </body>
 
     <!-- Bootstrap JS -->
@@ -484,7 +508,7 @@
       });
       $(".product_history_carousel").slick({
           slidesToShow:5,
-          slidesToScroll:1,
+          slidesToScroll:5,
           dots:true,
           responsive:
           [
@@ -506,7 +530,7 @@
             breakpoint:740,
             settings:{
               slidesToShow:2,
-              slidesToScroll:2,
+              slidesToScroll:2
             }
           },
           {
