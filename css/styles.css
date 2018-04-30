@@ -210,6 +210,12 @@ Row after gallery
 	width:100%;
 }
 
+.line-blank{
+	height: 1px;
+	background: transparent;
+	width: 100%;
+}
+
 .line-black{
 	height: 1px;
 	background: black;
@@ -384,14 +390,7 @@ ul.list-group li a:active{
 .larger{
 	height:6rem!important;
 }
-.white{
-	z-index:1;
-	background-color: var(--bg-color-white)!important;
-	position:relative;
-	padding-bottom:50px!important;
-	border-bottom-right-radius:10px!important;
-	border-bottom-left-radius:10px!important;
-}
+
 div.align{
 	margin-bottom: -50px;
 }

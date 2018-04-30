@@ -7,6 +7,14 @@ body{
 	-o-background-size: cover;
 
 }
+
+.cont-extended{
+	margin-left: -25px; 
+	margin-right: -25px;
+	background-color: white;
+	border-radius: 15px 15px 0px 0px; 
+}
+
 .background-up
 {
 	height:50vh!important;

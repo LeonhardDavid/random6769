@@ -781,7 +781,7 @@
     <div class="product-catalog-row py-1 font-sz-imp">
       <div class="n1 d-flex justify-content-between pad-cust-imp" >
           <div class="dropdown show mx-auto">
-            <a class="product-catalog-a py-3 px-3" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="product-catalog-a py-3 px-2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span>
                 <i class="fas fa-align-justify"></i>
               </span>

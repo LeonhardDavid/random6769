@@ -4,6 +4,7 @@
 &nbsp;
 </section>
 <div class="container white-up container-resp-md">
+  <div class="cont-extended">
   <div class="row">
       <div class="col-md-2 my-5 mx-4 d-none d-lg-block">
         <div class="row outline">
@@ -725,6 +726,7 @@
 
     </div>
   </div>
+</div>
 </div>
 <script type="text/javascript">
 

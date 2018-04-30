@@ -1,4 +1,5 @@
-<div class="container white">
+<div class="container">
+  <div class="cont-extended-footer">
   <div class="d-none d-md-block">
     <img src="images/banner-desktop-1.jpg" alt="salomon banner desktop" class="img-responsive w-100 my-4">
   </div>
@@ -148,6 +149,7 @@
           </div>
       </div>
   </div>
+</div>
 
 <footer class="footer-background footer-position">
 
@@ -553,7 +555,7 @@
     $(".similar-products-carousel").slick({
           slidesToShow:5,
           slidesToScroll:1,
-          dots:false,
+          dots:true,
           responsive:
           [
           {
