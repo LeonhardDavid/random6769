@@ -240,7 +240,7 @@
               <button type="button" class="btn btn-primary dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Filtre
               </button>
-              <div class="dropdown-menu">
+              <div class="dropdown-menu" style="margin-top: 80px;">
                 <div class=" my-5 mx-4 d-lg-none">
                   <div class="row outline">
                     <div class="col-md-12">
@@ -511,8 +511,10 @@
         <div class="row">
           <div class="my-3 col-md-change col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6 ">
             <div class="text-center">
-                <span class="badge badge-danger custom-badge-new">NOU!</span>
-                <span class="badge badge-danger custom-badge-additional">-20%</span>
+                <div class="badge-group">
+                  <span class="badge badge-danger custom-badge">NOU!</span>
+                  <span class="badge badge-danger custom-badge">-20%</span>
+                </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
                 Adidas Women
                 <br>
@@ -536,8 +538,10 @@
           </div>
           <div class=" col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6  my-3 col-md-change">
             <div class="text-center">
-                <span class="badge badge-danger custom-badge-new">NOU!</span>
-                <span class="badge badge-danger custom-badge-additional">-20%</span>
+                <div class="badge-group">
+                  <span class="badge badge-danger custom-badge">NOU!</span>
+                  <span class="badge badge-danger custom-badge">-20%</span>
+                </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
                 Adidas Women
                 <br>
@@ -561,8 +565,10 @@
           </div>
           <div class=" col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6  my-3 col-md-change">
             <div class="text-center">
-                <span class="badge badge-danger custom-badge-new">NOU!</span>
-                <span class="badge badge-danger custom-badge-additional">-20%</span>
+                <div class="badge-group">
+                  
+                  <span class="badge badge-danger custom-badge">-20%</span>
+                </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
                 Adidas Women
                 <br>
@@ -586,8 +592,10 @@
           </div>
           <div class=" col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6  my-3 d-md-none d-lg-block">
             <div class="text-center">
-                <span class="badge badge-danger custom-badge-new">NOU!</span>
-                <span class="badge badge-danger custom-badge-additional">-20%</span>
+                <div class="badge-group">
+                  
+                  <span class="badge badge-danger custom-badge">-20%</span>
+                </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
                 Adidas Women
                 <br>
@@ -613,8 +621,10 @@
         <div class="row">
           <div class=" col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6  my-3 col-md-change">
             <div class="text-center">
-                <span class="badge badge-danger custom-badge-new">NOU!</span>
-                <span class="badge badge-danger custom-badge-additional">-20%</span>
+                <div class="badge-group">
+                  
+                  <span class="badge badge-danger custom-badge">-20%</span>
+                </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
                 Adidas Women
                 <br>
@@ -638,8 +648,10 @@
           </div>
           <div class=" col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6  my-3 col-md-change">
             <div class="text-center">
-                <span class="badge badge-danger custom-badge-new">NOU!</span>
-                <span class="badge badge-danger custom-badge-additional">-20%</span>
+                <div class="badge-group">
+                  <span class="badge badge-danger custom-badge">NOU!</span>
+                  <span class="badge badge-danger custom-badge">-20%</span>
+                </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
                 Adidas Women
                 <br>
@@ -663,8 +675,10 @@
           </div>
           <div class=" col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6  my-3 col-md-change">
             <div class="text-center">
-                <span class="badge badge-danger custom-badge-new">NOU!</span>
-                <span class="badge badge-danger custom-badge-additional">-20%</span>
+                <div class="badge-group">
+                  <span class="badge badge-danger custom-badge">NOU!</span>
+                  
+                </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
                 Adidas Women
                 <br>
@@ -688,8 +702,10 @@
           </div>
           <div class=" col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6  my-3 d-md-none d-lg-block">
             <div class="text-center">
-                <span class="badge badge-danger custom-badge-new">NOU!</span>
-                <span class="badge badge-danger custom-badge-additional">-20%</span>
+                <div class="badge-group">
+                  <span class="badge badge-danger custom-badge">NOU!</span>
+                  
+                </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
                 Adidas Women
                 <br>
@@ -715,8 +731,10 @@
         <div class="row">
           <div class=" col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6  my-3 col-md-change">
             <div class="text-center">
-                <span class="badge badge-danger custom-badge-new">NOU!</span>
-                <span class="badge badge-danger custom-badge-additional">-20%</span>
+                <div class="badge-group">
+                  <span class="badge badge-danger custom-badge">NOU!</span>
+                  
+                </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
                 Adidas Women
                 <br>
@@ -740,8 +758,10 @@
           </div>
           <div class=" col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6  my-3 col-md-change">
             <div class="text-center">
-                <span class="badge badge-danger custom-badge-new">NOU!</span>
-                <span class="badge badge-danger custom-badge-additional">-20%</span>
+                <div class="badge-group">
+                  <span class="badge badge-danger custom-badge">NOU!</span>
+                  <span class="badge badge-danger custom-badge">-20%</span>
+                </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
                 Adidas Women
                 <br>
@@ -765,8 +785,10 @@
           </div>
           <div class=" col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6  my-3 col-md-change">
             <div class="text-center">
-                <span class="badge badge-danger custom-badge-new">NOU!</span>
-                <span class="badge badge-danger custom-badge-additional">-20%</span>
+                <div class="badge-group">
+                  <span class="badge badge-danger custom-badge">NOU!</span>
+                  <span class="badge badge-danger custom-badge">-20%</span>
+                </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
                 Adidas Women
                 <br>
@@ -789,8 +811,10 @@
           </div>
           <div class=" col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6  my-3 d-md-none d-lg-block">
             <div class="text-center">
-                <span class="badge badge-danger custom-badge-new">NOU!</span>
-                <span class="badge badge-danger custom-badge-additional">-20%</span>
+                <div class="badge-group">
+                  <span class="badge badge-danger custom-badge">NOU!</span>
+                  <span class="badge badge-danger custom-badge">-20%</span>
+                </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
                 Adidas Women
                 <br>
@@ -815,8 +839,10 @@
         <div class="row">
           <div class=" col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6  my-3 col-md-change">
             <div class="text-center">
-                <span class="badge badge-danger custom-badge-new">NOU!</span>
-                <span class="badge badge-danger custom-badge-additional">-20%</span>
+                <div class="badge-group">
+                  <span class="badge badge-danger custom-badge">NOU!</span>
+                  <span class="badge badge-danger custom-badge">-20%</span>
+                </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
                 Adidas Women
                 <br>
@@ -840,8 +866,7 @@
           </div>
           <div class=" col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6  my-3 col-md-change">
             <div class="text-center">
-                <span class="badge badge-danger custom-badge-new">NOU!</span>
-                <span class="badge badge-danger custom-badge-additional">-20%</span>
+                
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
                 Adidas Women
                 <br>
@@ -865,8 +890,7 @@
           </div>
           <div class=" col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6  my-3 col-md-change">
             <div class="text-center">
-                <span class="badge badge-danger custom-badge-new">NOU!</span>
-                <span class="badge badge-danger custom-badge-additional">-20%</span>
+                
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
                 Adidas Women
                 <br>
@@ -889,8 +913,9 @@
           </div>
           <div class=" col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6  my-3 d-md-none d-lg-block">
             <div class="text-center">
-                <span class="badge badge-danger custom-badge-new">NOU!</span>
-                <span class="badge badge-danger custom-badge-additional">-20%</span>
+                <div class="badge-group">
+                  <span class="badge badge-danger custom-badge">NOU!</span>
+                </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
                 Adidas Women
                 <br>
@@ -916,8 +941,8 @@
         <div class="row">
           <div class=" col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6  my-3  d-none d-md-block d-lg-none">
             <div class="text-center">
-                <span class="badge badge-danger custom-badge-new">NOU!</span>
-                <span class="badge badge-danger custom-badge-additional">-20%</span>
+                
+
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
                 Adidas Women
                 <br>
@@ -941,8 +966,9 @@
           </div>
           <div class=" col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6  my-3  d-none d-md-block d-lg-none">
             <div class="text-center">
-                <span class="badge badge-danger custom-badge-new">NOU!</span>
-                <span class="badge badge-danger custom-badge-additional">-20%</span>
+                <div class="badge-group">
+                  <span class="badge badge-danger custom-badge">-20%</span>
+                </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
                 Adidas Women
                 <br>
@@ -966,8 +992,9 @@
           </div>
           <div class=" col-lg-3 col-xl-3 col-md-4 col-sm-6 col-xs-6  my-3  d-none d-md-block d-lg-none">
             <div class="text-center">
-                <span class="badge badge-danger custom-badge-new">NOU!</span>
-                <span class="badge badge-danger custom-badge-additional">-20%</span>
+                <div class="badge-group">
+                  <span class="badge badge-danger custom-badge">NOU!</span>
+                </div>
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
                 Adidas Women
                 <br>
@@ -990,8 +1017,7 @@
           </div>
           <div class=" col-lg-3 col-md-4 col-sm-6 col-xs-2 col-xl-3 my-3 d-none d-md-block d-lg-none">
             <div class="text-center">
-                <span class="badge badge-danger custom-badge-new">NOU!</span>
-                <span class="badge badge-danger custom-badge-additional">-20%</span>
+                
                 <img src="images/pb1.jpg" alt="Product1" class="mx-auto d-block custom-height-2">
                 Adidas Women
                 <br>
