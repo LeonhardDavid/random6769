@@ -240,7 +240,7 @@
               <button type="button" class="btn btn-primary dropdown-toggle btn-block" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Filtre
               </button>
-              <div class="dropdown-menu" style="margin-top: 80px;">
+              <div class="dropdown-menu dropdown-menu-2" style="margin-top: 80px;">
                 <div class=" my-5 mx-4 d-lg-none">
                   <div class="row outline">
                     <div class="col-md-12">
