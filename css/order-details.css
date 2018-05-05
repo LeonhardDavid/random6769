@@ -7,6 +7,12 @@ body{
 	background-color: #fafafa;
 }
 
+@media (max-width: 992px){
+	.container{
+		max-width: 100% !important;
+	}
+}
+
 .line{
 	height: 1px;
 	background: #1e5799;
@@ -22,7 +28,7 @@ body{
 
 .cyan{
 	min-height: 5px !important;
-	background-color: var(--color-cyan);
+	background-color: var(--text-color-blue-hover);
 }
 
 .grey{
@@ -40,7 +46,7 @@ body{
 }
 
 .roadmap-txt-cyan{
-	color: var(--color-cyan);
+	color: var(--text-color-blue-hover);
 }
 
 .roadmap-txt-grey{
@@ -79,10 +85,79 @@ body{
 	margin-left: 10px;
 }
 
-.font-big{
-	font-size: 2rem;
+@media (max-width: 576px){
+	.title{
+		font-size: 1.5rem !important;
+	}
+
+	.font-sz{
+		font-size: .5rem;
+	}
+	.box{
+		width: 100px !important;
+	}
 }
 
+@media (max-width: 375px){
+	.title{
+		font-size: 1.25rem !important;
+	}
+}
+
+@media (max-width: 400px){
+	.font-big{
+		font-size: 1.5rem;
+	}
+
+	.font-lg{
+		font-size: 1rem !important;
+	}
+
+	.font-md{
+		font-size: .75rem;
+	}
+
+	.font-sm{
+		font-size: .5rem !important;
+	}
+}
+
+@media (min-width: 401px) and (max-width: 910px){
+	.font-big{
+		font-size: 1.75rem;
+	}
+
+	.font-lg{
+		font-size: 1.25rem !important;
+	}
+
+	.font-md{
+		font-size: .875rem;
+	}
+
+	.font-sm{
+		font-size: .75rem !important;
+	}
+}
+
+@media (min-width: 911px){
+	.font-big{
+		font-size: 2rem;
+	}
+
+	.font-lg{
+		font-size: 1.5rem !important;
+	}
+
+	.font-md{
+		font-size: 1rem;
+	}
+
+	.font-sm{
+		font-size: .875rem !important;
+	}
+	
+}
 .blue-bg{
 	background-color: rgb(228,241,249);
 	border-radius: 5px;
@@ -116,12 +191,16 @@ body{
 
 .blue-txt{
 	color: rgb(23,99,170);
-	font-size: 1rem;
 }
 
-.font-md{
-	font-size: 1rem;
+.grey-txt{
+	color: rgb(187,187,187);
 }
+
+.grey-2-txt{
+	color: rgb(102,102,102) !important;
+}
+
 
 /* The container */
 .container-radio {
@@ -134,7 +213,7 @@ body{
     -ms-user-select: none;
     user-select: none;
 
-    padding-top: 12px;
+    padding-top: 14px;
     height: 55px;
     width: 100% !important;
     background-color: white;
@@ -145,13 +224,49 @@ body{
     border-radius: 5px;
 }
 
-.address-radio{
-	height: 200px;	
+@media (min-width: 911px){
+	.address-radio{
+		height: 200px;	
+	}
+
+	.receipt-1-radio, .receipt-2-radio{
+		height: 75px;
+	}
 }
 
-.receipt-radio{
-	height: 75px;
+
+@media (max-width: 910px){
+	.address-radio{
+		height: 180px;	
+	}
+
+	.receipt-1-radio, .receipt-2-radio{
+		height: 65px;
+	}
 }
+
+@media (max-width: 540px){
+	.address-radio{
+		height: 210px;
+	}
+	.receipt-1-radio, .receipt-2-radio{
+		height: 75px;
+	}
+}
+
+
+@media (max-width: 520px){
+	.address-radio{
+		height: 220px;
+	}
+}
+
+@media (max-width: 500px){
+	.address-radio{
+		height: 230px;
+	}
+}
+
 
 /* Hide the browser's default radio button */
 .container-radio input {
@@ -219,12 +334,45 @@ body{
 	border-color: var(--navbar-categories-bg-color) !important;
 }
 
-.pad-left{
-	padding-left: 10rem;
+@media (max-width: 767px){
+	.pad-left{
+		padding-left: 0;
+	}
+
+	.pad-right{
+		padding-right: 0;
+	}
 }
 
-.pad-right{
-	padding-right: 10rem;
+
+@media (min-width: 768px){
+	.pad-l{
+		padding-left: .25rem !important;
+	}
+	.pad-r{
+		padding-right: .25rem !important;
+	}
+	.pad-left{
+		padding-left: 10rem;
+	}
+
+	.pad-right{
+		padding-right: 10rem;
+	}
+}
+
+@media (max-width: 768px){
+	.btn-outline-cust{
+		width: 100% !important;
+		margin-bottom: .5rem !important;
+	}
+}
+
+@media (max-width: 375px){
+	.btn-outline-cust{
+		font-size: .875rem !important;
+		padding: .25rem !important;
+	}
 }
 
 .nav-tabs{
@@ -244,4 +392,59 @@ a.nav-link{
 
 .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
     border-color: #1763aa #1763aa #dee2e6 !important;
+}
+
+.info-box{
+	background-color: white;
+	border: 1px solid rgb(23,99,170);
+	border-radius: 5px;
+}
+
+.border-shadow{
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+@media (max-width: 576px){
+	.font-resp, h5, h6{
+		font-size: 1rem !important;
+	}
+	.font-resp-summary{
+		font-size: 0.875rem !important;
+	}
+}
+
+.font-resp{
+	font-size: 1.5rem;
+}
+
+.font-resp-summary{
+	font-size: 1rem;
+}
+
+.left-line
+{
+	border-left: 1px solid lightgrey!important;
+}
+
+@media (max-width: 768px){
+	.left-line
+	{
+		border:0 !important;
+	}
+}
+
+.btn-cust{
+	background-color: var(--navbar-categories-bg-color) !important;
+	border-color: var(--navbar-categories-bg-color) !important;
+}
+
+.btn-cust:hover{
+	background-color: var(--text-color-blue-hover) !important;
+	border-color: var(--text-color-blue-hover) !important;
+}
+
+.footer-container{
+	border-top: 1px solid lightgrey;
 }
