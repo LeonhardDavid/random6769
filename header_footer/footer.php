@@ -573,8 +573,28 @@
       });
 
     });
+    $(".hide").hide();
+    $("#check").click(function()
+    {
+    	 if( $(".navbar_check").hasClass(".plm")){
+       $(".navbar_check").removeClass(".plm");
+       $(".show").show();
+       $(".hide").hide();
+    }
+    else {
+       $(".navbar_check").addClass(".plm");
+       $(".show").hide();
+       $(".hide").show();
+    }
+    });
+    $('#ex1').slider({
+	formatter: function(value) {
+		return 'Current value: ' + value;
+	}
+});
     </script>
-
+    <script type="text/javascript" src="js/bootstrap-slider.js"></script>
+		<script type="text/javascript" src="js/bootstrap-slider.min.js"></script>
     <!-- Font Awesome CDN for vector icons-->
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 
