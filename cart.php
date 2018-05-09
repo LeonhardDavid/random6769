@@ -19,16 +19,60 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <!-- Font awesome CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
 
 <body>
 	<div class="container container-resp-md my-5">
-		<div class="row">
-			<div class="col-lg-2 my-3">
-				<img src="images/logo_blue.svg" alt="Page_logo" class="img-fluid">
+		<div class="row w-100 mx-auto">
+			<div class="col-md-2 mx-auto mb-1">
+				<img src="images/logo_blue.svg" alt="Page_logo" class="img-fluid d-block mx-auto">
 			</div>
-			<div class="col-lg-10">
-				<hr>
+			<div class="col-md-10 col-11 pr-0 mx-auto">
+				<div class="row">
+					<div class="row w-100 roadmap">
+						<div class="col-4 grey border-right-white px-0">
+
+						</div>
+						<div class="col-4 grey border-right-white px-0">
+
+						</div>
+						<div class="col-4 grey px-0">
+
+						</div>	
+					</div>
+
+					<div class="row mb-3 w-100">
+						<div class="col-4 px-0">
+						<span class="roadmap-txt-cyan translate-arrow"> <i class="fas fa-chevron-up"></i> </span>							
+						</div>
+						<div class="col-4 px-0">
+							
+						</div>
+						<div class="col-4 px-0">													
+							
+						</div>
+
+					</div>
+
+					<div class="row w-100">
+						<div class="col-3 text-left px-0">
+							<span class="roadmap-txt-cyan bold-txt">Cosul meu </span>
+						</div>
+						<div class="col-sm-2 col-3 text-center px-0">
+							<span class="roadmap-txt-grey">Detalii comanda </span>
+						</div>
+						<div class="col-2 d-sm-block d-none px-0"></div>
+						<div class="col-sm-2 col-3 text-center px-0">
+							<span class="roadmap-txt-grey ">Sumar comanda </span>
+						</div>
+						<div class="col-3 text-right px-0">
+							<span class="roadmap-txt-grey ">Comanda plasata </span>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="row backcolor ">
