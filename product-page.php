@@ -87,7 +87,7 @@
 						<ul class="ul-col-left px-0">
 									<li> <span class="grey-text"> opinia clientilor:</span> </li>
 									<li class="mb-2"> 
-										<a href="#" class="col-left-a dsp-flex">
+										<a href="#" class="col-left-a normal-link no-und-hov dsp-flex">
 											<div class="stars">
 
 												<table class="star-rating font-sz">
@@ -434,7 +434,7 @@
 							<div class="col-lg-4 d-lg-block d-none">
 								<div class="row my-1">
 									<div class="col-3 px-0">
-										<a href="#" class="progress-bar-a"> 5 stele <i class="fas fa-star yellow"></i></a>
+										<a href="#" class="progress-bar-a normal-link no-und-hov"> 5 stele <i class="fas fa-star yellow"></i></a>
 									</div>
 									<div class="col-7 px-0 my-auto">
 										<div class="progress ">
@@ -445,12 +445,12 @@
 									</div>
 									</div>
 									<div class="col-2">
-										<span> <a href="#" class="progress-bar-a">(21)</a></span>
+										<span> <a href="#" class="progress-bar-a normal-link no-und-hov">(21)</a></span>
 									</div>
 								</div>
 								<div class="row my-1">
 									<div class="col-3 px-0">
-										<a href="#" class="progress-bar-a"> 4 stele <i class="fas fa-star yellow"></i></a>
+										<a href="#" class="progress-bar-a normal-link no-und-hov"> 4 stele <i class="fas fa-star yellow"></i></a>
 									</div>
 									<div class="col-7 px-0 my-auto">
 										<div class="progress ">
@@ -461,12 +461,12 @@
 									</div>
 									</div>
 									<div class="col-2">
-										<span> <a href="#" class="progress-bar-a">(2)</a></span>
+										<span> <a href="#" class="progress-bar-a normal-link no-und-hov">(2)</a></span>
 									</div>
 								</div>
 								<div class="row my-1">
 									<div class="col-3 px-0">
-										<a href="#" class="progress-bar-a"> 3 stele <i class="fas fa-star yellow"></i></a>
+										<a href="#" class="progress-bar-a normal-link no-und-hov"> 3 stele <i class="fas fa-star yellow"></i></a>
 									</div>
 									<div class="col-7 px-0 my-auto">
 										<div class="progress ">
@@ -477,12 +477,12 @@
 									</div>
 									</div>
 									<div class="col-2">
-										<span> <a href="#" class="progress-bar-a">(2)</a></span>
+										<span> <a href="#" class="progress-bar-a normal-link no-und-hov">(2)</a></span>
 									</div>
 								</div>
 								<div class="row my-1">
 									<div class="col-3 px-0">
-										<a href="#" class="progress-bar-a"> 2 stele <i class="fas fa-star yellow"></i></a>
+										<a href="#" class="progress-bar-a normal-link no-und-hov"> 2 stele <i class="fas fa-star yellow"></i></a>
 									</div>
 									<div class="col-7 px-0 my-auto">
 										<div class="progress ">
@@ -493,12 +493,12 @@
 									</div>
 									</div>
 									<div class="col-2">
-										<span> <a href="#" class="progress-bar-a">(0)</a></span>
+										<span> <a href="#" class="progress-bar-a normal-link no-und-hov">(0)</a></span>
 									</div>
 								</div>
 								<div class="row my-1">
 									<div class="col-3 px-0">
-										<a href="#" class="progress-bar-a"> 1 stea <i class="fas fa-star yellow"></i></a>
+										<a href="#" class="progress-bar-a normal-link no-und-hov"> 1 stea <i class="fas fa-star yellow"></i></a>
 									</div>
 									<div class="col-7 px-0 my-auto">
 										<div class="progress ">
@@ -509,7 +509,7 @@
 									</div>
 									</div>
 									<div class="col-2">
-										<span> <a href="#" class="progress-bar-a">(1)</a></span>
+										<span> <a href="#" class="progress-bar-a normal-link no-und-hov">(1)</a></span>
 									</div>
 								</div>
 							</div>

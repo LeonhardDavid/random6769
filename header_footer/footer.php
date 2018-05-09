@@ -66,9 +66,11 @@
               <span class="red">134 lei</span>
               <span class="grey">165 lei</span>
               <br>
-              <div class="btn-group" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+              <div class="add-to-cart atc-index">
+                <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+                <span class="shopping-cart">
+                  <i class="fas fa-shopping-cart"></i>
+                </span>
               </div>
           </div>
           <div class="styling_bottom">
@@ -82,9 +84,11 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                <div class="add-to-cart atc-index">
+                  <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+                  <span class="shopping-cart">
+                    <i class="fas fa-shopping-cart"></i>
+                  </span>
                 </div>
           </div>
           <div class="styling_bottom">
@@ -95,9 +99,11 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                <div class="add-to-cart atc-index">
+                  <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+                  <span class="shopping-cart">
+                    <i class="fas fa-shopping-cart"></i>
+                  </span>
                 </div>
           </div>
           <div class="styling_bottom">
@@ -112,9 +118,11 @@
               <span class="red">134 lei</span>
               <span class="grey">165 lei</span>
               <br>
-              <div class="btn-group" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+              <div class="add-to-cart atc-index">
+                <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+                <span class="shopping-cart">
+                  <i class="fas fa-shopping-cart"></i>
+                </span>
               </div>
           </div>
           <div class="styling_bottom">
@@ -125,9 +133,11 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                <div class="add-to-cart atc-index">
+                  <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+                  <span class="shopping-cart">
+                    <i class="fas fa-shopping-cart"></i>
+                  </span>
                 </div>
           </div>
 
@@ -142,9 +152,11 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                <div class="add-to-cart atc-index">
+                  <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+                  <span class="shopping-cart">
+                    <i class="fas fa-shopping-cart"></i>
+                  </span>
                 </div>
           </div>
       </div>
@@ -212,7 +224,7 @@
             <div class="input-group">
                 <input type="text" class="form-control" placeholder="Email:">
                   <span class="input-group-btn">
-                      <button class="btn btn-primary footer-form-btn" type="button" name="search">Abonare!</button>
+                      <button class="btn footer-form-btn" type="button" name="search">Abonare!</button>
                   </span>
             </div>
           </div>
@@ -288,6 +300,33 @@
 		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<script type="text/javascript" src="css/slick/slick.min.js"></script>
+
+    <!-- Change every .svg files into inline svg to use css fill -->
+    <script>
+      $(document).ready(function() {
+        $('img[src$=".svg"]').each(function() {
+            var $img = jQuery(this);
+            var imgURL = $img.attr('src');
+            var attributes = $img.prop("attributes");
+
+            $.get(imgURL, function(data) {
+                // Get the SVG tag, ignore the rest
+                var $svg = jQuery(data).find('svg');
+
+                // Remove any invalid XML tags
+                $svg = $svg.removeAttr('xmlns:a');
+
+                // Loop through IMG attributes and apply on SVG
+                $.each(attributes, function() {
+                    $svg.attr(this.name, this.value);
+                });
+
+                // Replace IMG with SVG
+                $img.replaceWith($svg);
+            }, 'xml');
+        });
+    });
+    </script>
 
     <script>
 

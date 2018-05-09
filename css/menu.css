@@ -140,9 +140,12 @@
   color: var(--text-color-blue-hover);
 }
 
-.dropdown .nav-top-right:hover > .nav-svg{
-    -webkit-filter: opacity(.5) drop-shadow(0 0 0 var(--text-color-blue-hover));
-  filter: opacity(.5) drop-shadow(0 0 0 var(--text-color-blue-hover));
+.nav-top-right:hover > .nav-svg path{
+  fill: var(--text-color-blue-hover) !important;
+}
+
+.nav-svg path{
+  fill: var(--text-color-blue) !important;
 }
 
 .padds .nav-top-right{
@@ -344,8 +347,8 @@
 
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus, .list-group-item.active:active{
   color: #ffffff;
-  background-color: var(--main-bg-color-hover);
-  border-left: 3px solid white;
+  background-color: var(--main-bg-color-hover) !important;
+  border-left: 3px solid white !important;
 }
 
 .row .top-link{

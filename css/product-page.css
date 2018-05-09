@@ -103,6 +103,20 @@
 	font-size: 1rem;
 }
 
+.normal-link:link, .normal-link:visited{
+	color: var(--text-color-blue);
+	text-decoration: none;
+}
+
+.normal-link:hover, .normal-link:active{
+	color: var(--text-color-blue-hover);
+	text-decoration: underline;
+}
+
+.no-und-hov:hover, .no-und-hov:active{
+	text-decoration: none;
+}
+
 .add-to-cart{
 	background-color: var(--navbar-categories-bg-color);
 	border-radius: 5px;
@@ -112,6 +126,20 @@
 
 .add-to-cart:hover{
 	background-color: var(--text-color-red);
+}
+
+.atc-index{
+	height: 2rem !important;
+}
+
+.atc-index .add-to-cart-btn{
+	font-size: 1rem !important;
+	padding: 0px 5px 0px 5px !important;
+}
+
+.atc-index .shopping-cart{
+	font-size: 1.25rem !important;
+	padding: 0 !important;
 }
 
 .add-to-cart .add-to-cart-btn{
@@ -445,6 +473,7 @@ table.star-rating {
 
 .active .page-link{
 	background-color: var(--navbar-categories-bg-color) !important;
+	border: 0 !important;
 }
 
 .pagination .page-item .page-link{

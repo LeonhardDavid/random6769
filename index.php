@@ -115,10 +115,12 @@
 						<span class="red">134 lei</span>
 						<span class="grey">165 lei</span>
 						<br>
-						<div class="btn-group" role="group" aria-label="Basic example">
-							<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-						</div>
+						<div class="add-to-cart atc-index">
+						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+						<span class="shopping-cart">
+							<i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
 					</div>
 					<div class="styling">
 						<div class="badge-group">
@@ -131,9 +133,11 @@
 						<span class="red">134 lei</span>
 						<span class="grey">165 lei</span>
 						<br>
-						<div class="btn-group" role="group" aria-label="Basic example custom-height">
-							<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+						<div class="add-to-cart atc-index">
+							<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+							<span class="shopping-cart">
+								<i class="fas fa-shopping-cart"></i>
+							</span>
 						</div>
 					</div>
 					<div class="styling">
@@ -144,10 +148,12 @@
 						<span class="red">134 lei</span>
 						<span class="grey">165 lei</span>
 						<br>
-						<div class="btn-group" role="group" aria-label="Basic example">
-							<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-						</div>
+						<div class="add-to-cart atc-index">
+						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+						<span class="shopping-cart">
+							<i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
 					</div>
 					<div class="styling">
 
@@ -157,10 +163,12 @@
 						<span class="red">134 lei</span>
 						<span class="grey">165 lei</span>
 						<br>
-						<div class="btn-group" role="group" aria-label="Basic example">
-							<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-						</div>
+						<div class="add-to-cart atc-index">
+						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+						<span class="shopping-cart">
+							<i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
 					</div>
 					<div class="styling">
 
@@ -170,10 +178,12 @@
 						<span class="red">134 lei</span>
 						<span class="grey">165 lei</span>
 						<br>
-						<div class="btn-group" role="group" aria-label="Basic example">
-							<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-						</div>
+						<div class="add-to-cart atc-index">
+						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+						<span class="shopping-cart">
+							<i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
 					</div>
 					<div class="styling">
 
@@ -183,10 +193,12 @@
 						<span class="red">134 lei</span>
 						<span class="grey">165 lei</span>
 						<br>
-						<div class="btn-group" role="group" aria-label="Basic example">
-							<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-						</div>
+						<div class="add-to-cart atc-index">
+						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+						<span class="shopping-cart">
+							<i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
 					</div>
 					<div class="styling">
 						<div class="badge-group">
@@ -198,10 +210,12 @@
 						<span class="red">134 lei</span>
 						<span class="grey">165 lei</span>
 						<br>
-						<div class="btn-group" role="group" aria-label="Basic example">
-							<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-						</div>
+						<div class="add-to-cart atc-index">
+						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+						<span class="shopping-cart">
+							<i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
 					</div>
 					<div class="styling">
 						<div class="badge-group">
@@ -213,10 +227,12 @@
 						<span class="red">134 lei</span>
 						<span class="grey">165 lei</span>
 						<br>
-						<div class="btn-group" role="group" aria-label="Basic example">
-							<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-						</div>
+						<div class="add-to-cart atc-index">
+						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+						<span class="shopping-cart">
+							<i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
 					</div>
 					<div class="styling">
 						<div class="badge-group">
@@ -229,10 +245,12 @@
 						<span class="red">134 lei</span>
 						<span class="grey">165 lei</span>
 						<br>
-						<div class="btn-group" role="group" aria-label="Basic example">
-							<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-						</div>
+						<div class="add-to-cart atc-index">
+						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+						<span class="shopping-cart">
+							<i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
 					</div>
 					<div class="styling">
 						<img src="images/pl5.jpg" alt="Product1" class="mx-auto d-block custom-height">
@@ -241,10 +259,12 @@
 						<span class="red">134 lei</span>
 						<span class="grey">165 lei</span>
 						<br>
-						<div class="btn-group" role="group" aria-label="Basic example">
-							<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-							<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-						</div>
+						<div class="add-to-cart atc-index">
+						<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+						<span class="shopping-cart">
+							<i class="fas fa-shopping-cart"></i>
+						</span>
+					</div>
 					</div>
 
 				</div>
@@ -350,10 +370,12 @@
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
 											<br>
-											<div class="btn-group" role="group" aria-label="Basic example">
-												<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-												<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-											</div>
+											<div class="add-to-cart atc-index">
+											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+											<span class="shopping-cart">
+												<i class="fas fa-shopping-cart"></i>
+											</span>
+										</div>
 									</div>
 									<div class="styling">
 
@@ -365,10 +387,12 @@
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
 											<br>
-											<div class="btn-group" role="group" aria-label="Basic example">
-												<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-												<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-											</div>
+											<div class="add-to-cart atc-index">
+											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+											<span class="shopping-cart">
+												<i class="fas fa-shopping-cart"></i>
+											</span>
+										</div>
 									</div>
 									<div class="styling">
 										<div class="badge-group">
@@ -382,10 +406,12 @@
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
 											<br>
-											<div class="btn-group" role="group" aria-label="Basic example">
-												<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-												<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-											</div>
+											<div class="add-to-cart atc-index">
+											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+											<span class="shopping-cart">
+												<i class="fas fa-shopping-cart"></i>
+											</span>
+										</div>
 									</div>
 									<div class="styling">
 										<div class="badge-group">
@@ -399,10 +425,12 @@
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
 											<br>
-											<div class="btn-group" role="group" aria-label="Basic example">
-												<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-												<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-											</div>
+											<div class="add-to-cart atc-index">
+											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+											<span class="shopping-cart">
+												<i class="fas fa-shopping-cart"></i>
+											</span>
+										</div>
 									</div>
 									<div class="styling">
 										<div class="badge-group">
@@ -416,10 +444,12 @@
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
 											<br>
-											<div class="btn-group" role="group" aria-label="Basic example">
-												<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-												<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-											</div>
+											<div class="add-to-cart atc-index">
+											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+											<span class="shopping-cart">
+												<i class="fas fa-shopping-cart"></i>
+											</span>
+										</div>
 									</div>
 									<div class="styling">
 										<div class="badge-group">
@@ -433,10 +463,12 @@
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
 											<br>
-											<div class="btn-group" role="group" aria-label="Basic example">
-												<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-												<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-											</div>
+											<div class="add-to-cart atc-index">
+											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+											<span class="shopping-cart">
+												<i class="fas fa-shopping-cart"></i>
+											</span>
+										</div>
 									</div>
 									<div class="styling">
 										<div class="badge-group">
@@ -450,10 +482,12 @@
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
 											<br>
-											<div class="btn-group" role="group" aria-label="Basic example">
-												<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-												<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-											</div>
+											<div class="add-to-cart atc-index">
+											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+											<span class="shopping-cart">
+												<i class="fas fa-shopping-cart"></i>
+											</span>
+										</div>
 									</div>
 									<div class="styling">
 										<div class="badge-group">
@@ -469,10 +503,12 @@
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
 											<br>
-											<div class="btn-group" role="group" aria-label="Basic example">
-												<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-												<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-											</div>
+											<div class="add-to-cart atc-index">
+											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+											<span class="shopping-cart">
+												<i class="fas fa-shopping-cart"></i>
+											</span>
+										</div>
 									</div>
 									<div class="styling">
 
@@ -484,10 +520,12 @@
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
 											<br>
-											<div class="btn-group" role="group" aria-label="Basic example">
-												<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-												<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-											</div>
+											<div class="add-to-cart atc-index">
+											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+											<span class="shopping-cart">
+												<i class="fas fa-shopping-cart"></i>
+											</span>
+										</div>
 									</div>
 									<div class="styling">
 										<div class="badge-group">
@@ -501,10 +539,12 @@
 											<span class="red">134 lei</span>
 											<span class="grey">165 lei</span>
 											<br>
-											<div class="btn-group" role="group" aria-label="Basic example">
-												<button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-												<button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
-											</div>
+											<div class="add-to-cart atc-index">
+											<input class="add-to-cart-btn" type="submit" value="Adauga in cos">
+											<span class="shopping-cart">
+												<i class="fas fa-shopping-cart"></i>
+											</span>
+										</div>
 									</div>
 								</div>
 						</div>
