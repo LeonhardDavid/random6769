@@ -5,6 +5,35 @@ body
 .backcolor{
 	background-color: white;
 }
+.cyan{
+	min-height: 5px !important;
+	background-color: var(--text-color-blue-hover);
+}
+
+.grey{
+	min-height: 5px !important;
+	background-color: var(--color-grey);
+}
+.bold-txt{
+	font-weight: bold;
+}
+.border-right-white{
+	border-right: solid white 5px !important;
+}
+
+.translate-arrow{
+	transform: translateX(-10px);
+	position: absolute;
+}
+
+.roadmap-txt-cyan{
+	color: var(--text-color-blue-hover);
+}
+
+.roadmap-txt-grey{
+	color: var(--color-grey);
+}
+
 .left-line
 {
 	border-left: 1px solid lightgrey!important;

@@ -332,7 +332,6 @@
 
       $(window).resize(function () {
             var viewportWidth = $(window).width();
-
             if(viewportWidth <992)
             {
             $(".element").removeClass("col-md-8").addClass("col-md-12")
@@ -342,6 +341,7 @@
             }
 
         });
+
     </script>
 
     <script>
