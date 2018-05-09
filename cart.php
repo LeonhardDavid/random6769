@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- Font awesome CSS-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 
   </head>
 
@@ -46,7 +46,7 @@
 
 					<div class="row mb-3 w-100">
 						<div class="col-4 px-0">
-						<span class="roadmap-txt-cyan translate-arrow"> <i class="fas fa-chevron-up"></i> </span>							
+						<span class="roadmap-txt-cyan translate-arrow">&nbsp;<i class="fas fa-chevron-up"></i></span>							
 						</div>
 						<div class="col-4 px-0">
 							
@@ -76,7 +76,7 @@
 			</div>
 		</div>
 		<div class="row backcolor ">
-			<h2 class="my-4 mx-5 my-3"> Cos de cumparaturi </h2>
+			<h2 class="my-4 mx-5 my-3"> Cos de cumparaturi</h2>
 				<div class="col-lg-9">
 
 					<div class="container-fluid my-3 product-container">

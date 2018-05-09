@@ -30,13 +30,13 @@
 			<div class="col-md-10 col-11 pr-0 mx-auto">
 				<div class="row">
 					<div class="row w-100 roadmap">
-						<div class="col-4 grey border-right-white px-0">
+						<div class="col-4 cyan border-right-white px-0">
 
 						</div>
-						<div class="col-4 grey border-right-white px-0">
+						<div class="col-4 cyan border-right-white px-0">
 
 						</div>
-						<div class="col-4 grey px-0">
+						<div class="col-4 cyan px-0">
 
 						</div>	
 					</div>
