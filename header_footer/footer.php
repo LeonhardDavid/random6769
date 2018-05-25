@@ -7,48 +7,46 @@
     <img src="images/banner-mobile-1.jpg" alt="salomon banner mobile" class="img-responsive w-100 my-4">
   </div>
   <div class="row-flex">
-    <div class="col-md-12 mx-3">
+    <div class="col-md2 mx-3">
         <span class="product-styling">Istoricul tau de navigare</span>
         <div class="line my-2"></div>
     </div>
   </div>
-  <div class="row d-flex justify-content-center">
-    <ul class="list-inline ml-2 my-2">
-      <li class="list-inline-item" id="history1">
+  <div class="row d-flex justify-content-center my-2 mx-3">
+      <div class="col-md d-flex justify-content-center" id="history1">
         <img src="images/l1.jpg" alt="Item1" class="img-responsive rounded border border-primary larger">
-      </li>
-      <li class="list-inline-item" id="history2">
+      </div>
+      <div class="col-md d-flex justify-content-center " id="history2">
         <img src="images/l2.jpg" alt="Item1" class="img-responsive rounded border border-primary larger">
-      </li>
-      <li class="list-inline-item" id="history3">
+      </div>
+      <div class="col-md d-flex justify-content-center " id="history3">
         <img src="images/l3.jpg" alt="Item1" class="img-responsive rounded border border-primary larger">
-      </li>
-      <li class="list-inline-item" id="history4">
+      </div>
+      <div class="col-md d-flex justify-content-center " id="history4">
         <img src="images/l4.jpg" alt="Item1" class="img-responsive rounded border border-primary larger">
-      </li>
-      <li class="list-inline-item">
+      </div>
+      <div class="col-md d-flex justify-content-center ">
         <img src="images/l5.jpg" alt="Item1" class="img-responsive rounded border border-primary larger">
-      </li>
-      <li class="list-inline-item">
+      </div>
+      <div class="col-md d-flex justify-content-center ">
         <img src="images/l6.jpg" alt="Item1" class="img-responsive rounded border border-primary larger">
-      </li>
-      <li class="list-inline-item">
+      </div>
+      <div class="col-md  d-flex justify-content-center">
         <img src="images/l7.jpg" alt="Item1" class="img-responsive rounded border border-primary larger">
-      </li>
-      <li class="list-inline-item">
+      </div>
+      <div class="col-md  d-flex justify-content-center">
         <img src="images/l8.jpg" alt="Item1" class="img-responsive rounded border border-primary larger">
-      </li>
-      <li class="list-inline-item">
+      </div>
+      <div class="col-md  d-flex justify-content-center">
         <img src="images/l9.jpg" alt="Item1" class="img-responsive rounded border border-primary larger">
-      </li>
-      <li class="list-inline-item">
+      </div>
+      <div class="col-md  d-flex justify-content-center">
         <img src="images/l10.jpg" alt="Item1" class="img-responsive rounded border border-primary larger">
-      </li>
-    </ul>
+      </div>
   </div>
 
   <div class="row-flex mx-3">
-    <div class="col-md-12 my-3">
+    <div class="col-md2 my-3">
         <span class>Alti clienti au fost interesati si de: </span>
     </div>
   </div>
@@ -66,11 +64,9 @@
               <span class="red">134 lei</span>
               <span class="grey">165 lei</span>
               <br>
-              <div class="add-to-cart atc-index">
-                <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
-                <span class="shopping-cart">
-                  <i class="fas fa-shopping-cart"></i>
-                </span>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
+                <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
               </div>
           </div>
           <div class="styling_bottom">
@@ -84,11 +80,9 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="add-to-cart atc-index">
-                  <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
-                  <span class="shopping-cart">
-                    <i class="fas fa-shopping-cart"></i>
-                  </span>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
+                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
                 </div>
           </div>
           <div class="styling_bottom">
@@ -99,11 +93,9 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="add-to-cart atc-index">
-                  <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
-                  <span class="shopping-cart">
-                    <i class="fas fa-shopping-cart"></i>
-                  </span>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
+                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
                 </div>
           </div>
           <div class="styling_bottom">
@@ -118,11 +110,9 @@
               <span class="red">134 lei</span>
               <span class="grey">165 lei</span>
               <br>
-              <div class="add-to-cart atc-index">
-                <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
-                <span class="shopping-cart">
-                  <i class="fas fa-shopping-cart"></i>
-                </span>
+              <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
+                <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
               </div>
           </div>
           <div class="styling_bottom">
@@ -133,11 +123,9 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="add-to-cart atc-index">
-                  <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
-                  <span class="shopping-cart">
-                    <i class="fas fa-shopping-cart"></i>
-                  </span>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
+                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
                 </div>
           </div>
 
@@ -152,11 +140,9 @@
                 <span class="red">134 lei</span>
                 <span class="grey">165 lei</span>
                 <br>
-                <div class="add-to-cart atc-index">
-                  <input class="add-to-cart-btn" type="submit" value="Adauga in cos">
-                  <span class="shopping-cart">
-                    <i class="fas fa-shopping-cart"></i>
-                  </span>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
+                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
                 </div>
           </div>
       </div>
@@ -224,7 +210,7 @@
             <div class="input-group">
                 <input type="text" class="form-control" placeholder="Email:">
                   <span class="input-group-btn">
-                      <button class="btn footer-form-btn" type="button" name="search">Abonare!</button>
+                      <button class="btn btn-primary footer-form-btn" type="button" name="search">Abonare!</button>
                   </span>
             </div>
           </div>
@@ -301,47 +287,20 @@
 		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 		<script type="text/javascript" src="css/slick/slick.min.js"></script>
 
-    <!-- Change every .svg files into inline svg to use css fill -->
-    <script>
-      $(document).ready(function() {
-        $('img[src$=".svg"]').each(function() {
-            var $img = jQuery(this);
-            var imgURL = $img.attr('src');
-            var attributes = $img.prop("attributes");
-
-            $.get(imgURL, function(data) {
-                // Get the SVG tag, ignore the rest
-                var $svg = jQuery(data).find('svg');
-
-                // Remove any invalid XML tags
-                $svg = $svg.removeAttr('xmlns:a');
-
-                // Loop through IMG attributes and apply on SVG
-                $.each(attributes, function() {
-                    $svg.attr(this.name, this.value);
-                });
-
-                // Replace IMG with SVG
-                $img.replaceWith($svg);
-            }, 'xml');
-        });
-    });
-    </script>
-
     <script>
 
       $(window).resize(function () {
             var viewportWidth = $(window).width();
+
             if(viewportWidth <992)
             {
-            $(".element").removeClass("col-md-8").addClass("col-md-12")
+            $(".element").removeClass("col-md-8").addClass("col-md2")
             }
             else {
-            $(".element").removeClass("col-md-12").addClass("col-md-8")
+            $(".element").removeClass("col-md2").addClass("col-md-8")
             }
 
         });
-
     </script>
 
     <script>
