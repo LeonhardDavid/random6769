@@ -255,7 +255,7 @@ Row after gallery
 		/*padding: 2rem 12rem 2rem 12rem !important;*/
 		padding-right: 15% !important;
 		padding-left: 15% !important;
-	}	
+	}
 }
 
 @media (min-width: 455px){
@@ -352,7 +352,7 @@ ul.list-group li a:active{
 	bottom:190px!important;
 	margin-bottom:-190px!important;
 
-	
+
 }
 .text{
 	color:var(--text-color-white);
@@ -396,4 +396,15 @@ div.align{
 }
 .img-responsive{
 	object-fit: cover;
+}
+.white-bg{
+	background-color: var(--bg-color-white)!important;
+}
+.content-extended{
+	margin-left: -20px!important;
+	margin-right: -20px!important;
+	padding-left:20px!important;
+	background-color: white!important;
+	border-top-right-radius: 10px!important;
+	border-top-left-radius: 10px!important;
 }
