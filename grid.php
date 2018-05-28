@@ -531,8 +531,8 @@
                 <span class="grey">165 lei</span>
                 <br>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                  <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">Adauga in cos</button>
+                  <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-shopping-cart"></i></button>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
@@ -558,8 +558,8 @@
                 <span class="grey">165 lei</span>
                 <br>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                  <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">Adauga in cos</button>
+                  <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-shopping-cart"></i></button>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
@@ -585,8 +585,8 @@
                 <span class="grey">165 lei</span>
                 <br>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                  <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">Adauga in cos</button>
+                  <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-shopping-cart"></i></button>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
@@ -612,8 +612,8 @@
                 <span class="grey">165 lei</span>
                 <br>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                  <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">Adauga in cos</button>
+                  <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-shopping-cart"></i></button>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
@@ -641,8 +641,8 @@
                 <span class="grey">165 lei</span>
                 <br>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                  <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">Adauga in cos</button>
+                  <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-shopping-cart"></i></button>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
@@ -668,8 +668,8 @@
                 <span class="grey">165 lei</span>
                 <br>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                  <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">Adauga in cos</button>
+                  <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-shopping-cart"></i></button>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
@@ -695,8 +695,8 @@
                 <span class="grey">165 lei</span>
                 <br>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                  <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">Adauga in cos</button>
+                  <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-shopping-cart"></i></button>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
@@ -722,8 +722,8 @@
                 <span class="grey">165 lei</span>
                 <br>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                  <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">Adauga in cos</button>
+                  <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-shopping-cart"></i></button>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
@@ -751,8 +751,8 @@
                 <span class="grey">165 lei</span>
                 <br>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                  <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">Adauga in cos</button>
+                  <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-shopping-cart"></i></button>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
@@ -778,8 +778,8 @@
                 <span class="grey">165 lei</span>
                 <br>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                  <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">Adauga in cos</button>
+                  <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-shopping-cart"></i></button>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
@@ -805,8 +805,8 @@
                 <span class="grey">165 lei</span>
                 <br>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                  <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">Adauga in cos</button>
+                  <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-shopping-cart"></i></button>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
@@ -831,8 +831,8 @@
                 <span class="grey">165 lei</span>
                 <br>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                  <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">Adauga in cos</button>
+                  <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-shopping-cart"></i></button>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
@@ -859,8 +859,8 @@
                 <span class="grey">165 lei</span>
                 <br>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                  <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">Adauga in cos</button>
+                  <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-shopping-cart"></i></button>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
@@ -883,8 +883,8 @@
                 <span class="grey">165 lei</span>
                 <br>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                  <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">Adauga in cos</button>
+                  <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-shopping-cart"></i></button>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
@@ -907,8 +907,8 @@
                 <span class="grey">165 lei</span>
                 <br>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                  <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">Adauga in cos</button>
+                  <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-shopping-cart"></i></button>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
@@ -932,8 +932,8 @@
                 <span class="grey">165 lei</span>
                 <br>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                  <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">Adauga in cos</button>
+                  <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-shopping-cart"></i></button>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
@@ -959,8 +959,8 @@
                 <span class="grey">165 lei</span>
                 <br>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                  <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">Adauga in cos</button>
+                  <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-shopping-cart"></i></button>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
@@ -985,8 +985,8 @@
                 <span class="grey">165 lei</span>
                 <br>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                  <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">Adauga in cos</button>
+                  <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-shopping-cart"></i></button>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
@@ -1011,8 +1011,8 @@
                 <span class="grey">165 lei</span>
                 <br>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                  <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">Adauga in cos</button>
+                  <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-shopping-cart"></i></button>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
@@ -1034,8 +1034,8 @@
                 <span class="grey">165 lei</span>
                 <br>
                 <div class="btn-group" role="group" aria-label="Basic example">
-                  <button type="button" class="btn btn-primary btn-sm">Adauga in cos</button>
-                  <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-shopping-cart"></i></button>
+                  <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">Adauga in cos</button>
+                  <button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-shopping-cart"></i></button>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  >
