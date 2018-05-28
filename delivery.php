@@ -94,6 +94,7 @@
       Telefon: 0765.428.648</p>
 
     <p>  Email : victoriavynnromania@gmail.com</p>
+<<<<<<< HEAD
     <br>
     <h4 class="font-weight-bold">Tabel test</h4>
     <p>Tabelul acesta prezinta sectoarele din Bucuresti</p>
@@ -145,6 +146,8 @@
         </tbody>
       </table>
     </div>
+=======
+>>>>>>> 21e1d82d9df305624595d60205bd3893ca74cca2
 
       </div>
     </div>
