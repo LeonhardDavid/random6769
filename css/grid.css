@@ -59,15 +59,15 @@ body{
 	max-width:auto!important;
 	width:95%!important;
 }
-#slider12a .slider-track-high, #slider12c .slider-track-high {
+#slider12c .slider-track-high, #slider12c2 .slider-track-high {
 	background: var(--bg-color-grey-hover);
 }
 
-#slider12b .slider-track-low, #slider12c .slider-track-low {
+#slider12c .slider-track-low, #slider12c2 .slider-track-low {
   background: var(--bg-color-grey-hover);
 }
 
-#slider12c .slider-selection {
+#slider12c .slider-selection, #slider12c2 .slider-selection {
    background: var(--navbar-categories-bg-color);
 }
 

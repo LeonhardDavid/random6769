@@ -57,6 +57,14 @@
                   <div class="form-group">
                     
                     <input id="ex12c" type="text"/><br/>
+                    <div class="row">
+                    	<div class="col-6 text-left">
+                    		10 lei
+                    	</div>
+                    	<div class="col-6 text-right">
+                    		1067 lei
+                    	</div>
+                    </div>
 
                     <div class="float-right button-padding">
                           <button type="button" class="btn btn-primary btn-sm">Apply</button>
@@ -299,8 +307,16 @@
                             <form>
 			                  <div class="form-group">
 			                    
-			                    <input id="ex12c" type="text"/><br/>
+			                    <input id="ex12c2" type="text"/><br/>
 
+			                     <div class="row">
+			                    	<div class="col-6 text-left">
+			                    		10 lei
+			                    	</div>
+			                    	<div class="col-6 text-right">
+			                    		1067 lei
+			                    	</div>
+			                    </div>
 			                    <div class="float-right button-padding">
 			                          <button type="button" class="btn btn-primary btn-sm">Apply</button>
 			                    </div>
@@ -1091,10 +1107,19 @@
 // With JQuery
 $("#ex12c").slider({ 
 	id: "slider12c", 
-	min: 0, 
-	max: 10, 
+	min: 10, 
+	max: 1067, 
 	range: true, 
-	value: [3, 7],
+	value: [10, 1067],
+	tooltip_position:'bottom' 
+});
+
+$("#ex12c2").slider({ 
+	id: "slider12c2", 
+	min: 10, 
+	max: 1067, 
+	range: true, 
+	value: [10, 1067],
 	tooltip_position:'bottom' 
 });
 </script>
