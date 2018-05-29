@@ -55,13 +55,14 @@
                 <hr>
                 <form>
                   <div class="form-group">
-                    <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="14"/>
+                    
+                    <input id="ex12c" type="text"/><br/>
+
                     <div class="float-right button-padding">
                           <button type="button" class="btn btn-primary btn-sm">Apply</button>
                     </div>
                   </div>
                 </form>
-
             </div>
         </div>
         <div class="row outline my-4">
@@ -296,13 +297,15 @@
                             <h6 class="mx-2 my-3">Price</h6>
                             <hr>
                             <form>
-                              <div class="form-group">
-                                <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="14"/>
-                                <div class="float-right button-padding">
-                                      <button type="button" class="btn btn-primary btn-sm">Apply</button>
-                                </div>
-                              </div>
-                            </form>
+			                  <div class="form-group">
+			                    
+			                    <input id="ex12c" type="text"/><br/>
+
+			                    <div class="float-right button-padding">
+			                          <button type="button" class="btn btn-primary btn-sm">Apply</button>
+			                    </div>
+			                  </div>
+			                </form>
 
                         </div>
                     </div>
@@ -1084,7 +1087,15 @@
   </div>
 </div>
 </div>
-<script type="text/javascript">
-
+<script>
+// With JQuery
+$("#ex12c").slider({ 
+	id: "slider12c", 
+	min: 0, 
+	max: 10, 
+	range: true, 
+	value: [3, 7],
+	tooltip_position:'bottom' 
+});
 </script>
 <?php require 'header_footer/footer.php';?>
